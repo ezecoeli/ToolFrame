@@ -41,16 +41,16 @@
     "category": "css-tools",
     "description": "Herramienta visual para generar layouts con CSS Grid",
     "url": "https://cssgrid-generator.netlify.app/",
-    "image": "/images/css-grid-generator.png",
+    "image": "src/assets/tools-images/grid-generator.png",
     "tags": ["css", "grid", "layout"]
   },
   {
     "id": "react-hook-form",
     "name": "React Hook Form",
     "category": "librerias-react",
-    "description": "Librería de formularios performante y flexible",
+    "description": "Formularios de alto rendimiento, flexibles y extensibles con validación fácil de usar.",
     "url": "https://react-hook-form.com/",
-    "image": "/images/react-hook-form.png",
+    "image": "src/assets/tools-images/hook-form.png",
     "tags": ["react", "forms", "validation"]
   },
   {
@@ -59,7 +59,7 @@
     "category": "librerias-react",
     "description": "Librería de animaciones para React",
     "url": "https://www.framer.com/motion/",
-    "image": "/images/framer-motion.png",
+    "image": "src/assets/tools-images/framer-motion.png",
     "tags": ["react", "animations", "motion"]
   },
   {
@@ -76,7 +76,7 @@
     "name": "Blendy",
     "category": "design-tools",
     "description": "Transforma suavemente un elemento en otro con unas pocas líneas de código.",
-    "url": "https://blendy.app/",
+    "url": "https://blendy.tahazsh.com/",
     "image": "src/assets/tools-images/blendy.png",
     "tags": ["css", "transitions", "design"]
   },
@@ -90,21 +90,12 @@
     "tags": ["photos", "stock", "free"]
   },
   {
-    "id": "zustand",
-    "name": "Zustand",
-    "category": "librerias-react",
-    "description": "Gestión de estado simple y escalable para React",
-    "url": "https://zustand-demo.pmnd.rs/",
-    "image": "/images/zustand.png",
-    "tags": ["react", "state", "management"]
-  },
-  {
     "id": "react-query",
     "name": "TanStack Query",
     "category": "librerias-react",
-    "description": "Librería para fetching, caching y sincronización de datos",
+    "description": "Potente gestión de estados asincrónicos, utilidades de estado del servidor y obtención de datos",
     "url": "https://tanstack.com/query/latest",
-    "image": "/images/react-query.png",
+    "image": "src/assets/tools-images/tanstack.png",
     "tags": ["react", "data", "cache"]
   },
   {
@@ -113,7 +104,7 @@
     "category": "css-tools",
     "description": "Paleta completa de colores predefinidos de Tailwind CSS",
     "url": "https://tailwindcss.com/docs/colors",
-    "image": "/images/tailwind-colors.png",
+    "image": "src/assets/tools-images/tailwind-colors.png",
     "tags": ["css", "colors", "tailwind"]
   },
   {
@@ -122,7 +113,7 @@
     "category": "edit-images",
     "description": "Herramientas para editar imágenes en línea",
     "url": "https://www.photopea.com/",
-    "image": "/images/edit-images.png",
+    "image": "src/assets/tools-images/photopea.png",
     "tags": ["images", "edit", "photo"]
   },
   {
@@ -131,7 +122,7 @@
     "category": "edit-images",
     "description": "Elimina el fondo de las imágenes automáticamente",
     "url": "https://www.remove.bg/",
-    "image": "/images/remove-bg.png",
+    "image": "src/assets/tools-images/remove-bg.png",
     "tags": ["photos", "edit", "background"]
   },
   {
@@ -142,5 +133,50 @@
     "url": "https://uiverse.io/",
     "image": "src/assets/tools-images/ui-verse.png",
     "tags": ["components", "ui", "design"]
+  },
+  {
+    "id": "phosphor-icons",
+    "name": "Phosphor Icons",
+    "category": "iconos",
+    "description": "Una familia de iconos flexibles y personalizables",
+    "url": "https://phosphoricons.com/",
+    "image": "src/assets/tools-images/phosphor.png",
+    "tags": ["icons", "design", "ui"]
+  },
+  {
+    "id": "convertio",
+    "name": "Convertio",
+    "category": "{ Gestión de archivos }",
+    "description": "Convierte tus archivos a cualquier formato",
+    "url": "https://convertio.co/es/",
+    "image": "src/assets/tools-images/convertio.png",
+    "tags": ["conversion", "archivos", "optmización"]
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels",
+    "category": "stock-images",
+    "description": "Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.",
+    "url": "https://www.pexels.com/es-es/",
+    "image": "src/assets/tools-images/pexels.png",
+    "tags": ["photos", "stock", "free"]
+  },
+  {
+    "id": "react-bits",
+    "name": "React Bits",
+    "category": "librerias-react",
+    "description": "Componentes animados altamente personalizables que hacen que sus proyectos React realmente se destaquen.",
+    "url": "https://www.reactbits.dev/",
+    "image": "src/assets/tools-images/react-bits.png",
+    "tags": ["react", "fragments", "code"]
+  },
+  {
+    "id": "scroll-driven-animations",
+    "name": "Scroll Driven Animations",
+    "category": "design-tools",
+    "description": "Un montón de demostraciones y herramientas para mostrar animaciones basadas en desplazamiento.",
+    "url": "https://scroll-driven-animations.style/",
+    "image": "src/assets/tools-images/scroll-driven.png",
+    "tags": ["css", "scroll", "animations"]
   }
 ]
