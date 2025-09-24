@@ -22,7 +22,7 @@ const CategoryFilter = ({
       {/* Desktop - Sidebar normal */}
       <div className="hidden lg:block border-r-2 rounded-lg p-2 shadow-lg">
         <div className="mb-4">
-          <h3 className="text-xl font-bold text-east-bay-300 flex items-center">
+          <h3 className="drop-shadow-lg text-xl font-bold text-east-bay-300 flex items-center">
             <BiGitBranch style={{ transform: 'rotate(180deg)' }} className="w-8 h-8 font-bold inline-block mr-2" />
             {t('categories')}
           </h3>

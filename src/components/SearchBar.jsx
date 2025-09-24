@@ -9,7 +9,7 @@ const SearchBar = ({ searchTerm, onSearchChange, onAddTool, className = '' }) =>
     <div className={`relative ${className}`}>
       <div className="flex gap-4 items-center">
         {/* Search Input */}
-        <div className="relative flex-1">
+        <div className="max-w-md relative flex-1">
           <FaSearch className="absolute left-4 top-1/2 transform -translate-y-1/2 text-east-bay-500 w-5 h-5" />
           <input
             type="text"

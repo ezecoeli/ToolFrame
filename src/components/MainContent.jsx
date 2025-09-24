@@ -26,7 +26,7 @@ const MainContent = ({
             alt="ToolFrame"
             className="h-16 sm:h-20 w-auto mb-4 sm:mb-0 sm:mr-4 drop-shadow-lg"
             style={{
-              filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))'
+              filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.3))'
             }}
             onError={(e) => {
               e.target.style.display = 'none';

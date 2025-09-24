@@ -1,6 +1,7 @@
 import React from 'react';
 import ToolCard from './ToolCard';
 import { useTranslation } from '../hooks/useTranslations';
+import { MdSearchOff } from "react-icons/md";
 
 const ToolGrid = ({ tools, onDeleteTool }) => {
   const { t } = useTranslation();
@@ -8,12 +9,12 @@ const ToolGrid = ({ tools, onDeleteTool }) => {
   if (tools.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16 text-center">
-        <div className="text-6xl mb-4">🔍</div>
-        <h3 className="text-xl font-semibold text-espresso-800 mb-2">
+        <div className="text-6xl mb-4"><MdSearchOff /></div>
+        <h3 className="text-xl font-semibold text-rose-300 mb-2">
           {t('noToolsFound')}
         </h3>
         <p className="text-espresso-600">
-          Intenta cambiar los filtros o el término de búsqueda
+          Intenta cambiar la categoría seleccionada o el término de búsqueda.
         </p>
       </div>
     );
