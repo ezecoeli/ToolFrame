@@ -17,26 +17,27 @@ const MainContent = ({
   const { t } = useTranslation();
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-6 py-8 max-w-none">
       {/* Header */}
-      <div className="mb-8">
-        <div className="flex items-center mb-6">
-          <div className="flex items-center flex-1">
-            <img 
-              src="/src/assets/TF-logo.png" 
-              alt="ToolFrame"
-              className="h-20 w-auto mr-4"
-              onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'block';
-              }}
-            />
-            
-            <div>
-              <p className="text-east-bay-800 text-lg">
-                {t('logoDescription')}
-              </p>
-            </div>
+      <div className="mb-12">
+        <div className="flex items-center flex-1 mb-8">
+          <img 
+            src="/src/assets/TF-logo.png" 
+            alt="ToolFrame"
+            className="h-20 w-auto mr-4 drop-shadow-lg"
+            style={{
+              filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))'
+            }}
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.nextSibling.style.display = 'block';
+            }}
+          />
+          
+          <div>
+            <p className="text-east-bay-200 text-lg font-medium drop-shadow-md">
+              {t('logoDescription')}
+            </p>
           </div>
         </div>
 
@@ -45,7 +46,6 @@ const MainContent = ({
           searchTerm={searchTerm}
           onSearchChange={onSearchChange}
           onAddTool={onAddTool}
-          className="mb-6"
         />
       </div>
 

@@ -33,7 +33,7 @@ const SearchBar = ({ searchTerm, onSearchChange, onAddTool, className = '' }) =>
         {/* Add Tool Button */}
         <button
           onClick={onAddTool}
-          className="bg-east-bay-600 hover:bg-east-bay-700 text-white px-6 py-2 rounded-lg flex items-center gap-2 transition-colors duration-200 text-lg font-medium whitespace-nowrap"
+          className="bg-east-bay-600 hover:bg-east-bay-700 text-white shadow-lg px-2 py-2 rounded-lg flex items-center gap-2 transition-colors duration-200 text-lg font-medium whitespace-nowrap"
         >
           <FaPlus className="w-4 h-4" />
           {t('addTool')}

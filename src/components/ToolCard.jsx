@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaStar, FaRegStar, FaTrash, FaExternalLinkAlt, FaSearchPlus } from 'react-icons/fa';
+import { FaStar, FaTimes, FaRegStar, FaTrash, FaExternalLinkAlt, FaSearchPlus } from 'react-icons/fa';
 import { useTranslation } from '../hooks/useTranslations';
 import { useFavorites } from '../hooks/useFavorites';
 
@@ -127,11 +127,11 @@ const ToolCard = ({ tool, onDelete }) => {
             />
             <button
               onClick={() => setShowImageModal(false)}
-              className="absolute top-4 right-4 bg-east-bay-300 text-black rounded-full p-2 hover:bg-east-bay-100 transition-colors"
+              className="absolute top-4 right-4 bg-east-bay-950 text-white rounded-full p-2 hover:bg-east-bay-900 transition-colors"
             >
-              ✕
+              <FaTimes className="w-4 h-4" />
             </button>
-            <div className="absolute bottom-4 bg-east-bay-900 bg-opacity-80 text-white px-4 py-2 rounded">
+            <div className="absolute bottom-4 bg-east-bay-900 bg-opacity-90 text-white px-4 py-2 rounded">
               <h4 className="font-bold">{tool.name}:</h4>
               <p className="text-sm opacity-90">{tool.description}</p>
             </div>

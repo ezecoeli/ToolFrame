@@ -754,5 +754,68 @@
     "url": "https://www.i18next.com/",
     "image": "src/assets/tools-images/i18next.png",
     "tags": ["react", "i18n", "internationalization", "translation"]
+  },
+  {
+    "id": "jmeter",
+    "name": "Apache JMeter",
+    "category": "testing-tools",
+    "description": "Software de código abierto, una aplicación 100 % Java diseñada para realizar pruebas de carga del comportamiento funcional y medir el rendimiento. Originalmente, se diseñó para probar aplicaciones web, pero desde entonces se ha expandido a otras funciones de prueba.",
+    "url": "https://jmeter.apache.org/",
+    "image": "src/assets/tools-images/jmeter.png",
+    "tags": ["testing", "performance", "load", "automation"]
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "category": "testing-tools",
+    "description": "Selenium automatiza los navegadores. ¡Listo! Lo que hagas con esa potencia depende totalmente de ti. Principalmente, se utiliza para automatizar aplicaciones web con fines de prueba, pero no se limita solo a eso. Las tediosas tareas de administración web también pueden (y deben) automatizarse.",
+    "url": "https://www.selenium.dev/",
+    "image": "src/assets/tools-images/selenium.png",
+    "tags": ["testing", "automation", "browser", "qa"]
+  },
+  {
+    "id": "saucelabs",
+    "name": "Sauce Labs",
+    "category": "testing-tools",
+    "description": "Potencie sus aplicaciones móviles y web a escala con la solución más completa para la calidad del software. Pruebe, lance e innove con confianza gracias a la calidad impulsada por IA y basada en datos reales.",
+    "url": "https://saucelabs.com/",
+    "image": "src/assets/tools-images/saucelabs.png",
+    "tags": ["testing", "cloud", "automation", "browser"]
+  },
+  {
+    "id": "browserstack",
+    "name": "BrowserStack",
+    "category": "testing-tools",
+    "description": "Acceso instantáneo a más de 3000 navegadores y dispositivos iOS y Android reales para realizar pruebas multiplataforma. Crea aplicaciones y sitios web que funcionen para todos, siempre.",
+    "url": "https://www.browserstack.com/",
+    "image": "src/assets/tools-images/browserstack.png",
+    "tags": ["testing", "cloud", "automation", "browser"]
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "project-management",
+    "description": "Git es un sistema de control de versiones distribuido, gratuito y de código abierto, diseñado para gestionar todo, desde proyectos pequeños hasta muy grandes, con velocidad y eficiencia.",
+    "url": "https://git-scm.com/",
+    "image": "src/assets/tools-images/git.png",
+    "tags": ["version-control", "collaboration", "dev-tools"]
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "project-management",
+    "description": "GitHub es una plataforma en la nube que usa Git para el control de versiones, permitiendo a los desarrolladores almacenar, gestionar y compartir código fuente de proyectos colaborativamente.",
+    "url": "https://github.com/",
+    "image": "src/assets/tools-images/github.png",
+    "tags": ["version-control", "collaboration", "ci-cd", "dev-tools"]
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "project-management",
+    "description": "Slack es una aplicación de mensajería y colaboración para empresas que sirve para centralizar la comunicación, mejorar la eficiencia y conectar a las personas con la información que necesitan, todo dentro de una interfaz unificada.",
+    "url": "https://slack.com/",
+    "image": "src/assets/tools-images/slack.png",
+    "tags": ["communication", "collaboration", "productivity"]
   }
 ]

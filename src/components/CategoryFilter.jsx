@@ -6,15 +6,14 @@ import { BiGitBranch } from "react-icons/bi";
 const CategoryFilter = ({ 
   categories, 
   selectedCategory, 
-  onCategoryChange,
-  className = '' 
+  onCategoryChange
 }) => {
   const { t, language } = useTranslation();
 
   return (
-    <div className={`${className}`}>
+    <div className="border-r-2 rounded-lg p-2 shadow-lg">
       <div className="mb-4">
-        <h3 className="text-xl font-bold text-east-bay-900 flex items-center">
+        <h3 className="text-xl  font-bold text-east-bay-300 flex items-center">
           <BiGitBranch style={{ transform: 'rotate(180deg)' }} className="w-8 h-8 font-bold inline-block mr-2" />
           {t('categories')}
         </h3>
@@ -26,7 +25,7 @@ const CategoryFilter = ({
           className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors duration-200 ${
             selectedCategory === 'all'
               ? 'bg-east-bay-500 text-white'
-              : 'text-east-bay-700 hover:bg-east-bay-100'
+              : 'text-white hover:bg-east-bay-500'
           }`}
         >
           {t('allCategories')}
@@ -40,7 +39,7 @@ const CategoryFilter = ({
             className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors duration-200 ${
               selectedCategory === category
                 ? 'bg-east-bay-500 text-white'
-                : 'text-east-bay-700 hover:bg-east-bay-100'
+                : 'text-white hover:bg-east-bay-500'
             }`}
           >
             {getCategoryName(category, language)}
