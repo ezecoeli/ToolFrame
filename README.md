@@ -20,7 +20,6 @@ A modern React application for managing and discovering web development tools. B
 - **Vite** - Fast build tool and dev server
 - **Tailwind CSS** - Utility-first CSS framework
 - **React Icons** - Popular icon library
-- **GSAP** - Animation library for smooth transitions
 - **LocalStorage** - Client-side data persistence
 
 ## Design System
