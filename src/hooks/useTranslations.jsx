@@ -1,3 +1,4 @@
+import { link } from 'framer-motion/client';
 import { createContext, useContext, useState } from 'react';
 
 const translations = {
@@ -7,20 +8,25 @@ const translations = {
     // Social
     close: "Cerrar",
     contact: "Contacto",
+    githubProfile: "Perfil de GitHub",
+    linkedInProfile: "Perfil de LinkedIn",
     // Search and filters
     categories: "Categorías",
     search: "Buscar...",
     allCategories: "{ Todas las herramientas }",
     // Tool actions
+    enlargeImage: "Click para ampliar",
     visit: "Ir al sitio",
     addToFavorites: "Añadir a favoritos",
     removeFromFavorites: "Quitar de favoritos",
     delete: "Eliminar",
     // Add tool form
-    addTool: "Añadir",
+    addButton: "Añadir",
+    addToolmodal: "Añadir recurso",
     toolName: "Nombre",
     toolDescription: "Descripción",
     toolCategory: "Categoría",
+    selectCategory: "Seleccionar categoría",
     toolUrl: "URL",
     toolImage: "URL de imagen",
     toolTags: "Tags (separados por comas)",
@@ -37,20 +43,25 @@ const translations = {
     // Social
     close: "Close",
     contact: "Contact",
+    githubProfile: "GitHub Profile",
+    linkedInProfile: "LinkedIn Profile",
     // Search and filters
     categories: "Categories",
     search: "Search...",
     allCategories: "{ All tools }",
     // Tool actions
+    enlargeImage: "Click to enlarge",
     visit: "Go to site",
     addToFavorites: "Add to favorites",
     removeFromFavorites: "Remove from favorites",
     delete: "Delete",
     // Add tool form
-    addTool: "Add",
+    addButton: "Add",
+    addToolmodal: "Add resource",
     toolName: "Name",
     toolDescription: "Description",
     toolCategory: "Category",
+    selectCategory: "Select category",
     toolUrl: "URL",
     toolImage: "Image URL",
     toolTags: "Tags (comma separated)",

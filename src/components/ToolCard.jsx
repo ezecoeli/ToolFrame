@@ -20,12 +20,12 @@ const ToolCard = ({ tool, onDelete }) => {
 
   return (
     <>
-      <div className="bg-white border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
+      <div className="bg-east-bay-100 border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
         {/* Image with Preview Button */}
         <div className="relative aspect-video w-full bg-east-bay-100 flex items-center justify-center overflow-hidden">
           {tool.image ? (
             <>
-              <img 
+              <img
                 src={tool.image} 
                 alt={tool.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -36,8 +36,9 @@ const ToolCard = ({ tool, onDelete }) => {
               />
               {/* Preview Button Overlay */}
               <button
+                title={t('enlargeImage')}
                 onClick={() => setShowImageModal(true)}
-                className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-300"
+                className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-300"
               >
                 <FaSearchPlus className="text-white text-2xl" />
               </button>
@@ -52,7 +53,7 @@ const ToolCard = ({ tool, onDelete }) => {
         <div className="p-4 flex-1 flex flex-col">
           {/* Header with title and favorite */}
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-semibold text-east-bay-950 group-hover:text-east-bay-700 transition-colors duration-200 flex-1 pr-2">
+            <h3 className="text-lg font-semibold text-east-bay-950 group-hover:text-east-bay-800 transition-colors duration-200 flex-1 pr-2">
               {tool.name}
             </h3>
             <button
@@ -79,7 +80,7 @@ const ToolCard = ({ tool, onDelete }) => {
               {tool.tags.slice(0, 3).map((tag, index) => (
                 <span
                   key={index}
-                  className="px-2 py-1 bg-east-bay-100 text-east-bay-700 text-xs rounded-full border border-east-bay-200"
+                  className="px-2 py-1 bg-east-bay-200 text-east-bay-700 text-xs rounded-full border border-east-bay-300"
                 >
                   {tag}
                 </span>
@@ -95,6 +96,7 @@ const ToolCard = ({ tool, onDelete }) => {
           {/* Actions */}
           <div className="flex gap-2 mt-auto">
             <button
+              title={t('visit')}
               onClick={handleVisit}
               className="flex-1 bg-east-bay-600 hover:bg-east-bay-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center justify-center gap-2"
             >

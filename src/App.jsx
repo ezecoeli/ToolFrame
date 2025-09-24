@@ -1,50 +1,60 @@
 import React, { useState } from 'react';
+import Header from './components/Header';
 import MainContent from './components/MainContent';
 import AddToolModal from './components/AddToolModal';
 import { useTools } from './hooks/useTools';
+import { LanguageProvider } from './hooks/useTranslations';
 
 function App() {
   const {
-    tools,
+    tools: filteredTools,
+    allTools: tools,
     searchTerm,
     setSearchTerm,
+    allCategories: categories,
     selectedCategory,
     setSelectedCategory,
-    removeTool,
     addTool,
-    allCategories
+    removeTool: deleteTool 
   } = useTools();
 
-  const [showAddModal, setShowAddModal] = useState(false);
+  const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
   const handleAddTool = () => {
-    setShowAddModal(true);
+    setIsAddModalOpen(true);
   };
 
-  const handleSaveTool = (newTool) => {
-    addTool(newTool);
+  const handleSaveTool = (toolData) => {
+    addTool(toolData);
+    setIsAddModalOpen(false);
   };
 
   return (
-    <>
-      
-      <MainContent
-        tools={tools}
-        searchTerm={searchTerm}
-        onSearchChange={setSearchTerm}
-        categories={allCategories}
-        selectedCategory={selectedCategory}
-        onCategoryChange={setSelectedCategory}
-        onDeleteTool={removeTool}
-        onAddTool={handleAddTool}
-      />
-      
-      <AddToolModal
-        isOpen={showAddModal}
-        onClose={() => setShowAddModal(false)}
-        onSave={handleSaveTool}
-      />
-    </>
+    <LanguageProvider>
+      <div className="min-h-screen bg-east-bay-800">
+        {/* Fixed Header */}
+        <Header />
+
+        <div className="pt-16">
+          <MainContent
+            tools={filteredTools}
+            searchTerm={searchTerm}
+            onSearchChange={setSearchTerm}
+            categories={categories}
+            selectedCategory={selectedCategory}
+            onCategoryChange={setSelectedCategory}
+            onDeleteTool={deleteTool}
+            onAddTool={handleAddTool}
+          />
+        </div>
+
+        <AddToolModal
+          isOpen={isAddModalOpen}
+          onClose={() => setIsAddModalOpen(false)}
+          onSave={handleSaveTool}
+        />
+      </div>
+    </LanguageProvider>
   );
 }
 

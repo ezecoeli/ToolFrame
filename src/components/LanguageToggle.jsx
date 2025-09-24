@@ -1,5 +1,6 @@
 import { useTranslation } from '../hooks/useTranslations';
 import { motion, AnimatePresence } from 'framer-motion';
+import { MdLanguage } from "react-icons/md";
 
 export default function LanguageToggle() {
   const { language, changeLanguage } = useTranslation();
@@ -15,18 +16,10 @@ export default function LanguageToggle() {
       className="flex items-center gap-3 px-3 py-2 text-xs font-medium text-white hover:text-gray-300 transition-colors duration-200"
       title={language === 'es' ? 'Switch to English' : 'Cambiar a español'}
     >
-      <AnimatePresence mode="wait">
-        <motion.span
-          key={language}
-          initial={{ opacity: 0, y: -10, scale: 0.8 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={{ opacity: 0, y: 10, scale: 0.8 }}
-          transition={{ duration: 0.3 }}
-          className="text-lg"
-        >
-          {language === 'es' ? '' : ''}
-        </motion.span>
-      </AnimatePresence>
+      {/* Icono fijo a la izquierda */}
+      <MdLanguage className="text-lg flex-shrink-0" />
+      
+      {/* Texto animado */}
       <AnimatePresence mode="wait">
         <motion.span
           key={language + '-text'}

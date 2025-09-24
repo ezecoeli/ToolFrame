@@ -817,5 +817,14 @@
     "url": "https://slack.com/",
     "image": "src/assets/tools-images/slack.png",
     "tags": ["communication", "collaboration", "productivity"]
+  },
+  {
+    "id": "responsive-viewer",
+    "name": "Responsive Viewer",
+    "category": "testing-tools",
+    "description": "Herramienta de pruebas adaptable multipantalla. Todo lo que necesitas para probar y previsualizar tu sitio web en varias pantallas con herramientas integradas de captura de pantalla y anotación.",
+    "url": "https://responsiveviewer.org/",
+    "image": "src/assets/tools-images/responsive-viewer.png",
+    "tags": ["responsive", "testing", "design"]
   }
 ]
