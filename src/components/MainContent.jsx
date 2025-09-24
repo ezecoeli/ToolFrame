@@ -20,11 +20,11 @@ const MainContent = ({
     <div className="px-6 py-8 max-w-none">
       {/* Header */}
       <div className="mb-12">
-        <div className="flex items-center flex-1 mb-8">
+        <div className="flex flex-col sm:flex-row items-center flex-1 mb-8">
           <img 
             src="/src/assets/TF-logo.png" 
             alt="ToolFrame"
-            className="h-20 w-auto mr-4 drop-shadow-lg"
+            className="h-16 sm:h-20 w-auto mb-4 sm:mb-0 sm:mr-4 drop-shadow-lg"
             style={{
               filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))'
             }}
@@ -34,8 +34,8 @@ const MainContent = ({
             }}
           />
           
-          <div>
-            <p className="text-east-bay-200 text-lg font-medium drop-shadow-md">
+          <div className="text-center sm:text-left">
+            <p className="text-east-bay-200 text-base sm:text-lg font-medium drop-shadow-md">
               {t('logoDescription')}
             </p>
           </div>
@@ -49,10 +49,19 @@ const MainContent = ({
         />
       </div>
 
+      {/* Mobile Category Filter */}
+      <div className="lg:hidden relative">
+        <CategoryFilter
+          categories={categories}
+          selectedCategory={selectedCategory}
+          onCategoryChange={onCategoryChange}
+        />
+      </div>
+
       {/* Content Grid */}
       <div className="flex gap-8">
-        {/* Sidebar */}
-        <aside className="w-64 flex-shrink-0">
+        {/* Desktop Sidebar */}
+        <aside className="hidden lg:block w-64 flex-shrink-0">
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}
