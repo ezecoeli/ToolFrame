@@ -1,8 +1,8 @@
 export const CATEGORIES = {
-  'librerias-react': {
-    id: 'librerias-react',
-    nameES: '{ Librerías React }',
-    nameEN: '{ React Libraries }'
+  'librerias': {
+    id: 'librerias',
+    nameES: '{ Librerías }',
+    nameEN: '{ Libraries }'
   },
   'css-tools': {
     id: 'css-tools', 
@@ -34,7 +34,16 @@ export const CATEGORIES = {
     nameES: '{ Editar Imágenes }',
     nameEN: '{ Edit Images }'
   },
-  
+  'fonts': {
+    id: 'fonts',
+    nameES: '{ Fuentes }',
+    nameEN: '{ Fonts }'
+  },
+  'documentation': {
+    id: 'documentation',
+    nameES: '{ Documentación de lenguajes }',
+    nameEN: '{ Language documentation }'
+  },
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {

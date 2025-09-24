@@ -9,6 +9,15 @@
     "tags": ["icons", "react", "components"]
   },
   {
+    "id": "konva",
+    "name": "Konva",
+    "category": "librerias",
+    "description": "Konva es un marco JavaScript de Canvas 2D para dibujos de formas, animaciones, anidación de nodos, capas, filtrado, manejo de eventos, arrastrar y soltar y mucho más.",
+    "url": "https://konvajs.org/",
+    "image": "src/assets/tools-images/konva.png",
+    "tags": ["react", "canvas", "graphics"]
+  },
+  {
     "id": "heroicons",
     "name": "Heroicons",
     "category": "iconos",
@@ -47,7 +56,7 @@
   {
     "id": "react-hook-form",
     "name": "React Hook Form",
-    "category": "librerias-react",
+    "category": "librerias",
     "description": "Formularios de alto rendimiento, flexibles y extensibles con validación fácil de usar.",
     "url": "https://react-hook-form.com/",
     "image": "src/assets/tools-images/hook-form.png",
@@ -56,7 +65,7 @@
   {
     "id": "framer-motion",
     "name": "Framer Motion",
-    "category": "librerias-react",
+    "category": "librerias",
     "description": "Librería de animaciones para React",
     "url": "https://www.framer.com/motion/",
     "image": "src/assets/tools-images/framer-motion.png",
@@ -92,7 +101,7 @@
   {
     "id": "react-query",
     "name": "TanStack Query",
-    "category": "librerias-react",
+    "category": "librerias",
     "description": "Potente gestión de estados asincrónicos, utilidades de estado del servidor y obtención de datos",
     "url": "https://tanstack.com/query/latest",
     "image": "src/assets/tools-images/tanstack.png",
@@ -148,7 +157,7 @@
     "name": "Convertio",
     "category": "{ Gestión de archivos }",
     "description": "Convierte tus archivos a cualquier formato",
-    "url": "https://convertio.co/es/",
+    "url": "https://convertio.co/",
     "image": "src/assets/tools-images/convertio.png",
     "tags": ["conversion", "archivos", "optmización"]
   },
@@ -164,7 +173,7 @@
   {
     "id": "react-bits",
     "name": "React Bits",
-    "category": "librerias-react",
+    "category": "librerias",
     "description": "Componentes animados altamente personalizables que hacen que sus proyectos React realmente se destaquen.",
     "url": "https://www.reactbits.dev/",
     "image": "src/assets/tools-images/react-bits.png",
@@ -178,5 +187,140 @@
     "url": "https://scroll-driven-animations.style/",
     "image": "src/assets/tools-images/scroll-driven.png",
     "tags": ["css", "scroll", "animations"]
+  },
+  {
+    "id": "shot-so",
+    "name": "Shots",
+    "category": "design-tools",
+    "description": "Crea maquetas increíbles. Animaciones, videos e imágenes increíbles para tus redes sociales, sitio web y más.",
+    "url": "https://shots.so/",
+    "image": "src/assets/tools-images/shots.png",
+    "tags": ["mockup", "design", "prototyping"]
+  },
+  {
+    "id": "dafont",
+    "name": "DaFont",
+    "category": "fonts",
+    "description": "Archivo de fuentes de descarga gratuita.",
+    "url": "https://www.dafont.com/",
+    "image": "src/assets/tools-images/dafont.png",
+    "tags": ["fonts", "typography", "design"]
+  },
+  {
+    "id": "flaticon",
+    "name": "Flaticon",
+    "category": "iconos",
+    "description": "Más de 50,500 iconos de interfaz gratuitos en 9 estilos diferentes. Son completamente editables y personalizables para que los adaptes a tu estilo.",
+    "url": "https://www.flaticon.com/",
+    "image": "src/assets/tools-images/flaticon.png",
+    "tags": ["icons", "design", "ui"]
+  },
+  {
+    "id": "font-awesome",
+    "name": "Font Awesome",
+    "category": "iconos",
+    "description": "Biblioteca de iconos y herramientas de diseño para todo tipo de proyectos web.",
+    "url": "https://fontawesome.com/",
+    "image": "src/assets/tools-images/font-awesome.png",
+    "tags": ["icons", "design", "ui"]
+  },
+  {"id"
+: "mdn-web-docs",
+    "name": "MDN Web Docs",
+    "category": "documentation",
+    "description": "El sitio MDN Web Docs proporciona información sobre tecnologías web abiertas, incluidos HTML, CSS y API para sitios web y aplicaciones web progresivas.",
+    "url": "https://developer.mozilla.org/",
+    "image": "src/assets/tools-images/mdn.png",
+    "tags": ["documentation", "web", "languages"]
+  },
+  {
+    "id": "ecma",
+    "name": "ECMA International",
+    "category": "documentation",
+    "description": "Ecma International es una asociación industrial dedicada a la estandarización de sistemas de información y comunicación.",
+    "url": "https://ecma-international.org/",
+    "image": "src/assets/tools-images/ecma.png",
+    "tags": ["documentation", "languages", "standard"]
+  },
+  {
+    "id": "lipsum",
+    "name": "Lorem Ipsum",
+    "category": "design-tools",
+    "description": "Sitio de referencia sobre Lorem Ipsum, dando información sobre sus orígenes, así como un generador aleatorio de Lipsum.",
+    "url": "https://www.lipsum.com/",
+    "image": "src/assets/tools-images/lipsum.png",
+    "tags": ["text", "design", "placeholder"]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "documentation",
+    "description": "Tanto si eres nuevo en programación como si eres un desarrollador experimentado, aprender y usar Python es fácil.",
+    "url": "https://www.python.org/",
+    "image": "src/assets/tools-images/python.png",
+    "tags": ["documentation", "languages", "python"]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "documentation",
+    "description": "Java Platform, Standard Edition (Java SE) le ayuda a desarrollar e implementar aplicaciones Java en equipos de escritorio y servidores. Java ofrece la interfaz de usuario completa, el rendimiento, la versatilidad, la portabilidad y la seguridad que requieren las aplicaciones actuales.",
+    "url": "https://docs.oracle.com/en/java/javase/",
+    "image": "src/assets/tools-images/java.png",
+    "tags": ["documentation", "languages", "java"]
+  },
+  {
+    "id": "c++",
+    "name": "C++",
+    "category": "documentation",
+    "description": "C++ es un lenguaje de programación de propósito general creado por Bjarne Stroustrup como una extensión del lenguaje de programación C, o 'C con clases'.",
+    "url": "https://en.cppreference.com/w/",
+    "image": "src/assets/tools-images/c++.png",
+    "tags": ["documentation", "languages", "c++"]
+  },
+  {
+    "id": "c#",
+    "name": "C# (C Sharp)",
+    "category": "documentation",
+    "description": "C# es un lenguaje de programación moderno, orientado a objetos y seguro para tipos desarrollado por Microsoft como parte de su plataforma .NET.",
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "image": "src/assets/tools-images/csharp.png",
+    "tags": ["documentation", "languages", "c#", "csharp"]
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "category": "documentation",
+    "description": "PHP es un lenguaje de programación de uso general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico.",
+    "url": "https://www.php.net/manual",
+    "image": "src/assets/tools-images/php.png",
+    "tags": ["documentation", "languages", "php"]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "category": "documentation",
+    "description": "Un lenguaje de programación dinámico y de código abierto centrado en la simplicidad y la productividad. Su sintaxis es elegante, fácil de leer y escribir.",
+    "url": "https://www.ruby-lang.org/",
+    "image": "src/assets/tools-images/ruby.png",
+    "tags": ["documentation", "languages", "ruby"]
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "category": "documentation",
+    "description": "Swift es un lenguaje de programación potente e intuitivo para macOS, iOS, watchOS, tvOS y más. Es fácil de usar y está diseñado para que los desarrolladores puedan crear aplicaciones rápidas y seguras.",
+    "url": "https://www.swift.org/",
+    "image": "src/assets/tools-images/swift.png",
+    "tags": ["documentation", "languages", "swift"]
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "category": "documentation",
+    "description": "Kotlin es un lenguaje de programación moderno, conciso, seguro, interoperable con Java y otros lenguajes, y ofrece múltiples maneras de reutilizar código entre múltiples plataformas para una programación productiva.",
+    "url": "https://kotlinlang.org/docs/home.html",
+    "image": "src/assets/tools-images/kotlin.png",
+    "tags": ["documentation", "languages", "kotlin"]
   }
 ]
