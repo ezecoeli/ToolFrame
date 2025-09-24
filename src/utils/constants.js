@@ -44,6 +44,11 @@ export const CATEGORIES = {
     nameES: '{ Documentación de lenguajes }',
     nameEN: '{ Language documentation }'
   },
+  'data-tools': {
+    id: 'data-tools',
+    nameES: '{ Herramientas de Datos }',
+    nameEN: '{ Data Tools }'
+  }
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {

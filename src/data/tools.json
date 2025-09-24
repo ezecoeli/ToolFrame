@@ -198,6 +198,15 @@
     "tags": ["mockup", "design", "prototyping"]
   },
   {
+    "id": "hero-ui",
+    "name": "Hero UI (NextUI)",
+    "category": "ui-components",
+    "description": "Hermosa, rápida y moderna biblioteca React UI para crear aplicaciones web accesibles y personalizables.",
+    "url": "https://www.heroui.com/",
+    "image": "src/assets/tools-images/heroUI.png",
+    "tags": ["components", "react", "ui"]
+  },
+  {
     "id": "dafont",
     "name": "DaFont",
     "category": "fonts",
@@ -224,8 +233,8 @@
     "image": "src/assets/tools-images/font-awesome.png",
     "tags": ["icons", "design", "ui"]
   },
-  {"id"
-: "mdn-web-docs",
+  {
+    "id": "mdn-web-docs",
     "name": "MDN Web Docs",
     "category": "documentation",
     "description": "El sitio MDN Web Docs proporciona información sobre tecnologías web abiertas, incluidos HTML, CSS y API para sitios web y aplicaciones web progresivas.",
@@ -268,6 +277,15 @@
     "url": "https://docs.oracle.com/en/java/javase/",
     "image": "src/assets/tools-images/java.png",
     "tags": ["documentation", "languages", "java"]
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "category": "documentation",
+    "description": "C es un lenguaje de programación de propósito general que proporciona construcciones de lenguaje de bajo nivel que permiten un acceso eficiente a la memoria y una representación cercana al lenguaje ensamblador.",
+    "url": "https://en.cppreference.com/w/c.html",
+    "image": "src/assets/tools-images/c.png",
+    "tags": ["documentation", "languages", "c"]
   },
   {
     "id": "c++",
@@ -322,5 +340,68 @@
     "url": "https://kotlinlang.org/docs/home.html",
     "image": "src/assets/tools-images/kotlin.png",
     "tags": ["documentation", "languages", "kotlin"]
+  },
+  {
+    "id": "go",
+    "name": "Go (Golang)",
+    "category": "documentation",
+    "description": "El lenguaje de programación Go es un proyecto de código abierto para hacer que los programadores sean más productivos.",
+    "url": "https://go.dev/doc/",
+    "image": "src/assets/tools-images/go.png",
+    "tags": ["documentation", "languages", "go", "golang"]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "documentation",
+    "description": "Rust es un lenguaje de programación de sistemas que prioriza la velocidad, la memoria y la seguridad, especialmente la seguridad de los subprocesos.",
+    "url": "https://doc.rust-lang.org/stable/",
+    "image": "src/assets/tools-images/rust.png",
+    "tags": ["documentation", "languages", "rust"]
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "documentation",
+    "description": "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
+    "url": "https://www.typescriptlang.org/docs/",
+    "image": "src/assets/tools-images/typescript.png",
+    "tags": ["documentation", "languages", "typescript"]
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "category": "documentation",
+    "description": "Dart es un lenguaje optimizado para el cliente para desarrollar aplicaciones rápidas en cualquier plataforma.",
+    "url": "https://dart.dev/docs",
+    "image": "src/assets/tools-images/dart.png",
+    "tags": ["documentation", "languages", "dart"]
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "category": "documentation",
+    "description": "Scala es un lenguaje de programación que integra características de programación orientada a objetos y programación funcional.",
+    "url": "https://docs.scala-lang.org/",
+    "image": "src/assets/tools-images/scala.png",
+    "tags": ["documentation", "languages", "scala"]
+  },
+  {
+    "id": "R",
+    "name": "R",
+    "category": "documentation",
+    "description": "R es un lenguaje y entorno para computación estadística y gráficos. Es un proyecto GNU similar al lenguaje S.",
+    "url": "https://www.r-project.org/other-docs.html",
+    "image": "src/assets/tools-images/r.png",
+    "tags": ["documentation", "languages", "R"]
+  },
+  {
+    "id": "json-data-ai",
+    "name": "JSON Data AI",
+    "category": "data-tools",
+    "description": "Genera datos JSON de muestra para pruebas y desarrollo.",
+    "url": "https://www.jsondataai.com/",
+    "image": "src/assets/tools-images/json-data-ai.png",
+    "tags": ["data", "json", "api"]
   }
 ]

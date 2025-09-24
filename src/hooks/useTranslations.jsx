@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from 'react';
 const translations = {
   es: {
     // header
-    logoDescription: "=> Centro de recursos para desarrollres",
+    logoDescription: "=> Centro de recursos gratuitos para desarrolladores",
     // Social
     close: "Cerrar",
     contact: "Contacto",
@@ -33,7 +33,7 @@ const translations = {
 
   en: {
     // header
-    logoDescription: "=> Developer Resource Center",
+    logoDescription: "=> Free Developer Resource Center",
     // Social
     close: "Close",
     contact: "Contact",
