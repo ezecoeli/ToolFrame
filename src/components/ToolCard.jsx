@@ -127,12 +127,12 @@ const ToolCard = ({ tool, onDelete }) => {
             />
             <button
               onClick={() => setShowImageModal(false)}
-              className="absolute top-4 right-4 bg-white text-gray-800 rounded-full p-2 hover:bg-gray-100 transition-colors"
+              className="absolute top-4 right-4 bg-east-bay-300 text-black rounded-full p-2 hover:bg-east-bay-100 transition-colors"
             >
               ✕
             </button>
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white px-4 py-2 rounded">
-              <h4 className="font-semibold">{tool.name}</h4>
+            <div className="absolute bottom-4 bg-east-bay-900 bg-opacity-80 text-white px-4 py-2 rounded">
+              <h4 className="font-bold">{tool.name}:</h4>
               <p className="text-sm opacity-90">{tool.description}</p>
             </div>
           </div>

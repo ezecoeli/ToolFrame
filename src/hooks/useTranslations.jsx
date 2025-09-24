@@ -12,7 +12,7 @@ const translations = {
     search: "Buscar...",
     allCategories: "{ Todas las herramientas }",
     // Tool actions
-    visit: "Visitar",
+    visit: "Ir al sitio",
     addToFavorites: "Añadir a favoritos",
     removeFromFavorites: "Quitar de favoritos",
     delete: "Eliminar",
@@ -42,7 +42,7 @@ const translations = {
     search: "Search...",
     allCategories: "{ All tools }",
     // Tool actions
-    visit: "Visit",
+    visit: "Go to site",
     addToFavorites: "Add to favorites",
     removeFromFavorites: "Remove from favorites",
     delete: "Delete",

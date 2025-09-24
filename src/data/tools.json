@@ -27,6 +27,15 @@
     "tags": ["icons", "svg", "tailwind"]
   },
   {
+    "id": "tabler-icons",
+    "name": "Tabler Icons",
+    "category": "iconos",
+    "description": "Un conjunto de iconos completo con grosores de línea y espaciado perfectos, listo para Figma, aplicaciones y sistemas de diseño.",
+    "url": "https://tabler.io/icons",
+    "image": "src/assets/tools-images/tabler-icons.png",
+    "tags": ["icons", "svg", "open-source"]
+  },
+  {
     "id": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "css-tools",
@@ -63,11 +72,11 @@
     "tags": ["react", "forms", "validation"]
   },
   {
-    "id": "framer-motion",
-    "name": "Framer Motion",
+    "id": "motion",
+    "name": "Motion",
     "category": "librerias",
-    "description": "Librería de animaciones para React",
-    "url": "https://www.framer.com/motion/",
+    "description": "Motion (anteriormente Framer Motion) es una biblioteca de animación web rápida y de nivel de producción para React, JavaScript y Vue.",
+    "url": "https://motion.dev/",
     "image": "src/assets/tools-images/framer-motion.png",
     "tags": ["react", "animations", "motion"]
   },
@@ -709,5 +718,41 @@
     "url": "https://www.notion.com/",
     "image": "src/assets/tools-images/notion.png",
     "tags": ["productivity", "management", "collaboration"]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "design-tools",
+    "description": "Canva es una herramienta online de diseño gráfico.",
+    "url": "https://www.canva.com/",
+    "image": "src/assets/tools-images/canva.png",
+    "tags": ["design", "graphics", "social media"]
+  },
+  {
+    "id": "redux-toolkit",
+    "name": "Redux Toolkit",
+    "category": "librerias",
+    "description": "El conjunto de herramientas oficial, con opiniones firmes y con baterías incluidas para un desarrollo eficiente de Redux",
+    "url": "https://redux-toolkit.js.org/",
+    "image": "src/assets/tools-images/redux-toolkit.png",
+    "tags": ["redux", "state management", "react"]
+  },
+  {
+    "id": "react-router",
+    "name": "React Router",
+    "category": "librerias",
+    "description": "Enrutamiento declarativo para aplicaciones React. La librería de navegación más popular del ecosistema React.",
+    "url": "https://reactrouter.com/",
+    "image": "src/assets/tools-images/react-router.png",
+    "tags": ["react", "routing", "navigation", "spa"]
+  },
+  {
+    "id": "i18next",
+    "name": "i18next",
+    "category": "librerias",
+    "description": "i18next es un framework de internacionalización escrito en y para JavaScript. Ofrece una solución completa para localizar su producto de la web a dispositivos móviles y computadoras de escritorio.",
+    "url": "https://www.i18next.com/",
+    "image": "src/assets/tools-images/i18next.png",
+    "tags": ["react", "i18n", "internationalization", "translation"]
   }
 ]
