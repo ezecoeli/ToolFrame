@@ -1,16 +1,90 @@
-# React + Vite
+# ToolFrame 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for managing and discovering web development tools. Built with React, Vite, and Tailwind CSS with a beautiful east-bay color palette.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tool Management**: Add, edit, and delete development tools
+- **Smart Search**: Real-time search across tool names and descriptions
+- **Category Filtering**: Organize tools by categories (CSS, Icons, Frameworks, etc.)
+- **Favorites System**: Mark your favorite tools for quick access
+- **Image Preview**: Click to view tool screenshots in full-size modal
+- **Multilingual**: Support for English and Spanish
+- **Responsive Design**: Works perfectly on desktop and mobile
+- **Local Storage**: Your data persists between sessions
+- **Modern UI**: Clean design with smooth animations and transitions
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **React 18** - Modern React with hooks
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Icons** - Popular icon library
+- **GSAP** - Animation library for smooth transitions
+- **LocalStorage** - Client-side data persistence
 
-## Expanding the ESLint configuration
+## Design System
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app uses a custom **east-bay** color palette:
+- Primary: Blue-gray tones (#7a8db7, #6878a8)
+- Backgrounds: Light grays (#f4f7fa, #e7ebf2)
+- Text: Dark blues (#2c2f3f, #434a65)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ezecoeli/ToolFrame.git
+cd ToolFrame
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+
+## Internationalization (pending)
+
+The app supports:
+- **English** (en)
+- **Spanish** (es)
+
+Switch languages using the toggle in the bottom-right corner.
+
+## Responsive Design
+
+- **Mobile**: Optimized layout for phones
+- **Tablet**: Adapted grid system
+- **Desktop**: Full-featured layout with sidebar
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Ezequiel Coeli** - [GitHub](https://github.com/ezecoeli)
+
+## Acknowledgments
+
+- Icons by [React Icons](https://react-icons.github.io/)
+- Color palette inspired by modern design trends
+- Built with love using React and modern web technologies
+
+---
+
+⭐ Star this repository if you found it helpful!
