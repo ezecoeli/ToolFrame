@@ -1,0 +1,146 @@
+[
+  {
+    "id": "react-icons",
+    "name": "React Icons",
+    "category": "iconos",
+    "description": "Colección de iconos populares para React",
+    "url": "https://react-icons.github.io/react-icons/",
+    "image": "src/assets/tools-images/react-icons.png",
+    "tags": ["icons", "react", "components"]
+  },
+  {
+    "id": "heroicons",
+    "name": "Heroicons",
+    "category": "iconos",
+    "description": "Iconos SVG hermosos hechos por los creadores de Tailwind CSS",
+    "url": "https://heroicons.com/",
+    "image": "src/assets/tools-images/hero-icons.png",
+    "tags": ["icons", "svg", "tailwind"]
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "css-tools",
+    "description": "Framework CSS utilitario para desarrollo rápido",
+    "url": "https://tailwindcss.com/",
+    "image": "src/assets/tools-images/tailwind.png",
+    "tags": ["css", "framework", "utility"]
+  },
+  {
+    "id": "uicolors",
+    "name": "UI Colors",
+    "category": "css-tools",
+    "description": "Generador de paletas de colores para Tailwind CSS",
+    "url": "https://uicolors.app/create",
+    "image": "src/assets/tools-images/ui-colors.png",
+    "tags": ["colors", "tailwind", "palette"]
+  },
+  {
+    "id": "css-grid-generator",
+    "name": "CSS Grid Generator",
+    "category": "css-tools",
+    "description": "Herramienta visual para generar layouts con CSS Grid",
+    "url": "https://cssgrid-generator.netlify.app/",
+    "image": "/images/css-grid-generator.png",
+    "tags": ["css", "grid", "layout"]
+  },
+  {
+    "id": "react-hook-form",
+    "name": "React Hook Form",
+    "category": "librerias-react",
+    "description": "Librería de formularios performante y flexible",
+    "url": "https://react-hook-form.com/",
+    "image": "/images/react-hook-form.png",
+    "tags": ["react", "forms", "validation"]
+  },
+  {
+    "id": "framer-motion",
+    "name": "Framer Motion",
+    "category": "librerias-react",
+    "description": "Librería de animaciones para React",
+    "url": "https://www.framer.com/motion/",
+    "image": "/images/framer-motion.png",
+    "tags": ["react", "animations", "motion"]
+  },
+  {
+    "id": "flowbite",
+    "name": "Flowbite",
+    "category": "ui-components",
+    "description": "Componentes UI construidos sobre Tailwind CSS",
+    "url": "https://flowbite.com/",
+    "image": "src/assets/tools-images/flowbite.png",
+    "tags": ["components", "tailwind", "ui"]
+  },
+  {
+    "id": "blendy",
+    "name": "Blendy",
+    "category": "design-tools",
+    "description": "Transforma suavemente un elemento en otro con unas pocas líneas de código.",
+    "url": "https://blendy.app/",
+    "image": "src/assets/tools-images/blendy.png",
+    "tags": ["css", "transitions", "design"]
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "category": "stock-images",
+    "description": "Fotos e ilustraciones gratis en alta resolución ",
+    "url": "https://unsplash.com/",
+    "image": "src/assets/tools-images/unsplash.png",
+    "tags": ["photos", "stock", "free"]
+  },
+  {
+    "id": "zustand",
+    "name": "Zustand",
+    "category": "librerias-react",
+    "description": "Gestión de estado simple y escalable para React",
+    "url": "https://zustand-demo.pmnd.rs/",
+    "image": "/images/zustand.png",
+    "tags": ["react", "state", "management"]
+  },
+  {
+    "id": "react-query",
+    "name": "TanStack Query",
+    "category": "librerias-react",
+    "description": "Librería para fetching, caching y sincronización de datos",
+    "url": "https://tanstack.com/query/latest",
+    "image": "/images/react-query.png",
+    "tags": ["react", "data", "cache"]
+  },
+  {
+    "id": "tailwindColors",
+    "name": "Tailwind Colors",
+    "category": "css-tools",
+    "description": "Paleta completa de colores predefinidos de Tailwind CSS",
+    "url": "https://tailwindcss.com/docs/colors",
+    "image": "/images/tailwind-colors.png",
+    "tags": ["css", "colors", "tailwind"]
+  },
+  {
+    "id": "photopea",
+    "name": "Photopea",
+    "category": "edit-images",
+    "description": "Herramientas para editar imágenes en línea",
+    "url": "https://www.photopea.com/",
+    "image": "/images/edit-images.png",
+    "tags": ["images", "edit", "photo"]
+  },
+  {
+    "id": "remove-bg",
+    "name": "Remove bg",
+    "category": "edit-images",
+    "description": "Elimina el fondo de las imágenes automáticamente",
+    "url": "https://www.remove.bg/",
+    "image": "/images/remove-bg.png",
+    "tags": ["photos", "edit", "background"]
+  },
+  {
+    "id": "ui-verse",
+    "name": "uiverse",
+    "category": "ui-components",
+    "description": "Colección de componentes UI inspiradores y reutilizables",
+    "url": "https://uiverse.io/",
+    "image": "src/assets/tools-images/ui-verse.png",
+    "tags": ["components", "ui", "design"]
+  }
+]
