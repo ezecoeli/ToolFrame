@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from '../hooks/useTranslations';
 import { getCategoryName } from '../utils/constants';
-import { PiBrowser } from "react-icons/pi";
+import { BiGitBranch } from "react-icons/bi";
 
 const CategoryFilter = ({ 
   categories, 
@@ -15,7 +15,7 @@ const CategoryFilter = ({
     <div className={`${className}`}>
       <div className="mb-4">
         <h3 className="text-xl font-bold text-east-bay-900 flex items-center">
-          <PiBrowser className="w-8 h-8 font-bold inline-block mr-2" />
+          <BiGitBranch style={{ transform: 'rotate(180deg)' }} className="w-8 h-8 font-bold inline-block mr-2" />
           {t('categories')}
         </h3>
       </div>

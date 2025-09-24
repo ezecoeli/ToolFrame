@@ -48,7 +48,32 @@ export const CATEGORIES = {
     id: 'data-tools',
     nameES: '{ Herramientas de Datos }',
     nameEN: '{ Data Tools }'
-  }
+  },
+  'file-tools': {
+  id: 'file-tools',
+  nameES: '{ Herramientas de Archivos }',
+  nameEN: '{ File Tools }'
+  },
+  'backend-tools': {
+    id: 'backend-tools',
+    nameES: '{ Herramientas de Backend }',
+    nameEN: '{ Backend Tools }'
+  },
+  'testing-tools': {
+    id: 'testing-tools',
+    nameES: '{ Testing/QA }',
+    nameEN: '{ QA/Testing }'
+  },
+  'seo-performance': {
+    id: 'seo-performance',
+    nameES: '{ SEO y Performance }',
+    nameEN: '{ SEO and Performance }'
+  },
+  'project-management': {
+    id: 'project-management',
+    nameES: '{ Gestión de Proyectos }',
+    nameEN: '{ Project Management }'
+  },
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {

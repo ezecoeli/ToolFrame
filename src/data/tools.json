@@ -155,7 +155,7 @@
   {
     "id": "convertio",
     "name": "Convertio",
-    "category": "{ Gestión de archivos }",
+    "category": "file-tools",
     "description": "Convierte tus archivos a cualquier formato",
     "url": "https://convertio.co/",
     "image": "src/assets/tools-images/convertio.png",
@@ -213,6 +213,24 @@
     "description": "Archivo de fuentes de descarga gratuita.",
     "url": "https://www.dafont.com/",
     "image": "src/assets/tools-images/dafont.png",
+    "tags": ["fonts", "typography", "design"]
+  },
+  {
+    "id": "google-fonts",
+    "name": "Google Fonts",
+    "category": "fonts",
+    "description": "Biblioteca de fuentes web gratuitas y de código abierto proporcionada por Google.",
+    "url": "https://fonts.google.com/",
+    "image": "src/assets/tools-images/google-fonts.png",
+    "tags": ["fonts", "typography", "design"]
+  },
+  {
+    "id": "font-squirrel",
+    "name": "Font Squirrel",
+    "category": "fonts",
+    "description": "Font Squirrel explora internet en busca de fuentes gratuitas y de alta calidad. Descarga miles de fuentes gratuitas, legales y de alta calidad.",
+    "url": "https://www.fontsquirrel.com/",
+    "image": "src/assets/tools-images/font-squirrel.png",
     "tags": ["fonts", "typography", "design"]
   },
   {
@@ -403,5 +421,293 @@
     "url": "https://www.jsondataai.com/",
     "image": "src/assets/tools-images/json-data-ai.png",
     "tags": ["data", "json", "api"]
+  },
+  {
+    "id": "faker-js",
+    "name": "Faker.js",
+    "category": "data-tools",
+    "description": "Generar cantidades masivas de datos falsos (pero realistas) para pruebas y desarrollo.",
+    "url": "https://fakerjs.dev/",
+    "image": "src/assets/tools-images/faker-js.png",
+    "tags": ["data", "javascript", "mock"]
+  },
+  {
+    "id": "radix-ui",
+    "name": "Radix UI",
+    "category": "ui-components",
+    "description": "Una biblioteca de componentes de código abierto optimizada para un desarrollo rápido, un mantenimiento sencillo y una accesibilidad óptima. Simplemente impórtela y listo, sin necesidad de configuración.",
+    "url": "https://www.radix-ui.com/",
+    "image": "src/assets/tools-images/radix-ui.png",
+    "tags": ["components", "react", "ui"]
+  },
+  {
+    "id": "shadcn-ui",
+    "name": "shadcn UI",
+    "category": "ui-components",
+    "description": "Un conjunto de componentes con un diseño atractivo que puedes personalizar, ampliar y desarrollar. Empieza aquí y personalízalo. Código abierto.",
+    "url": "https://ui.shadcn.com/",
+    "image": "src/assets/tools-images/shadcn.png",
+    "tags": ["components", "react", "ui"]
+  },
+  {
+    "id": "animista",
+    "name": "Animista",
+    "category": "design-tools",
+    "description": "Animista es una biblioteca de animaciones CSS y un lugar donde puedes jugar con una colección de animaciones CSS listas para usar y descargar solo aquellas que usarás.",
+    "url": "https://animista.net/",
+    "image": "src/assets/tools-images/animista.png",
+    "tags": ["css", "animations", "design"]
+  },
+  {
+    "id": "magic-animations",
+    "name": "Magic Animations",
+    "category": "css-tools",
+    "description": "Magic CSS es un conjunto de animaciones simples para incluir en sus proyectos web o aplicaciones.",
+    "url": "https://www.minimamente.com/project/magic/",
+    "image": "src/assets/tools-images/magic-animations.png",
+    "tags": ["css", "animations", "design"]
+  },
+  {
+    "id": "neumorphism",
+    "name": "Neumorphism",
+    "category": "css-tools",
+    "description": "Neumorphism es una tendencia de diseño que utiliza sombras sutiles para crear un efecto de relieve.",
+    "url": "https://neumorphism.io/",
+    "image": "src/assets/tools-images/neumorphism.png",
+    "tags": ["css", "design", "neumorphism"]
+  },
+  {
+    "id": "css-gradientes",
+    "name": "CSS Gradient",
+    "category": "css-tools",
+    "description": "CSS Gradient es un proyecto de Designstripe que te permite crear fondos degradados gratis para tu sitio web. Además de ser un generador de degradados CSS, el sitio también está repleto de contenido colorido sobre degradados, desde artículos técnicos hasta ejemplos reales de degradados como Stripe e Instagram.",
+    "url": "https://cssgradient.io/",
+    "image": "src/assets/tools-images/css-gradient.png",
+    "tags": ["css", "gradients", "design"]
+  },
+  {
+    "id": "glassmorphism",
+    "name": "Glassmorphism Generator",
+    "category": "css-tools",
+    "description": "Glassmorphism es un estilo de diseño, acuñado por Michal Malewicz de Hype4.Academy para conectar y combinar todos los usos del efecto de “vidrio esmerilado” en la interfaz de usuario.",
+    "url": "https://hype4.academy/tools/glassmorphism-generator",
+    "image": "src/assets/tools-images/glassmorphism.png",
+    "tags": ["css", "design", "glassmorphism"]
+  },
+  {
+    "id": "haikei",
+    "name": "Haikei",
+    "category": "design-tools",
+    "description": "Haikei es una aplicación web para generar contenido visual sorprendente, listo para usar con sus herramientas de diseño y flujo de trabajo.",
+    "url": "https://haikei.app/",
+    "image": "src/assets/tools-images/haikei.png",
+    "tags": ["svg", "design", "backgrounds"]
+  },
+  {
+    "id": "lottie",
+    "name": "Lottie Files",
+    "category": "design-tools",
+    "description": "Cree, administre e implemente animaciones livianas en sitios web, aplicaciones, presentaciones, redes sociales y más.",
+    "url": "https://lottiefiles.com/",
+    "image": "src/assets/tools-images/lottie-files.png",
+    "tags": ["svg", "design", "animations"]
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "category": "backend-tools",
+    "description": "Supabase es la plataforma de desarrollo de Postgres. Comienza tu proyecto con una base de datos Postgres, autenticación, API instantáneas, funciones Edge, suscripciones en tiempo real, almacenamiento e incrustaciones vectoriales.",
+    "url": "https://supabase.com",
+    "image": "src/assets/tools-images/supabase.png",
+    "tags": ["backend", "database", "auth"]
+  },
+  {
+    "id": "color-hunt",
+    "name": "Color Hunt",
+    "category": "css-tools",
+    "description": "Descubre las nuevas paletas de colores seleccionadas de Color Hunt. Inspírate con los colores para tus proyectos de diseño y arte.",
+    "url": "https://colorhunt.co/",
+    "image": "src/assets/tools-images/color-hunt.png",
+    "tags": ["colors", "palette", "design"]
+  },
+  {
+    "id": "color-picker",
+    "name": "Color Picker",
+    "category": "css-tools",
+    "description": "Sube, pega o ingresa una URL para extraer colores con HEX, RGB y más.",
+    "url": "https://imagecolorpicker.com/",
+    "image": "src/assets/tools-images/color-picker.png",
+    "tags": ["colors", "picker", "design"]
+  },
+  {
+    "id": "encycolorpedia",
+    "name": "Encycolorpedia",
+    "category": "css-tools",
+    "description": "Esquemas de colores, combinaciones, gradientes y conversiones de espacio de color.",
+    "url": "https://encycolorpedia.es/",
+    "image": "src/assets/tools-images/encycolorpedia.png",
+    "tags": ["css", "reference", "design"]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "backend-tools",
+    "description": "Cree e implemente en la nube de IA. Vercel proporciona las herramientas de desarrollo y la infraestructura en la nube para crear, escalar y proteger una web más rápida y personalizada.",
+    "url": "https://vercel.com/",
+    "image": "src/assets/tools-images/vercel.png",
+    "tags": ["deployment", "frontend", "static"]
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "category": "backend-tools",
+    "description": "Lleva tus ideas a la web. Crea con IA o código, implementa al instante. Una plataforma con todo lo que necesitas para crear aplicaciones reales. ¡Comienza ya! Navan.",
+    "url": "https://www.netlify.com/",
+    "image": "src/assets/tools-images/netlify.png",
+    "tags": ["deployment", "frontend", "static"]
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "category": "backend-tools",
+    "description": "Acelere el desarrollo de API con la plataforma integral de Postman. Optimice la colaboración y simplifique el ciclo de vida de las API para obtener resultados más rápidos y mejores.",
+    "url": "https://www.postman.com/",
+    "image": "src/assets/tools-images/postman.png",
+    "tags": ["api", "testing", "collaboration"]
+  },
+  {
+    "id": "mongoDB",
+    "name": "MongoDB",
+    "category": "backend-tools",
+    "description": "Alojamiento de bases de datos en la nube en línea: comience en segundos con MongoDB Atlas, la base de datos global con cifrado pionero en la industria.",
+    "url": "https://www.mongodb.com/",
+    "image": "src/assets/tools-images/mongoDB.png",
+    "tags": ["database", "nosql", "backend"]
+  },
+  {
+    "id": "postgreSQL",
+    "name": "PostgreSQL",
+    "category": "backend-tools",
+    "description": "PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 35 años de desarrollo activo que le ha valido una sólida reputación por su confiabilidad, solidez de funciones y rendimiento.",
+    "url": "https://www.postgresql.org/",
+    "image": "src/assets/tools-images/postgreSQL.png",
+    "tags": ["database", "sql", "backend"]
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "category": "testing-tools",
+    "description": "Con Cypress, puede crear fácilmente pruebas para sus aplicaciones web modernas, depurarlas visualmente y ejecutarlas automáticamente en sus compilaciones de integración continua.",
+    "url": "https://www.cypress.io/",
+    "image": "src/assets/tools-images/cypress.png",
+    "tags": ["testing", "e2e", "automation"]
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "category": "testing-tools",
+    "description": "Playwright Test es un framework de pruebas integral para aplicaciones web modernas. Integra ejecutor de pruebas, aserciones, aislamiento, paralelización y herramientas avanzadas.",
+    "url": "https://playwright.dev/",
+    "image": "src/assets/tools-images/playwright.png",
+    "tags": ["testing", "e2e", "automation"]
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "testing-tools",
+    "description": "Jest es un excelente framework de pruebas de JavaScript centrado en la simplicidad. Funciona con proyectos que utilizan: Babel, TypeScript, Node, React, Angular, Vue y más.",
+    "url": "https://jestjs.io/",
+    "image": "src/assets/tools-images/jest.png",
+    "tags": ["testing", "javascript", "react"]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "design-tools",
+    "description": "Herramienta colaborativa de diseño de interfaces.",
+    "url": "https://www.figma.com/",
+    "image": "src/assets/tools-images/figma.png",
+    "tags": ["design", "ui", "collaboration"]
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "category": "design-tools",
+    "description": "Conoce el espacio de innovación, la plataforma de colaboración impulsada por IA que ayuda a tu equipo a crear el producto correcto más rápido.",
+    "url": "https://miro.com/",
+    "image": "src/assets/tools-images/miro.png",
+    "tags": ["design", "collaboration", "whiteboard"]
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "category": "design-tools",
+    "description": "Excalidraw es una herramienta de pizarra virtual colaborativa que le permite dibujar fácilmente diagramas con una apariencia dibujada a mano.",
+    "url": "https://excalidraw.com/",
+    "image": "src/assets/tools-images/excalidraw.png",
+    "tags": ["design", "collaboration", "whiteboard"]
+  },
+  {
+    "id": "page-speed-insights",
+    "name": "Page Speed Insights",
+    "category": "seo-performance",
+    "description": "Herramienta gratuita de Google que analiza la velocidad y la experiencia de carga de un sitio web, tanto en móvil como en escritorio.",
+    "url": "https://pagespeed.web.dev/",
+    "image": "src/assets/tools-images/page-speed-insights.png",
+    "tags": ["performance", "seo", "web"]
+  },
+  {
+    "id": "gtmetrix",
+    "name": "GTmetrix",
+    "category": "seo-performance",
+    "description": "Pruebe su página en diferentes ubicaciones, monitoree y configure alertas, configure opciones de análisis y más con una cuenta gratuita de GTmetrix.",
+    "url": "https://gtmetrix.com/",
+    "image": "src/assets/tools-images/gt-metrix.png",
+    "tags": ["performance", "seo", "web"]
+  },
+  {
+    "id": "web-page-test",
+    "name": "WebPageTest",
+    "category": "seo-performance",
+    "description": "Una ejecución de prueba en WebPageTest se define como una ejecución única dentro de una configuración de prueba para medir el rendimiento de una página web en un navegador y una ubicación específicos.",
+    "url": "https://www.webpagetest.org/",
+    "image": "src/assets/tools-images/web-page-test.png",
+    "tags": ["performance", "seo", "web"]
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "category": "project-management",
+    "description": "Planificador diario en línea — Trello es la manera divertida, flexible y gratuita para organizar planes, proyectos y más.",
+    "url": "https://trello.com/",
+    "image": "src/assets/tools-images/trello.png",
+    "tags": ["productivity", "management", "collaboration"]
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "category": "project-management",
+    "description": "Haz posible lo imposible con Jira. Planifica, supervisa y lanza software de primera clase con la herramienta de gestión de proyectos líder para equipos grandes y pequeños.",
+    "url": "https://www.atlassian.com/software/jira",
+    "image": "src/assets/tools-images/jira.png",
+    "tags": ["productivity", "management", "collaboration"]
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "category": "project-management",
+    "description": "Visualiza cómo tu trabajo se conecta con los objetivos mientras colaboras con una IA que entiende tu negocio.",
+    "url": "https://asana.com/",
+    "image": "src/assets/tools-images/asana.png",
+    "tags": ["productivity", "management", "collaboration"]
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "project-management",
+    "description": "El espacio de trabajo con IA hecho para ti · Un espacio para resolver dudas, automatizar tareas y avanzar con tus proyectos.",
+    "url": "https://www.notion.com/",
+    "image": "src/assets/tools-images/notion.png",
+    "tags": ["productivity", "management", "collaboration"]
   }
 ]
