@@ -826,5 +826,23 @@
     "url": "https://responsiveviewer.org/",
     "image": "src/assets/tools-images/responsive-viewer.png",
     "tags": ["responsive", "testing", "design"]
+  },
+  {
+    "id": "imgto-xyz",
+    "name": "Imgto.xyz",
+    "category": "edit-images",
+    "description": "Mejore el rendimiento de su sitio web de forma gratuita optimizando sus imágenes JPG, PNG, WebP, AVIF y JXL usando imgto.xyz.",
+    "url": "https://imgto.xyz/",
+    "image": "src/assets/tools-images/imgto-xyz.png",
+    "tags": ["conversion", "images", "optimización"]
+  },
+  {
+    "id": "squoosh",
+    "name": "Squoosh",
+    "category": "edit-images",
+    "description": "Squoosh es el optimizador de imágenes definitivo que te permite comprimir y comparar imágenes con diferentes codecs en tu navegador.",
+    "url": "https://squoosh.app/",
+    "image": "src/assets/tools-images/squoosh.png",
+    "tags": ["conversion", "images", "optimización"]
   }
 ]

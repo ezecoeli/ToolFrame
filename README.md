@@ -56,7 +56,7 @@ npm run dev
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint
 
-## Internationalization (pending)
+## Internationalization
 
 The app supports:
 - **English** (en)
