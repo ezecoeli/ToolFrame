@@ -20,7 +20,7 @@ const ToolCard = ({ tool, onDelete }) => {
 
   return (
     <>
-      <div className="bg-east-bay-100 border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
+      <div className="card bg-east-bay-100 border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
         {/* Image with Preview Button */}
         <div className="relative aspect-video w-full bg-east-bay-100 flex items-center justify-center overflow-hidden">
           {tool.image ? (

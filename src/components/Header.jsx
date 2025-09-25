@@ -14,7 +14,6 @@ const Header = () => {
 
         {/* Social Links */}
         <div className="flex items-center gap-6">
-          <span className="text-white font-semibold text-md">Social :</span>
           <a
             href="https://www.linkedin.com/in/ezequiel-coeli-softwareqadev/"
             target="_blank"
