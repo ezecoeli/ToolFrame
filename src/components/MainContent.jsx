@@ -22,11 +22,11 @@ const MainContent = ({
       <div className="mb-12">
         <div className="flex flex-col sm:flex-row items-center flex-1 mb-8">
           <img 
-            src="/src/assets/TF-logo.png" 
+            src="/src/assets/TF-logo-light.png" 
             alt="ToolFrame"
             className="h-16 sm:h-20 w-auto mb-4 sm:mb-0 sm:mr-4 drop-shadow-lg"
             style={{
-              filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.3))'
+              filter: 'drop-shadow(40px 40px 40px rgba(4,5,6,0.5))'
             }}
             onError={(e) => {
               e.target.style.display = 'none';

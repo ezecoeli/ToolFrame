@@ -36,6 +36,15 @@
     "tags": ["icons", "svg", "open-source"]
   },
   {
+    "id": "iconScout",
+    "name": "IconScout",
+    "category": "iconos",
+    "description": "SVGs, iconos vectoriales, ilustraciones, gráficos 3D y animaciones Lottie seleccionados. Más de 10 000 recursos nuevos añadidos cada día. Plugins, herramientas, editores y mucho más integrados.",
+    "url": "https://iconscout.com/",
+    "image": "src/assets/tools-images/iconScout.png",
+    "tags": ["icons", "svg", "library"]
+  },
+  {
     "id": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "css-tools",
@@ -837,6 +846,15 @@
     "tags": ["conversion", "images", "optimización"]
   },
   {
+    "id": "kigen",
+    "name": "Kigen",
+    "category": "design-tools",
+    "description": "Una forma más rápida de empezar a diseñar sistemas. Usa Kigen para crear tus variables y estilos principales con solo unos clics.",
+    "url": "https://kigen.app/",
+    "image": "src/assets/tools-images/kigen.png",
+    "tags": ["design", "ui", "colors"]
+  },
+  {
     "id": "squoosh",
     "name": "Squoosh",
     "category": "edit-images",
@@ -844,5 +862,23 @@
     "url": "https://squoosh.app/",
     "image": "src/assets/tools-images/squoosh.png",
     "tags": ["conversion", "images", "optimización"]
+  },
+  {
+    "id": "uiball",
+    "name": "UI Ball",
+    "category": "ui-components",
+    "description": "UI Ball es un sitio que ofrece recursos web útiles para desarrolladores, especialmente animaciones de carga libres y personalizables (spinners, loaders) en HTML, CSS y SVG.",
+    "url": "https://uiball.com/",
+    "image": "src/assets/tools-images/uiball.png",
+    "tags": ["components", "react", "ui", "loaders"]
+  },
+  {
+    "id": "css-loaders",
+    "name": "CSS Loaders",
+    "category": "ui-components",
+    "description": "La mayor colección de cargadores CSS. Más de 600 animaciones de carga creadas por Temani Afif con un solo elemento.",
+    "url": "https://css-loaders.com/",
+    "image": "src/assets/tools-images/css-loaders.png",
+    "tags": ["components", "css", "ui", "loaders"]
   }
 ]
