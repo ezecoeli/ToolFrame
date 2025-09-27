@@ -3,6 +3,7 @@ import SearchBar from './SearchBar';
 import ToolGrid from './ToolGrid';
 import CategoryFilter from './CategoryFilter';
 import { useTranslation } from '../hooks/useTranslations';
+import logoLight from '../assets/TF-logo-light.png';
 
 const MainContent = ({ 
   tools, 
@@ -17,12 +18,12 @@ const MainContent = ({
   const { t } = useTranslation();
 
   return (
-    <div className="px-6 py-8 max-w-none">
+    <div className="px-4 py-8 max-w-none">
       {/* Header */}
       <div className="mb-12">
         <div className="flex flex-col sm:flex-row items-center flex-1 mb-8">
           <img 
-            src="src/assets/TF-logo-light.png" 
+            src={logoLight} 
             alt="ToolFrame"
             className="h-16 sm:h-20 w-auto mb-4 sm:mb-0 sm:mr-4 drop-shadow-lg"
             style={{
@@ -61,7 +62,7 @@ const MainContent = ({
       {/* Content Grid */}
       <div className="flex gap-8">
         {/* Desktop Sidebar */}
-        <aside className="hidden lg:block w-64 flex-shrink-0">
+        <aside className="hidden lg:block w-[270px] flex-shrink-0">
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}

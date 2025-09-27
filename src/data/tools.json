@@ -880,5 +880,149 @@
     "url": "https://css-loaders.com/",
     "image": "src/assets/tools-images/css-loaders.png",
     "tags": ["components", "css", "ui", "loaders"]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "frameworks",
+    "description": "React es una biblioteca de JavaScript que te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes.",
+    "url": "https://es.react.dev/",
+    "image": "src/assets/tools-images/react.png",
+    "tags": ["javascript", "ui", "frameworks"]
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "frameworks",
+    "description": "El framework JavaScript progresivo. Accesible y basado en HTML, CSS y JavaScript estándar, con una API intuitiva y documentación de primera clase.",
+    "url": "https://vuejs.org/",
+    "image": "src/assets/tools-images/vue.png",
+    "tags": ["javascript", "ui", "frameworks"]
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "category": "frameworks",
+    "description": "Angular es un framework web que permite a los desarrolladores crear aplicaciones rápidas y confiables.",
+    "url": "https://angular.dev/",
+    "image": "src/assets/tools-images/angular.png",
+    "tags": ["javascript", "ui", "frameworks"]
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "frameworks",
+    "description": "Svelte es un framework de interfaz de usuario que utiliza un compilador para que puedas escribir componentes increíblemente concisos que minimizan el trabajo en el navegador.",
+    "url": "https://svelte.dev/",
+    "image": "src/assets/tools-images/svelte.png",
+    "tags": ["javascript", "ui", "frameworks"]
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "frameworks",
+    "description": "Utilizado por algunas de las empresas más grandes del mundo, Next.js le permite crear aplicaciones web de alta calidad con el poder de los componentes React.",
+    "url": "https://nextjs.org/",
+    "image": "src/assets/tools-images/nextjs.png",
+    "tags": ["javascript", "react", "frameworks"]
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "frameworks",
+    "description": "Flask es un framework ligero de aplicaciones web basado en WSGI. Está diseñado para que empezar a usarlo sea rápido y sencillo, pero al mismo tiempo ofrece la posibilidad de escalar y crear aplicaciones más complejas cuando se necesite.",
+    "url": "https://flask.palletsprojects.com/en/stable/",
+    "image": "src/assets/tools-images/flask.png",
+    "tags": ["python", "backend", "frameworks"]
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "frameworks",
+    "description": "Django es un framework web Python de alto nivel que fomenta el desarrollo rápido y un diseño limpio y pragmático.",
+    "url": "https://www.djangoproject.com/",
+    "image": "src/assets/tools-images/django.png",
+    "tags": ["python", "backend", "frameworks"]
+  },
+  {
+    "id": "astro",
+    "name": "Astro",
+    "category": "frameworks",
+    "description": "Astro es un marco web JavaScript optimizado para crear sitios web rápidos y basados ​​en contenido.",
+    "url": "https://astro.build/",
+    "image": "src/assets/tools-images/astro.png",
+    "tags": ["javascript", "static", "frameworks"]
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "category": "frameworks",
+    "description": "Spring Boot es un marco Java de código abierto que se utiliza para programar aplicaciones independientes basadas en Spring de nivel de producción con un conjunto de bibliotecas que facilitan el inicio y la gestión de proyectos.",
+    "url": "https://spring.io/projects/spring-boot",
+    "image": "src/assets/tools-images/spring-boot.png",
+    "tags": ["java", "backend", "frameworks"]
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "frameworks",
+    "description": "Laravel ofrece un ecosistema completo para desarrolladores web. Este framework PHP de código abierto, productos, paquetes y kits de inicio ofrecen todo lo necesario para crear, implementar y supervisar aplicaciones web.",
+    "url": "https://laravel.com/",
+    "image": "src/assets/tools-images/laravel.png",
+    "tags": ["php", "backend", "frameworks"]
+  },
+  {
+    "id": "expressjs",
+    "name": "Express",
+    "category": "frameworks",
+    "description": "Express.js es un framework minimalista y flexible para Node.js que facilita la creación de aplicaciones web y APIs, funcionando como el estándar de facto para el desarrollo backend con Node.js.",
+    "url": "https://expressjs.com/",
+    "image": "src/assets/tools-images/express.png",
+    "tags": ["javascript", "nodejs", "frameworks"]
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "category": "frameworks",
+    "description": "Flutter transforma el proceso de desarrollo. Crea, prueba e implementa atractivas experiencias móviles, web, de escritorio e integradas desde una única base de código.",
+    "url": "https://flutter.dev/",
+    "image": "src/assets/tools-images/flutter.png",
+    "tags": ["dart", "mobile", "frameworks"]
+  },
+  {
+    "id": "react-native",
+    "name": "React Native",
+    "category": "frameworks",
+    "description": "Crea aplicaciones nativas para Android, iOS y más con React. React Native integra lo mejor del desarrollo con React en el desarrollo nativo. Es una biblioteca de JavaScript líder en su clase para crear interfaces de usuario.", 
+    "url": "https://reactnative.dev/",
+    "image": "src/assets/tools-images/react-native.png",
+    "tags": ["javascript", "mobile", "frameworks"]
+  },
+  {
+    "id": "ionic",
+    "name": "Ionic",
+    "category": "frameworks",
+    "description": "Ionic es un framework de desarrollo de aplicaciones móviles de código abierto que permite a los desarrolladores crear aplicaciones híbridas utilizando tecnologías web como HTML, CSS y JavaScript.",
+    "url": "https://ionicframework.com/",
+    "image": "src/assets/tools-images/ionic.png",
+    "tags": ["javascript", "mobile", "frameworks"]
+  },
+  {
+    "id": "apache-cordova",
+    "name": "Apache Cordova",
+    "category": "frameworks",
+    "description": "Aplicaciones móviles con HTML, CSS y JS. Compatibles con múltiples plataformas con un solo código. Gratuitas y de código abierto.",
+    "url": "https://cordova.apache.org/",
+    "image": "src/assets/tools-images/apache-cordova.png",
+    "tags": ["javascript", "mobile", "frameworks"]
+  },
+  {
+    "id": "expo",
+    "name": "Expo",
+    "category": "frameworks",
+    "description": "Expo es un framework y una plataforma para aplicaciones universales de React que te permite crear, construir, desplegar y actualizar apps nativas rápidamente usando JavaScript y React.",
+    "url": "https://expo.dev/",
+    "image": "src/assets/tools-images/expo.png",
+    "tags": ["react-native", "mobile", "frameworks", "javascript"]
   }
 ]

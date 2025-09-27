@@ -39,11 +39,6 @@ export const CATEGORIES = {
     nameES: '{ Fuentes }',
     nameEN: '{ Fonts }'
   },
-  'documentation': {
-    id: 'documentation',
-    nameES: '{ Documentación de lenguajes }',
-    nameEN: '{ Language documentation }'
-  },
   'data-tools': {
     id: 'data-tools',
     nameES: '{ Herramientas de Datos }',
@@ -73,6 +68,16 @@ export const CATEGORIES = {
     id: 'project-management',
     nameES: '{ Gestión de Proyectos }',
     nameEN: '{ Project Management }'
+  },
+  'documentation': {
+    id: 'documentation',
+    nameES: '{ Documentación de lenguajes }',
+    nameEN: '{ Language documentation }'
+  },
+  'frameworks': {
+    id: 'frameworks',
+    nameES: '{ Frameworks }',
+    nameEN: '{ Frameworks }'
   },
 };
 
