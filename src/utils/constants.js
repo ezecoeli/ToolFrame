@@ -79,6 +79,11 @@ export const CATEGORIES = {
     nameES: '{ Frameworks }',
     nameEN: '{ Frameworks }'
   },
+  'code-editors': {
+    id: 'code-editors',
+    nameES: '{ Editores de Código }',
+    nameEN: '{ Code Editors }'
+  },
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {

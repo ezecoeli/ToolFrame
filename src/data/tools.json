@@ -1024,5 +1024,77 @@
     "url": "https://expo.dev/",
     "image": "src/assets/tools-images/expo.png",
     "tags": ["react-native", "mobile", "frameworks", "javascript"]
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "category": "code-editors",
+    "description": "Editor de código fuente gratuito y multiplataforma desarrollado por Microsoft, ampliamente utilizado por su extensibilidad y soporte para múltiples lenguajes.",
+    "url": "https://code.visualstudio.com/",
+    "image": "src/assets/tools-images/vscode.png",
+    "tags": ["editor", "microsoft", "multiplataforma", "code"]
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "category": "code-editors",
+    "description": "Editor de texto sofisticado para código, marcado y prosa. Conocido por su velocidad, interfaz minimalista y potentes atajos.",
+    "url": "https://www.sublimetext.com/",
+    "image": "src/assets/tools-images/sublime-text.png",
+    "tags": ["editor", "ligero", "multiplataforma"]
+  },
+  {
+    "id": "atom",
+    "name": "Atom",
+    "category": "code-editors",
+    "description": "Editor de texto hackeable para el siglo XXI, desarrollado originalmente por GitHub. Ofrece personalización y una gran comunidad de paquetes.",
+    "url": "https://atom-editor.cc/",
+    "image": "src/assets/tools-images/atom.png",
+    "tags": ["editor", "open-source", "personalizable"]
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "category": "code-editors",
+    "description": "IDE de código abierto ampliamente utilizado para el desarrollo en Java y otros lenguajes, conocido por su extensibilidad y ecosistema de plugins.",
+    "url": "https://eclipseide.org/",
+    "image": "src/assets/tools-images/eclipse.png",
+    "tags": ["editor", "java", "ide", "open-source"]
+  },
+  {
+    "id": "vim",
+    "name": "Vim",
+    "category": "code-editors",
+    "description": "Editor de texto altamente configurable, famoso por su eficiencia y atajos de teclado. Muy popular entre desarrolladores avanzados.",
+    "url": "https://www.vim.org/",
+    "image": "src/assets/tools-images/vim.png",
+    "tags": ["editor", "terminal", "eficiente"]
+  },
+  {
+    "id": "emacs",
+    "name": "GNU Emacs",
+    "category": "code-editors",
+    "description": "Editor de texto extensible, personalizable y de código abierto, conocido por su potencia y flexibilidad.",
+    "url": "https://www.gnu.org/software/emacs/",
+    "image": "src/assets/tools-images/emacs.png",
+    "tags": ["editor", "open-source", "personalizable"]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "code-editors",
+    "description": "Editor de código moderno basado en VS Code, con integración de inteligencia artificial para acelerar el desarrollo.",
+    "url": "https://cursor.com/",
+    "image": "src/assets/tools-images/cursor.png",
+    "tags": ["editor", "ai", "multiplataforma"]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "category": "code-editors",
+    "description": "Editor de código colaborativo en la nube, ideal para pair programming y trabajo remoto.",
+    "url": "https://windsurf.com/editor",
+    "image": "src/assets/tools-images/windsurf.png",
+    "tags": ["editor", "colaborativo", "cloud"]
   }
 ]
