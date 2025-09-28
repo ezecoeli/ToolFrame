@@ -49,7 +49,7 @@ const ToolCard = ({ tool, onDelete }) => {
               />
               <button
                 onClick={() => setShowImageModal(true)}
-                title={`${t('enlargeImage')} - ${tool.name}`}
+                title={t('enlargeImage')}
                 className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-300"
               >
                 <FaSearchPlus className="text-white text-2xl" />
@@ -85,20 +85,15 @@ const ToolCard = ({ tool, onDelete }) => {
           </p>
 
           {tool.tags && tool.tags.length > 0 && (
-            <div className="flex flex-wrap gap-1 mb-4">
-              {tool.tags.slice(0, 3).map((tag, index) => (
+            <div className="flex flex-wrap gap-1 mb-4 min-h-[2rem]">
+              {tool.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="px-2 py-1 bg-east-bay-100 text-east-bay-700 text-xs rounded-full border border-east-bay-200"
+                  className="inline-flex items-center px-2 h-5 bg-east-bay-100 text-east-bay-700 text-xs rounded-full border border-east-bay-200 leading-none"
                 >
                   {tag}
                 </span>
               ))}
-              {tool.tags.length > 3 && (
-                <span className="px-2 py-1 text-east-bay-500 text-xs">
-                  +{tool.tags.length - 3}
-                </span>
-              )}
             </div>
           )}
 

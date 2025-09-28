@@ -33,6 +33,7 @@ function App() {
   return (
     <LanguageProvider>
       <div className="min-h-screen bg-east-bay-800">
+        
         {/* Fixed Header */}
         <Header />
 
@@ -54,7 +55,10 @@ function App() {
           onClose={() => setIsAddModalOpen(false)}
           onSave={handleSaveTool}
         />
-        <Footer />
+
+        {/* Fixed Footer */}
+        <Footer className="fixed bottom-0 left-0 right-0" />
+
       </div>
     </LanguageProvider>
   );
