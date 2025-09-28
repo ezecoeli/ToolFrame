@@ -1377,7 +1377,7 @@
     },
     "url": "https://code.visualstudio.com/",
     "image": "src/assets/tools-images/vscode.png",
-    "tags": ["editor", "microsoft", "multiplataforma", "code"]
+    "tags": ["editor", "microsoft", "cross-platform", "code"]
   },
   {
     "id": "sublime-text",
@@ -1389,7 +1389,7 @@
     },
     "url": "https://www.sublimetext.com/",
     "image": "src/assets/tools-images/sublime-text.png",
-    "tags": ["editor", "ligero", "multiplataforma"]
+    "tags": ["editor", "ide", "cross-platform"]
   },
   {
     "id": "atom",
@@ -1425,7 +1425,7 @@
     },
     "url": "https://www.vim.org/",
     "image": "src/assets/tools-images/vim.png",
-    "tags": ["editor", "terminal", "eficiente"]
+    "tags": ["editor", "terminal", "efficiency"]
   },
   {
     "id": "emacs",
@@ -1462,5 +1462,149 @@
     "url": "https://windsurf.com/editor",
     "image": "src/assets/tools-images/windsurf.png",
     "tags": ["editor", "colaborativo", "cloud"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma de servicios en la nube de Amazon, que ofrece una amplia gama de servicios de computación, almacenamiento y bases de datos.",
+      "en": "Amazon's cloud services platform, offering a wide range of computing, storage, and database services."
+    },
+    "url": "https://aws.amazon.com/",
+    "image": "src/assets/tools-images/aws.png",
+    "tags": ["cloud", "aws", "service", "amazon"]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma de servicios en la nube de Microsoft, que ofrece soluciones para computación, análisis, almacenamiento y redes.",
+      "en": "Microsoft's cloud services platform, offering solutions for computing, analytics, storage, and networking."
+    },
+    "url": "https://azure.microsoft.com/",
+    "image": "src/assets/tools-images/azure.png",
+    "tags": ["cloud", "azure", "service", "microsoft"]
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma de servicios en la nube que ofrece soluciones de seguridad, rendimiento y confiabilidad para sitios web y aplicaciones.",
+      "en": "Cloud services platform offering security, performance, and reliability solutions for websites and applications."
+    },
+    "url": "https://www.cloudflare.com/",
+    "image": "src/assets/tools-images/cloudflare.png",
+    "tags": ["cloud", "security", "performance"]
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma de servicios en la nube de Google, que ofrece soluciones para computación, almacenamiento, bases de datos y aprendizaje automático.",
+      "en": "Google's cloud services platform, offering solutions for computing, storage, databases, and machine learning."
+    },
+    "url": "https://cloud.google.com/",
+    "image": "src/assets/tools-images/google-cloud.png",
+    "tags": ["cloud", "google", "service", "machine-learning"]
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma de servicios en la nube que ofrece soluciones de computación, almacenamiento y redes para desarrolladores y empresas.",
+      "en": "Cloud services platform offering computing, storage, and networking solutions for developers and businesses."
+    },
+    "url": "https://www.digitalocean.com/",
+    "image": "src/assets/tools-images/digital-ocean.png",
+    "tags": ["cloud", "service", "developer", "droplets"]
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "category": "cloud-services",
+    "description": {
+      "es": "Plataforma en la nube que permite a los desarrolladores construir, ejecutar y operar aplicaciones completamente en la nube.",
+      "en": "Cloud platform that allows developers to build, run, and operate applications entirely in the cloud."
+    },
+    "url": "https://www.heroku.com/",
+    "image": "src/assets/tools-images/heroku.png",
+    "tags": ["cloud", "service", "developer", "paas"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Plataforma de contenedores que permite a los desarrolladores empaquetar, distribuir y ejecutar aplicaciones de manera consistente en cualquier entorno.",
+      "en": "Container platform that allows developers to package, distribute, and run applications consistently across any environment."
+    },
+    "url": "https://www.docker.com/",
+    "image": "src/assets/tools-images/docker.png",
+    "tags": ["containers", "devops", "ci-cd"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Sistema de orquestación de contenedores de código abierto para automatizar la implementación, el escalado y la gestión de aplicaciones en contenedores.",
+      "en": "Open-source container orchestration system for automating the deployment, scaling, and management of containerized applications."
+    },
+    "url": "https://kubernetes.io/",
+    "image": "src/assets/tools-images/kubernetes.png",
+    "tags": ["containers", "orchestration", "devops"]
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Servidor de automatización de código abierto que facilita la integración continua y la entrega continua (CI/CD) en el desarrollo de software.",
+      "en": "Open-source automation server that facilitates continuous integration and continuous delivery (CI/CD) in software development."
+    },
+    "url": "https://www.jenkins.io/",
+    "image": "src/assets/tools-images/jenkins.png",
+    "tags": ["ci-cd", "automation", "devops"]
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Plataforma de integración continua y entrega continua (CI/CD) que automatiza el proceso de construcción, prueba y despliegue de aplicaciones.",
+      "en": "Continuous integration and continuous delivery (CI/CD) platform that automates the process of building, testing, and deploying applications."
+    },
+    "url": "https://circleci.com/",
+    "image": "src/assets/tools-images/circleci.png",
+    "tags": ["ci-cd", "automation", "devops"]
+  },
+  {
+    "id": "travisci",
+    "name": "Travis CI",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Servicio de integración continua alojado que se utiliza para construir y probar proyectos de software alojados en GitHub.",
+      "en": "Hosted continuous integration service used to build and test software projects hosted on GitHub."
+    },
+    "url": "https://travis-ci.com/",
+    "image": "src/assets/tools-images/travisci.png",
+    "tags": ["ci-cd", "automation", "devops"]
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "category": "devops-ci-cd",
+    "description": {
+      "es": "Plataforma de DevOps completa que proporciona un ciclo de vida completo de desarrollo, desde la gestión del código fuente hasta la integración continua y la entrega continua (CI/CD).",
+      "en": "Complete DevOps platform that provides a full development lifecycle, from source code management to continuous integration and continuous delivery (CI/CD)."
+    },
+    "url": "https://about.gitlab.com/",
+    "image": "src/assets/tools-images/gitlab.png",
+    "tags": ["ci-cd", "devops", "repository"]
   }
 ]

@@ -84,6 +84,16 @@ export const CATEGORIES = {
     nameES: '{ Editores de Código }',
     nameEN: '{ Code Editors }'
   },
+  'cloud-services': {
+    id: 'cloud-services',
+    nameES: '{ Servicios Cloud }',
+    nameEN: '{ Cloud Services }'
+  },
+  'devops-ci-cd': {
+    id: 'devops-ci-cd',
+    nameES: '{ DevOps / CI-CD }',
+    nameEN: '{ DevOps / CI-CD }'
+  },
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {
