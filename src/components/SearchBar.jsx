@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaSearch, FaPlus, FaTimes } from 'react-icons/fa';
 import { useTranslation } from '../hooks/useTranslations';
 
 const SearchBar = ({ searchTerm, onSearchChange, onAddTool, className = '' }) => {
   const { t } = useTranslation();
+  const [isFocused, setIsFocused] = useState(false);
 
   return (
     <div className={`relative ${className}`}>
@@ -15,7 +16,9 @@ const SearchBar = ({ searchTerm, onSearchChange, onAddTool, className = '' }) =>
             type="text"
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder={t('search')}
+            onFocus={() => setIsFocused(true)}
+            onBlur={() => setIsFocused(false)}
+            placeholder={isFocused ? '' : t('search')}
             className="w-full pl-12 pr-10 py-2 text-lg border border-east-bay-300 rounded-lg focus:ring-2 focus:ring-east-bay-500 outline-none transition-all duration-200 bg-white"
           />
           {searchTerm && (
