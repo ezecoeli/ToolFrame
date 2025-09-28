@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useLocalStorage } from './useLocalStorage';
+import { useTranslation } from './useTranslations';
 import toolsData from '../data/tools.json';
 
 export const useTools = () => {
+  const { currentLanguage } = useTranslation();
   const [tools, setTools] = useLocalStorage('toolframe-tools', toolsData);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -13,7 +15,8 @@ export const useTools = () => {
     // Search filter
     const matchesSearch = searchTerm === '' || 
       tool.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      tool.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (tool.description && tool.description[currentLanguage] && 
+       tool.description[currentLanguage].toLowerCase().includes(searchTerm.toLowerCase())) ||
       tool.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
 
     // Category filter
