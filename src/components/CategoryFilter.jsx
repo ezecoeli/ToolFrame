@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from '../hooks/useTranslations';
 import { getCategoryName } from '../utils/constants';
 import { BiGitBranch } from "react-icons/bi";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaHashtag } from "react-icons/fa";
 
 const CategoryFilter = ({ 
   categories, 
@@ -37,6 +37,7 @@ const CategoryFilter = ({
                 : 'text-white hover:bg-east-bay-500'
             }`}
           >
+            {selectedCategory === 'all' && <FaHashtag className="inline-block mr-2" />}
             {t('allCategories')}
           </button>
 
@@ -51,6 +52,7 @@ const CategoryFilter = ({
                   : 'text-white hover:bg-east-bay-500'
               }`}
             >
+              {selectedCategory === category && <FaHashtag className="inline-block mr-2" />}
               {getCategoryName(category, language)}
             </button>
           ))}
@@ -93,6 +95,7 @@ const CategoryFilter = ({
                     : 'text-white hover:bg-east-bay-600'
                 }`}
               >
+                {selectedCategory === 'all' && <FaHashtag className="inline-block mr-2" />}
                 {t('allCategories')}
               </button>
 
@@ -109,6 +112,7 @@ const CategoryFilter = ({
                       : 'text-white hover:bg-east-bay-600'
                   }`}
                 >
+                  {selectedCategory === category && <FaHashtag className="inline-block mr-2" />}
                   {getCategoryName(category, language)}
                 </button>
               ))}

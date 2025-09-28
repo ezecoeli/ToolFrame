@@ -4,6 +4,7 @@ import MainContent from './components/MainContent';
 import AddToolModal from './components/AddToolModal';
 import { useTools } from './hooks/useTools';
 import { LanguageProvider } from './hooks/useTranslations';
+import Footer from './components/Footer';
 
 function App() {
   const {
@@ -53,6 +54,7 @@ function App() {
           onClose={() => setIsAddModalOpen(false)}
           onSave={handleSaveTool}
         />
+        <Footer />
       </div>
     </LanguageProvider>
   );

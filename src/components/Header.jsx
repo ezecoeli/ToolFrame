@@ -21,7 +21,7 @@ const Header = () => {
             className="flex items-center gap-2 text-white hover:text-east-bay-200 transition-colors duration-200 font-medium"
             title={t('linkedInProfile')}
           >
-            <FaLinkedin className="text-xl" />
+            <FaLinkedin className="w-6 h-6" />
           </a>
           
           <a
@@ -31,7 +31,7 @@ const Header = () => {
             className="flex items-center gap-2 text-white hover:text-east-bay-200 transition-colors duration-200 font-medium"
             title={t('githubProfile')}
           >
-            <FaGithub className="text-xl" />
+            <FaGithub className="w-6 h-6" />
           </a>
         </div>
 
