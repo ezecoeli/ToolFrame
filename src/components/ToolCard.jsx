@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import { FaStar, FaTimes, FaRegStar, FaTrash, FaExternalLinkAlt, FaSearchPlus } from 'react-icons/fa';
+import { FaTimes, FaTrash, FaExternalLinkAlt, FaSearchPlus } from 'react-icons/fa';
 import { useTranslation } from '../hooks/useTranslations';
-import { useFavorites } from '../hooks/useFavorites';
 
 const toolImages = import.meta.glob('../assets/tools-images/*.png', { eager: true });
 
 const ToolCard = ({ tool, onDelete }) => {
   const { t, language } = useTranslation();
-  const { isFavorite, toggleFavorite } = useFavorites();
   const [showImageModal, setShowImageModal] = useState(false);
 
   const getImageSrc = (imagePath) => {
@@ -64,20 +62,9 @@ const ToolCard = ({ tool, onDelete }) => {
 
         <div className="p-4 flex-1 flex flex-col">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-semibold text-east-bay-950 group-hover:text-east-bay-700 transition-colors duration-200 flex-1 pr-2">
+            <h3 className="text-lg font-semibold text-east-bay-950 group-hover:text-east-bay-700 transition-colors duration-200 flex-1">
               {tool.name}
             </h3>
-            <button
-              onClick={() => toggleFavorite(tool.id)}
-              className="text-east-bay-400 hover:text-yellow-500 transition-colors duration-200 flex-shrink-0"
-              title={isFavorite(tool.id) ? t('removeFromFavorites') : t('addToFavorites')}
-            >
-              {isFavorite(tool.id) ? (
-                <FaStar className="w-5 h-5 text-yellow-500" />
-              ) : (
-                <FaRegStar className="w-5 h-5" />
-              )}
-            </button>
           </div>
 
           <p className="text-east-bay-700 text-sm mb-4 line-clamp-2 flex-1">

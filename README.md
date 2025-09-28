@@ -7,7 +7,6 @@ A modern React application for managing and discovering web development tools. B
 - **Tool Management**: Add, edit, and delete development tools
 - **Smart Search**: Real-time search across tool names and descriptions
 - **Category Filtering**: Organize tools by categories (CSS, Icons, Frameworks, etc.)
-- **Favorites System**: Mark your favorite tools for quick access
 - **Image Preview**: Click to view tool screenshots in full-size modal
 - **Multilingual**: Support for English and Spanish
 - **Responsive Design**: Works perfectly on desktop and mobile

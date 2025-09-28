@@ -17,8 +17,6 @@ const translations = {
     // Tool actions
     enlargeImage: "Click para ampliar",
     visit: "Ir al sitio",
-    addToFavorites: "Añadir a favoritos",
-    removeFromFavorites: "Quitar de favoritos",
     delete: "Eliminar",
     // Add tool form
     addButton: "Añadir",
@@ -54,8 +52,6 @@ const translations = {
     // Tool actions
     enlargeImage: "Click to enlarge",
     visit: "Go to site",
-    addToFavorites: "Add to favorites",
-    removeFromFavorites: "Remove from favorites",
     delete: "Delete",
     // Add tool form
     addButton: "Add",
