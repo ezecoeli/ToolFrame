@@ -3,26 +3,25 @@ import { FaStar, FaTimes, FaRegStar, FaTrash, FaExternalLinkAlt, FaSearchPlus } 
 import { useTranslation } from '../hooks/useTranslations';
 import { useFavorites } from '../hooks/useFavorites';
 
-// Importar todas las imágenes de tools-images
 const toolImages = import.meta.glob('../assets/tools-images/*.png', { eager: true });
 
 const ToolCard = ({ tool, onDelete }) => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const { isFavorite, toggleFavorite } = useFavorites();
   const [showImageModal, setShowImageModal] = useState(false);
 
-  // Extraer el nombre del archivo de la ruta completa
   const getImageSrc = (imagePath) => {
     if (!imagePath) return null;
-    
-    // Extraer el nombre del archivo
     const fileName = imagePath.split('/').pop();
-    
-    // Construir la clave para el objeto de imágenes
     const imageKey = `../assets/tools-images/${fileName}`;
-    
-    // Retornar la URL procesada por Vite
     return toolImages[imageKey]?.default || null;
+  };
+
+  const getDescription = (description) => {
+    if (typeof description === 'object' && description !== null) {
+      return description[language] || description.es || description.en || '';
+    }
+    return description || '';
   };
 
   const imageSrc = getImageSrc(tool.image);
@@ -39,8 +38,7 @@ const ToolCard = ({ tool, onDelete }) => {
 
   return (
     <>
-      <div className="card bg-white border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
-        {/* Image Container */}
+      <div className="bg-white border border-east-bay-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group flex flex-col h-full">
         <div className="relative aspect-video w-full bg-east-bay-100 flex items-center justify-center overflow-hidden">
           {imageSrc ? (
             <>
@@ -49,7 +47,6 @@ const ToolCard = ({ tool, onDelete }) => {
                 alt={tool.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              {/* Preview Button Overlay */}
               <button
                 onClick={() => setShowImageModal(true)}
                 title={`${t('enlargeImage')} - ${tool.name}`}
@@ -84,7 +81,7 @@ const ToolCard = ({ tool, onDelete }) => {
           </div>
 
           <p className="text-east-bay-700 text-sm mb-4 line-clamp-2 flex-1">
-            {tool.description}
+            {getDescription(tool.description)}
           </p>
 
           {tool.tags && tool.tags.length > 0 && (
@@ -124,7 +121,6 @@ const ToolCard = ({ tool, onDelete }) => {
         </div>
       </div>
 
-      {/* Image Modal */}
       {showImageModal && imageSrc && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
@@ -145,7 +141,7 @@ const ToolCard = ({ tool, onDelete }) => {
             </button>
             <div className="absolute bottom-4 bg-east-bay-900 bg-opacity-80 text-white px-4 py-2 rounded">
               <h4 className="font-bold">{tool.name}:</h4>
-              <p className="text-sm opacity-90">{tool.description}</p>
+              <p className="text-sm opacity-90">{getDescription(tool.description)}</p>
             </div>
           </div>
         </div>

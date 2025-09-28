@@ -3,7 +3,10 @@
     "id": "react-icons",
     "name": "React Icons",
     "category": "iconos",
-    "description": "Colección de iconos populares para React",
+    "description": {
+      "es": "Colección de iconos populares para React con soporte para múltiples librerías como Font Awesome, Material Design y más.",
+      "en": "Popular icons collection for React with support for multiple libraries like Font Awesome, Material Design and more."
+    },
     "url": "https://react-icons.github.io/react-icons/",
     "image": "src/assets/tools-images/react-icons.png",
     "tags": ["icons", "react", "components"]
@@ -12,7 +15,10 @@
     "id": "konva",
     "name": "Konva",
     "category": "librerias",
-    "description": "Konva es un marco JavaScript de Canvas 2D para dibujos de formas, animaciones, anidación de nodos, capas, filtrado, manejo de eventos, arrastrar y soltar y mucho más.",
+    "description": {
+      "es": "Konva es un marco JavaScript de Canvas 2D para dibujos de formas, animaciones, anidación de nodos, capas, filtrado, manejo de eventos, arrastrar y soltar y mucho más.",
+      "en": "Konva is a 2D Canvas JavaScript framework for drawing shapes, animations, node nesting, layering, filtering, event handling, drag and drop and much more."
+    },
     "url": "https://konvajs.org/",
     "image": "src/assets/tools-images/konva.png",
     "tags": ["react", "canvas", "graphics"]
@@ -21,7 +27,10 @@
     "id": "heroicons",
     "name": "Heroicons",
     "category": "iconos",
-    "description": "Iconos SVG hermosos hechos por los creadores de Tailwind CSS",
+    "description": {
+      "es": "Iconos SVG hermosos hechos por los creadores de Tailwind CSS",
+      "en": "Beautiful SVG icons made by the creators of Tailwind CSS"
+    },
     "url": "https://heroicons.com/",
     "image": "src/assets/tools-images/hero-icons.png",
     "tags": ["icons", "svg", "tailwind"]
@@ -30,7 +39,10 @@
     "id": "tabler-icons",
     "name": "Tabler Icons",
     "category": "iconos",
-    "description": "Un conjunto de iconos completo con grosores de línea y espaciado perfectos, listo para Figma, aplicaciones y sistemas de diseño.",
+    "description": {
+      "es": "Un conjunto de iconos completo con grosores de línea y espaciado perfectos, listo para Figma, aplicaciones y sistemas de diseño.",
+      "en": "A complete set of icons with perfect line thickness and spacing, ready for Figma, apps, and design systems."
+    },
     "url": "https://tabler.io/icons",
     "image": "src/assets/tools-images/tabler-icons.png",
     "tags": ["icons", "svg", "open-source"]
@@ -39,7 +51,10 @@
     "id": "iconScout",
     "name": "IconScout",
     "category": "iconos",
-    "description": "SVGs, iconos vectoriales, ilustraciones, gráficos 3D y animaciones Lottie seleccionados. Más de 10 000 recursos nuevos añadidos cada día. Plugins, herramientas, editores y mucho más integrados.",
+    "description": {
+      "es": "SVGs, iconos vectoriales, ilustraciones, gráficos 3D y animaciones Lottie seleccionados. Más de 10 000 recursos nuevos añadidos cada día. Plugins, herramientas, editores y mucho más integrados.",
+      "en": "Curated SVGs, vector icons, illustrations, 3D graphics, and Lottie animations. Over 10,000 new resources added daily. Integrated plugins, tools, editors, and more."
+    },
     "url": "https://iconscout.com/",
     "image": "src/assets/tools-images/iconScout.png",
     "tags": ["icons", "svg", "library"]
@@ -48,7 +63,10 @@
     "id": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "css-tools",
-    "description": "Framework CSS utilitario para desarrollo rápido",
+    "description": {
+      "es": "Framework CSS utilitario para desarrollo rápido",
+      "en": "Utility-first CSS framework for rapid development"
+    },
     "url": "https://tailwindcss.com/",
     "image": "src/assets/tools-images/tailwind.png",
     "tags": ["css", "framework", "utility"]
@@ -57,7 +75,10 @@
     "id": "uicolors",
     "name": "UI Colors",
     "category": "css-tools",
-    "description": "Generador de paletas de colores para Tailwind CSS",
+    "description": {
+      "es": "Generador de paletas de colores para Tailwind CSS",
+      "en": "Color palette generator for Tailwind CSS"
+    },
     "url": "https://uicolors.app/create",
     "image": "src/assets/tools-images/ui-colors.png",
     "tags": ["colors", "tailwind", "palette"]
@@ -66,7 +87,10 @@
     "id": "css-grid-generator",
     "name": "CSS Grid Generator",
     "category": "css-tools",
-    "description": "Herramienta visual para generar layouts con CSS Grid",
+    "description": {
+      "es": "Herramienta visual para generar layouts con CSS Grid",
+      "en": "Visual tool to generate layouts with CSS Grid"
+    },
     "url": "https://cssgrid-generator.netlify.app/",
     "image": "src/assets/tools-images/grid-generator.png",
     "tags": ["css", "grid", "layout"]
@@ -75,7 +99,10 @@
     "id": "react-hook-form",
     "name": "React Hook Form",
     "category": "librerias",
-    "description": "Formularios de alto rendimiento, flexibles y extensibles con validación fácil de usar.",
+    "description": {
+      "es": "Formularios de alto rendimiento, flexibles y extensibles con validación fácil de usar.",
+      "en": "High-performance, flexible, and extensible forms with easy-to-use validation."
+    },
     "url": "https://react-hook-form.com/",
     "image": "src/assets/tools-images/hook-form.png",
     "tags": ["react", "forms", "validation"]
@@ -84,7 +111,10 @@
     "id": "motion",
     "name": "Motion",
     "category": "librerias",
-    "description": "Motion (anteriormente Framer Motion) es una biblioteca de animación web rápida y de nivel de producción para React, JavaScript y Vue.",
+    "description": {
+      "es": "Motion (anteriormente Framer Motion) es una biblioteca de animación web rápida y de nivel de producción para React, JavaScript y Vue.",
+      "en": "Motion (formerly Framer Motion) is a fast, production-ready animation library for React, JavaScript, and Vue."
+    },
     "url": "https://motion.dev/",
     "image": "src/assets/tools-images/framer-motion.png",
     "tags": ["react", "animations", "motion"]
@@ -93,7 +123,10 @@
     "id": "flowbite",
     "name": "Flowbite",
     "category": "ui-components",
-    "description": "Componentes UI construidos sobre Tailwind CSS",
+    "description": {
+      "es": "Componentes UI construidos sobre Tailwind CSS",
+      "en": "UI components built on top of Tailwind CSS"
+    },
     "url": "https://flowbite.com/",
     "image": "src/assets/tools-images/flowbite.png",
     "tags": ["components", "tailwind", "ui"]
@@ -102,7 +135,10 @@
     "id": "blendy",
     "name": "Blendy",
     "category": "design-tools",
-    "description": "Transforma suavemente un elemento en otro con unas pocas líneas de código.",
+    "description": {
+      "es": "Transforma suavemente un elemento en otro con unas pocas líneas de código.",
+      "en": "Smoothly transform one element into another with just a few lines of code."
+    },
     "url": "https://blendy.tahazsh.com/",
     "image": "src/assets/tools-images/blendy.png",
     "tags": ["css", "transitions", "design"]
@@ -111,7 +147,10 @@
     "id": "unsplash",
     "name": "Unsplash",
     "category": "stock-images",
-    "description": "Fotos e ilustraciones gratis en alta resolución ",
+    "description": {
+      "es": "Fotos e ilustraciones gratis en alta resolución ",
+      "en": "Free high-resolution photos and illustrations"
+    },
     "url": "https://unsplash.com/",
     "image": "src/assets/tools-images/unsplash.png",
     "tags": ["photos", "stock", "free"]
@@ -120,7 +159,10 @@
     "id": "react-query",
     "name": "TanStack Query",
     "category": "librerias",
-    "description": "Potente gestión de estados asincrónicos, utilidades de estado del servidor y obtención de datos",
+    "description": {
+      "es": "Potente gestión de estados asincrónicos, utilidades de estado del servidor y obtención de datos",
+      "en": "Powerful asynchronous state management, server state utilities, and data fetching"
+    },
     "url": "https://tanstack.com/query/latest",
     "image": "src/assets/tools-images/tanstack.png",
     "tags": ["react", "data", "cache"]
@@ -129,7 +171,10 @@
     "id": "tailwindColors",
     "name": "Tailwind Colors",
     "category": "css-tools",
-    "description": "Paleta completa de colores predefinidos de Tailwind CSS",
+    "description": {
+      "es": "Paleta completa de colores predefinidos de Tailwind CSS",
+      "en": "Complete palette of predefined colors from Tailwind CSS"
+    },
     "url": "https://tailwindcss.com/docs/colors",
     "image": "src/assets/tools-images/tailwind-colors.png",
     "tags": ["css", "colors", "tailwind"]
@@ -138,7 +183,10 @@
     "id": "photopea",
     "name": "Photopea",
     "category": "edit-images",
-    "description": "Herramientas para editar imágenes en línea",
+    "description": {
+      "es": "Herramientas para editar imágenes en línea",
+      "en": "Tools for editing images online"
+    },
     "url": "https://www.photopea.com/",
     "image": "src/assets/tools-images/photopea.png",
     "tags": ["images", "edit", "photo"]
@@ -147,7 +195,10 @@
     "id": "remove-bg",
     "name": "Remove bg",
     "category": "edit-images",
-    "description": "Elimina el fondo de las imágenes automáticamente",
+    "description": {
+      "es": "Elimina el fondo de las imágenes automáticamente",
+      "en": "Automatically remove the background from images"
+    },
     "url": "https://www.remove.bg/",
     "image": "src/assets/tools-images/remove-bg.png",
     "tags": ["photos", "edit", "background"]
@@ -156,7 +207,10 @@
     "id": "ui-verse",
     "name": "uiverse",
     "category": "ui-components",
-    "description": "Colección de componentes UI inspiradores y reutilizables",
+    "description": {
+      "es": "Colección de componentes UI inspiradores y reutilizables",
+      "en": "Collection of inspiring and reusable UI components"
+    },
     "url": "https://uiverse.io/",
     "image": "src/assets/tools-images/ui-verse.png",
     "tags": ["components", "ui", "design"]
@@ -165,7 +219,10 @@
     "id": "phosphor-icons",
     "name": "Phosphor Icons",
     "category": "iconos",
-    "description": "Una familia de iconos flexibles y personalizables",
+    "description": {
+      "es": "Una familia de iconos flexibles y personalizables",
+      "en": "A family of flexible and customizable icons"
+    },
     "url": "https://phosphoricons.com/",
     "image": "src/assets/tools-images/phosphor.png",
     "tags": ["icons", "design", "ui"]
@@ -174,7 +231,10 @@
     "id": "convertio",
     "name": "Convertio",
     "category": "file-tools",
-    "description": "Convierte tus archivos a cualquier formato",
+    "description": {
+      "es": "Convierte tus archivos a cualquier formato",
+      "en": "Convert your files to any format"
+    },
     "url": "https://convertio.co/",
     "image": "src/assets/tools-images/convertio.png",
     "tags": ["conversion", "archivos", "optmización"]
@@ -183,7 +243,10 @@
     "id": "pexels",
     "name": "Pexels",
     "category": "stock-images",
-    "description": "Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.",
+    "description": {
+      "es": "Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.",
+      "en": "The best free stock photos, royalty-free images, and videos shared by creators."
+    },
     "url": "https://www.pexels.com/es-es/",
     "image": "src/assets/tools-images/pexels.png",
     "tags": ["photos", "stock", "free"]
@@ -192,7 +255,10 @@
     "id": "react-bits",
     "name": "React Bits",
     "category": "librerias",
-    "description": "Componentes animados altamente personalizables que hacen que sus proyectos React realmente se destaquen.",
+    "description": {
+      "es": "Componentes animados altamente personalizables que hacen que sus proyectos React realmente se destaquen.",
+      "en": "Highly customizable animated components that make your React projects stand out."
+    },
     "url": "https://www.reactbits.dev/",
     "image": "src/assets/tools-images/react-bits.png",
     "tags": ["react", "fragments", "code"]
@@ -201,7 +267,10 @@
     "id": "scroll-driven-animations",
     "name": "Scroll Driven Animations",
     "category": "design-tools",
-    "description": "Un montón de demostraciones y herramientas para mostrar animaciones basadas en desplazamiento.",
+    "description": {
+      "es": "Un montón de demostraciones y herramientas para mostrar animaciones basadas en desplazamiento.",
+      "en": "A bunch of demos and tools to showcase scroll-driven animations."
+    },
     "url": "https://scroll-driven-animations.style/",
     "image": "src/assets/tools-images/scroll-driven.png",
     "tags": ["css", "scroll", "animations"]
@@ -210,7 +279,10 @@
     "id": "shot-so",
     "name": "Shots",
     "category": "design-tools",
-    "description": "Crea maquetas increíbles. Animaciones, videos e imágenes increíbles para tus redes sociales, sitio web y más.",
+    "description": {
+      "es": "Crea maquetas increíbles. Animaciones, videos e imágenes increíbles para tus redes sociales, sitio web y más.",
+      "en": "Create stunning mockups. Amazing animations, videos, and images for your social media, website, and more."
+    },
     "url": "https://shots.so/",
     "image": "src/assets/tools-images/shots.png",
     "tags": ["mockup", "design", "prototyping"]
@@ -219,7 +291,10 @@
     "id": "hero-ui",
     "name": "Hero UI (NextUI)",
     "category": "ui-components",
-    "description": "Hermosa, rápida y moderna biblioteca React UI para crear aplicaciones web accesibles y personalizables.",
+    "description": {
+      "es": "Hermosa, rápida y moderna biblioteca React UI para crear aplicaciones web accesibles y personalizables.",
+      "en": "Beautiful, fast, and modern React UI library for building accessible and customizable web applications."
+    },
     "url": "https://www.heroui.com/",
     "image": "src/assets/tools-images/heroUI.png",
     "tags": ["components", "react", "ui"]
@@ -228,7 +303,10 @@
     "id": "dafont",
     "name": "DaFont",
     "category": "fonts",
-    "description": "Archivo de fuentes de descarga gratuita.",
+    "description": {
+      "es": "Archivo de fuentes de descarga gratuita.",
+      "en": "Archive of free downloadable fonts."
+    },
     "url": "https://www.dafont.com/",
     "image": "src/assets/tools-images/dafont.png",
     "tags": ["fonts", "typography", "design"]
@@ -237,7 +315,10 @@
     "id": "google-fonts",
     "name": "Google Fonts",
     "category": "fonts",
-    "description": "Biblioteca de fuentes web gratuitas y de código abierto proporcionada por Google.",
+    "description": {
+      "es": "Biblioteca de fuentes web gratuitas y de código abierto proporcionada por Google.",
+      "en": "Library of free and open-source web fonts provided by Google."
+    },
     "url": "https://fonts.google.com/",
     "image": "src/assets/tools-images/google-fonts.png",
     "tags": ["fonts", "typography", "design"]
@@ -246,7 +327,10 @@
     "id": "font-squirrel",
     "name": "Font Squirrel",
     "category": "fonts",
-    "description": "Font Squirrel explora internet en busca de fuentes gratuitas y de alta calidad. Descarga miles de fuentes gratuitas, legales y de alta calidad.",
+    "description": {
+      "es": "Font Squirrel explora internet en busca de fuentes gratuitas y de alta calidad. Descarga miles de fuentes gratuitas, legales y de alta calidad.",
+      "en": "Font Squirrel scours the internet for high-quality, free fonts. Download thousands of free, legal, high-quality fonts."
+    },
     "url": "https://www.fontsquirrel.com/",
     "image": "src/assets/tools-images/font-squirrel.png",
     "tags": ["fonts", "typography", "design"]
@@ -255,7 +339,10 @@
     "id": "flaticon",
     "name": "Flaticon",
     "category": "iconos",
-    "description": "Más de 50,500 iconos de interfaz gratuitos en 9 estilos diferentes. Son completamente editables y personalizables para que los adaptes a tu estilo.",
+    "description": {
+      "es": "Más de 50,500 iconos de interfaz gratuitos en 9 estilos diferentes. Son completamente editables y personalizables para que los adaptes a tu estilo.",
+      "en": "Over 50,500 free interface icons in 9 different styles. They are fully editable and customizable to fit your style."
+    },
     "url": "https://www.flaticon.com/",
     "image": "src/assets/tools-images/flaticon.png",
     "tags": ["icons", "design", "ui"]
@@ -264,7 +351,10 @@
     "id": "font-awesome",
     "name": "Font Awesome",
     "category": "iconos",
-    "description": "Biblioteca de iconos y herramientas de diseño para todo tipo de proyectos web.",
+    "description": {
+      "es": "Biblioteca de iconos y herramientas de diseño para todo tipo de proyectos web.",
+      "en": "Icon library and design tools for all kinds of web projects."
+    },
     "url": "https://fontawesome.com/",
     "image": "src/assets/tools-images/font-awesome.png",
     "tags": ["icons", "design", "ui"]
@@ -273,7 +363,10 @@
     "id": "mdn-web-docs",
     "name": "MDN Web Docs",
     "category": "documentation",
-    "description": "El sitio MDN Web Docs proporciona información sobre tecnologías web abiertas, incluidos HTML, CSS y API para sitios web y aplicaciones web progresivas.",
+    "description": {
+      "es": "El sitio MDN Web Docs proporciona información sobre tecnologías web abiertas, incluidos HTML, CSS y API para sitios web y aplicaciones web progresivas.",
+      "en": "The MDN Web Docs site provides information about open web technologies, including HTML, CSS, and APIs for web sites and progressive web applications."
+    },
     "url": "https://developer.mozilla.org/",
     "image": "src/assets/tools-images/mdn.png",
     "tags": ["documentation", "web", "languages"]
@@ -282,7 +375,10 @@
     "id": "ecma",
     "name": "ECMA International",
     "category": "documentation",
-    "description": "Ecma International es una asociación industrial dedicada a la estandarización de sistemas de información y comunicación.",
+    "description": {
+      "es": "Ecma International es una asociación industrial dedicada a la estandarización de sistemas de información y comunicación.",
+      "en": "Ecma International is an industry association dedicated to the standardization of information and communication systems."
+    },
     "url": "https://ecma-international.org/",
     "image": "src/assets/tools-images/ecma.png",
     "tags": ["documentation", "languages", "standard"]
@@ -291,7 +387,10 @@
     "id": "lipsum",
     "name": "Lorem Ipsum",
     "category": "design-tools",
-    "description": "Sitio de referencia sobre Lorem Ipsum, dando información sobre sus orígenes, así como un generador aleatorio de Lipsum.",
+    "description": {
+      "es": "Sitio de referencia sobre Lorem Ipsum, dando información sobre sus orígenes, así como un generador aleatorio de Lipsum.",
+      "en": "Reference site for Lorem Ipsum, providing information about its origins, as well as a random Lipsum generator."
+    },
     "url": "https://www.lipsum.com/",
     "image": "src/assets/tools-images/lipsum.png",
     "tags": ["text", "design", "placeholder"]
@@ -300,7 +399,10 @@
     "id": "python",
     "name": "Python",
     "category": "documentation",
-    "description": "Tanto si eres nuevo en programación como si eres un desarrollador experimentado, aprender y usar Python es fácil.",
+    "description": {
+      "es": "Tanto si eres nuevo en programación como si eres un desarrollador experimentado, aprender y usar Python es fácil.",
+      "en": "Whether you're new to programming or an experienced developer, learning and using Python is easy."
+    },
     "url": "https://www.python.org/",
     "image": "src/assets/tools-images/python.png",
     "tags": ["documentation", "languages", "python"]
@@ -309,7 +411,10 @@
     "id": "java",
     "name": "Java",
     "category": "documentation",
-    "description": "Java Platform, Standard Edition (Java SE) le ayuda a desarrollar e implementar aplicaciones Java en equipos de escritorio y servidores. Java ofrece la interfaz de usuario completa, el rendimiento, la versatilidad, la portabilidad y la seguridad que requieren las aplicaciones actuales.",
+    "description": {
+      "es": "Java Platform, Standard Edition (Java SE) le ayuda a desarrollar e implementar aplicaciones Java en equipos de escritorio y servidores. Java ofrece la interfaz de usuario completa, el rendimiento, la versatilidad, la portabilidad y la seguridad que requieren las aplicaciones actuales.",
+      "en": "Java Platform, Standard Edition (Java SE) helps you develop and deploy Java applications on desktops and servers. Java provides the complete user interface, performance, versatility, portability, and security that today’s applications require."
+    },
     "url": "https://docs.oracle.com/en/java/javase/",
     "image": "src/assets/tools-images/java.png",
     "tags": ["documentation", "languages", "java"]
@@ -318,7 +423,10 @@
     "id": "c",
     "name": "C",
     "category": "documentation",
-    "description": "C es un lenguaje de programación de propósito general que proporciona construcciones de lenguaje de bajo nivel que permiten un acceso eficiente a la memoria y una representación cercana al lenguaje ensamblador.",
+    "description": {
+      "es": "C es un lenguaje de programación de propósito general que proporciona construcciones de lenguaje de bajo nivel que permiten un acceso eficiente a la memoria y una representación cercana al lenguaje ensamblador.",
+      "en": "C is a general-purpose programming language that provides low-level language constructs that enable efficient memory access and a representation close to assembly language."
+    },
     "url": "https://en.cppreference.com/w/c.html",
     "image": "src/assets/tools-images/c.png",
     "tags": ["documentation", "languages", "c"]
@@ -327,7 +435,10 @@
     "id": "c++",
     "name": "C++",
     "category": "documentation",
-    "description": "C++ es un lenguaje de programación de propósito general creado por Bjarne Stroustrup como una extensión del lenguaje de programación C, o 'C con clases'.",
+    "description": {
+      "es": "C++ es un lenguaje de programación de propósito general creado por Bjarne Stroustrup como una extensión del lenguaje de programación C, o 'C con clases'.",
+      "en": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with classes'."
+    },
     "url": "https://en.cppreference.com/w/",
     "image": "src/assets/tools-images/c++.png",
     "tags": ["documentation", "languages", "c++"]
@@ -336,7 +447,10 @@
     "id": "c#",
     "name": "C# (C Sharp)",
     "category": "documentation",
-    "description": "C# es un lenguaje de programación moderno, orientado a objetos y seguro para tipos desarrollado por Microsoft como parte de su plataforma .NET.",
+    "description": {
+      "es": "C# es un lenguaje de programación moderno, orientado a objetos y seguro para tipos desarrollado por Microsoft como parte de su plataforma .NET.",
+      "en": "C# is a modern, object-oriented, and type-safe programming language developed by Microsoft as part of its .NET platform."
+    },
     "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
     "image": "src/assets/tools-images/csharp.png",
     "tags": ["documentation", "languages", "c#", "csharp"]
@@ -345,7 +459,10 @@
     "id": "php",
     "name": "PHP",
     "category": "documentation",
-    "description": "PHP es un lenguaje de programación de uso general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico.",
+    "description": {
+      "es": "PHP es un lenguaje de programación de uso general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico.",
+      "en": "PHP is a general-purpose server-side scripting language originally designed for dynamic web content development."
+    },
     "url": "https://www.php.net/manual",
     "image": "src/assets/tools-images/php.png",
     "tags": ["documentation", "languages", "php"]
@@ -354,7 +471,10 @@
     "id": "ruby",
     "name": "Ruby",
     "category": "documentation",
-    "description": "Un lenguaje de programación dinámico y de código abierto centrado en la simplicidad y la productividad. Su sintaxis es elegante, fácil de leer y escribir.",
+    "description": {
+      "es": "Un lenguaje de programación dinámico y de código abierto centrado en la simplicidad y la productividad. Su sintaxis es elegante, fácil de leer y escribir.",
+      "en": "A dynamic, open-source programming language focused on simplicity and productivity. Its syntax is elegant, easy to read, and easy to write."
+    },
     "url": "https://www.ruby-lang.org/",
     "image": "src/assets/tools-images/ruby.png",
     "tags": ["documentation", "languages", "ruby"]
@@ -363,7 +483,10 @@
     "id": "swift",
     "name": "Swift",
     "category": "documentation",
-    "description": "Swift es un lenguaje de programación potente e intuitivo para macOS, iOS, watchOS, tvOS y más. Es fácil de usar y está diseñado para que los desarrolladores puedan crear aplicaciones rápidas y seguras.",
+    "description": {
+      "es": "Swift es un lenguaje de programación potente e intuitivo para macOS, iOS, watchOS, tvOS y más. Es fácil de usar y está diseñado para que los desarrolladores puedan crear aplicaciones rápidas y seguras.",
+      "en": "Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, tvOS, and more. It is easy to use and designed to help developers create fast and secure applications."
+    },
     "url": "https://www.swift.org/",
     "image": "src/assets/tools-images/swift.png",
     "tags": ["documentation", "languages", "swift"]
@@ -372,7 +495,10 @@
     "id": "kotlin",
     "name": "Kotlin",
     "category": "documentation",
-    "description": "Kotlin es un lenguaje de programación moderno, conciso, seguro, interoperable con Java y otros lenguajes, y ofrece múltiples maneras de reutilizar código entre múltiples plataformas para una programación productiva.",
+    "description": {
+      "es": "Kotlin es un lenguaje de programación moderno, conciso, seguro, interoperable con Java y otros lenguajes, y ofrece múltiples maneras de reutilizar código entre múltiples plataformas para una programación productiva.",
+      "en": "Kotlin is a modern, concise, safe, and interoperable programming language with Java and other languages, offering multiple ways to reuse code across multiple platforms for productive programming."
+    },
     "url": "https://kotlinlang.org/docs/home.html",
     "image": "src/assets/tools-images/kotlin.png",
     "tags": ["documentation", "languages", "kotlin"]
@@ -381,7 +507,10 @@
     "id": "go",
     "name": "Go (Golang)",
     "category": "documentation",
-    "description": "El lenguaje de programación Go es un proyecto de código abierto para hacer que los programadores sean más productivos.",
+    "description": {
+      "es": "El lenguaje de programación Go es un proyecto de código abierto para hacer que los programadores sean más productivos.",
+      "en": "The Go programming language is an open-source project to make programmers more productive."
+    },
     "url": "https://go.dev/doc/",
     "image": "src/assets/tools-images/go.png",
     "tags": ["documentation", "languages", "go", "golang"]
@@ -390,7 +519,10 @@
     "id": "rust",
     "name": "Rust",
     "category": "documentation",
-    "description": "Rust es un lenguaje de programación de sistemas que prioriza la velocidad, la memoria y la seguridad, especialmente la seguridad de los subprocesos.",
+    "description": {
+      "es": "Rust es un lenguaje de programación de sistemas que prioriza la velocidad, la memoria y la seguridad, especialmente la seguridad de los subprocesos.",
+      "en": "Rust is a systems programming language that prioritizes speed, memory safety, and thread safety."
+    },
     "url": "https://doc.rust-lang.org/stable/",
     "image": "src/assets/tools-images/rust.png",
     "tags": ["documentation", "languages", "rust"]
@@ -399,7 +531,10 @@
     "id": "typescript",
     "name": "TypeScript",
     "category": "documentation",
-    "description": "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
+    "description": {
+      "es": "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
+      "en": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+    },
     "url": "https://www.typescriptlang.org/docs/",
     "image": "src/assets/tools-images/typescript.png",
     "tags": ["documentation", "languages", "typescript"]
@@ -408,7 +543,10 @@
     "id": "dart",
     "name": "Dart",
     "category": "documentation",
-    "description": "Dart es un lenguaje optimizado para el cliente para desarrollar aplicaciones rápidas en cualquier plataforma.",
+    "description": {
+      "es": "Dart es un lenguaje optimizado para el cliente para desarrollar aplicaciones rápidas en cualquier plataforma.",
+      "en": "Dart is a client-optimized language for fast app development on any platform."
+    },
     "url": "https://dart.dev/docs",
     "image": "src/assets/tools-images/dart.png",
     "tags": ["documentation", "languages", "dart"]
@@ -417,7 +555,10 @@
     "id": "scala",
     "name": "Scala",
     "category": "documentation",
-    "description": "Scala es un lenguaje de programación que integra características de programación orientada a objetos y programación funcional.",
+    "description": {
+      "es": "Scala es un lenguaje de programación que integra características de programación orientada a objetos y programación funcional.",
+      "en": "Scala is a programming language that integrates object-oriented and functional programming features."
+    },
     "url": "https://docs.scala-lang.org/",
     "image": "src/assets/tools-images/scala.png",
     "tags": ["documentation", "languages", "scala"]
@@ -426,7 +567,10 @@
     "id": "R",
     "name": "R",
     "category": "documentation",
-    "description": "R es un lenguaje y entorno para computación estadística y gráficos. Es un proyecto GNU similar al lenguaje S.",
+    "description": {
+      "es": "R es un lenguaje y entorno para computación estadística y gráficos. Es un proyecto GNU similar al lenguaje S.",
+      "en": "R is a language and environment for statistical computing and graphics. It is a GNU project similar to the S language."
+    },
     "url": "https://www.r-project.org/other-docs.html",
     "image": "src/assets/tools-images/r.png",
     "tags": ["documentation", "languages", "R"]
@@ -435,7 +579,10 @@
     "id": "json-data-ai",
     "name": "JSON Data AI",
     "category": "data-tools",
-    "description": "Genera datos JSON de muestra para pruebas y desarrollo.",
+    "description": {
+      "es": "Genera datos JSON de muestra para pruebas y desarrollo.",
+      "en": "Generates sample JSON data for testing and development."
+    },
     "url": "https://www.jsondataai.com/",
     "image": "src/assets/tools-images/json-data-ai.png",
     "tags": ["data", "json", "api"]
@@ -444,7 +591,10 @@
     "id": "faker-js",
     "name": "Faker.js",
     "category": "data-tools",
-    "description": "Generar cantidades masivas de datos falsos (pero realistas) para pruebas y desarrollo.",
+    "description": {
+      "es": "Generar cantidades masivas de datos falsos (pero realistas) para pruebas y desarrollo.",
+      "en": "Generate massive amounts of fake (but realistic) data for testing and development."
+    },
     "url": "https://fakerjs.dev/",
     "image": "src/assets/tools-images/faker-js.png",
     "tags": ["data", "javascript", "mock"]
@@ -453,7 +603,10 @@
     "id": "radix-ui",
     "name": "Radix UI",
     "category": "ui-components",
-    "description": "Una biblioteca de componentes de código abierto optimizada para un desarrollo rápido, un mantenimiento sencillo y una accesibilidad óptima. Simplemente impórtela y listo, sin necesidad de configuración.",
+    "description": {
+      "es": "Una biblioteca de componentes de código abierto optimizada para un desarrollo rápido, un mantenimiento sencillo y una accesibilidad óptima. Simplemente impórtela y listo, sin necesidad de configuración.",
+      "en": "A library of open-source components optimized for rapid development, easy maintenance, and optimal accessibility. Just import it and you're ready to go, no configuration needed."
+    },
     "url": "https://www.radix-ui.com/",
     "image": "src/assets/tools-images/radix-ui.png",
     "tags": ["components", "react", "ui"]
@@ -462,7 +615,10 @@
     "id": "shadcn-ui",
     "name": "shadcn UI",
     "category": "ui-components",
-    "description": "Un conjunto de componentes con un diseño atractivo que puedes personalizar, ampliar y desarrollar. Empieza aquí y personalízalo. Código abierto.",
+    "description": {
+      "es": "Un conjunto de componentes con un diseño atractivo que puedes personalizar, ampliar y desarrollar. Empieza aquí y personalízalo. Código abierto.",
+      "en": "A set of components with an attractive design that you can customize, extend, and develop. Start here and make it your own. Open source."
+    },
     "url": "https://ui.shadcn.com/",
     "image": "src/assets/tools-images/shadcn.png",
     "tags": ["components", "react", "ui"]
@@ -471,7 +627,10 @@
     "id": "animista",
     "name": "Animista",
     "category": "design-tools",
-    "description": "Animista es una biblioteca de animaciones CSS y un lugar donde puedes jugar con una colección de animaciones CSS listas para usar y descargar solo aquellas que usarás.",
+    "description": {
+      "es": "Animista es una biblioteca de animaciones CSS y un lugar donde puedes jugar con una colección de animaciones CSS listas para usar y descargar solo aquellas que usarás.",
+      "en": "Animista is a library of CSS animations and a place where you can play with a collection of ready-to-use CSS animations and download only the ones you will use."
+    },
     "url": "https://animista.net/",
     "image": "src/assets/tools-images/animista.png",
     "tags": ["css", "animations", "design"]
@@ -480,7 +639,10 @@
     "id": "magic-animations",
     "name": "Magic Animations",
     "category": "css-tools",
-    "description": "Magic CSS es un conjunto de animaciones simples para incluir en sus proyectos web o aplicaciones.",
+    "description": {
+      "es": "Magic CSS es un conjunto de animaciones simples para incluir en sus proyectos web o aplicaciones.",
+      "en": "Magic CSS is a set of simple animations to include in your web projects or applications."
+    },
     "url": "https://www.minimamente.com/project/magic/",
     "image": "src/assets/tools-images/magic-animations.png",
     "tags": ["css", "animations", "design"]
@@ -489,7 +651,10 @@
     "id": "neumorphism",
     "name": "Neumorphism",
     "category": "css-tools",
-    "description": "Neumorphism es una tendencia de diseño que utiliza sombras sutiles para crear un efecto de relieve.",
+    "description": {
+      "es": "Neumorphism es una tendencia de diseño que utiliza sombras sutiles para crear un efecto de relieve.",
+      "en": "Neumorphism is a design trend that uses subtle shadows to create a raised effect."
+    },
     "url": "https://neumorphism.io/",
     "image": "src/assets/tools-images/neumorphism.png",
     "tags": ["css", "design", "neumorphism"]
@@ -498,7 +663,10 @@
     "id": "css-gradientes",
     "name": "CSS Gradient",
     "category": "css-tools",
-    "description": "CSS Gradient es un proyecto de Designstripe que te permite crear fondos degradados gratis para tu sitio web. Además de ser un generador de degradados CSS, el sitio también está repleto de contenido colorido sobre degradados, desde artículos técnicos hasta ejemplos reales de degradados como Stripe e Instagram.",
+    "description": {
+      "es": "CSS Gradient es un proyecto de Designstripe que te permite crear fondos degradados gratis para tu sitio web. Además de ser un generador de degradados CSS, el sitio también está repleto de contenido colorido sobre degradados, desde artículos técnicos hasta ejemplos reales de degradados como Stripe e Instagram.",
+      "en": "CSS Gradient is a Designstripe project that allows you to create free gradient backgrounds for your website. In addition to being a CSS gradient generator, the site is also packed with colorful content about gradients, from technical articles to real-world examples of gradients like Stripe and Instagram."
+    },
     "url": "https://cssgradient.io/",
     "image": "src/assets/tools-images/css-gradient.png",
     "tags": ["css", "gradients", "design"]
@@ -507,7 +675,10 @@
     "id": "glassmorphism",
     "name": "Glassmorphism Generator",
     "category": "css-tools",
-    "description": "Glassmorphism es un estilo de diseño, acuñado por Michal Malewicz de Hype4.Academy para conectar y combinar todos los usos del efecto de “vidrio esmerilado” en la interfaz de usuario.",
+    "description": {
+      "es": "Glassmorphism es un estilo de diseño, acuñado por Michal Malewicz de Hype4.Academy para conectar y combinar todos los usos del efecto de “vidrio esmerilado” en la interfaz de usuario.",
+      "en": "Glassmorphism is a design style, coined by Michal Malewicz of Hype4.Academy, to connect and combine all uses of the 'frosted glass' effect in user interfaces."
+    },
     "url": "https://hype4.academy/tools/glassmorphism-generator",
     "image": "src/assets/tools-images/glassmorphism.png",
     "tags": ["css", "design", "glassmorphism"]
@@ -516,7 +687,10 @@
     "id": "haikei",
     "name": "Haikei",
     "category": "design-tools",
-    "description": "Haikei es una aplicación web para generar contenido visual sorprendente, listo para usar con sus herramientas de diseño y flujo de trabajo.",
+    "description": {
+      "es": "Haikei es una aplicación web para generar contenido visual sorprendente, listo para usar con sus herramientas de diseño y flujo de trabajo.",
+      "en": "Haikei is a web application for generating stunning visual content, ready to use with your design tools and workflow."
+    },
     "url": "https://haikei.app/",
     "image": "src/assets/tools-images/haikei.png",
     "tags": ["svg", "design", "backgrounds"]
@@ -525,7 +699,10 @@
     "id": "lottie",
     "name": "Lottie Files",
     "category": "design-tools",
-    "description": "Cree, administre e implemente animaciones livianas en sitios web, aplicaciones, presentaciones, redes sociales y más.",
+    "description": {
+      "es": "Cree, administre e implemente animaciones livianas en sitios web, aplicaciones, presentaciones, redes sociales y más.",
+      "en": "Create, manage, and implement lightweight animations on websites, applications, presentations, social media, and more."
+    },
     "url": "https://lottiefiles.com/",
     "image": "src/assets/tools-images/lottie-files.png",
     "tags": ["svg", "design", "animations"]
@@ -534,7 +711,10 @@
     "id": "supabase",
     "name": "Supabase",
     "category": "backend-tools",
-    "description": "Supabase es la plataforma de desarrollo de Postgres. Comienza tu proyecto con una base de datos Postgres, autenticación, API instantáneas, funciones Edge, suscripciones en tiempo real, almacenamiento e incrustaciones vectoriales.",
+    "description": {
+      "es": "Supabase es la plataforma de desarrollo de Postgres. Comienza tu proyecto con una base de datos Postgres, autenticación, API instantáneas, funciones Edge, suscripciones en tiempo real, almacenamiento e incrustaciones vectoriales.",
+      "en": "Supabase is the Postgres development platform. Start your project with a Postgres database, authentication, instant APIs, Edge functions, real-time subscriptions, storage, and vector embeddings."
+    },
     "url": "https://supabase.com",
     "image": "src/assets/tools-images/supabase.png",
     "tags": ["backend", "database", "auth"]
@@ -543,7 +723,10 @@
     "id": "color-hunt",
     "name": "Color Hunt",
     "category": "css-tools",
-    "description": "Descubre las nuevas paletas de colores seleccionadas de Color Hunt. Inspírate con los colores para tus proyectos de diseño y arte.",
+    "description": {
+      "es": "Descubre las nuevas paletas de colores seleccionadas de Color Hunt. Inspírate con los colores para tus proyectos de diseño y arte.",
+      "en": "Discover the new color palettes curated from Color Hunt. Get inspired with colors for your design and art projects."
+    },
     "url": "https://colorhunt.co/",
     "image": "src/assets/tools-images/color-hunt.png",
     "tags": ["colors", "palette", "design"]
@@ -552,7 +735,10 @@
     "id": "color-picker",
     "name": "Color Picker",
     "category": "css-tools",
-    "description": "Sube, pega o ingresa una URL para extraer colores con HEX, RGB y más.",
+    "description": {
+      "es": "Sube, pega o ingresa una URL para extraer colores con HEX, RGB y más.",
+      "en": "Upload, paste, or enter a URL to extract colors with HEX, RGB, and more."
+    },
     "url": "https://imagecolorpicker.com/",
     "image": "src/assets/tools-images/color-picker.png",
     "tags": ["colors", "picker", "design"]
@@ -561,7 +747,10 @@
     "id": "encycolorpedia",
     "name": "Encycolorpedia",
     "category": "css-tools",
-    "description": "Esquemas de colores, combinaciones, gradientes y conversiones de espacio de color.",
+    "description": {
+      "es": "Esquemas de colores, combinaciones, gradientes y conversiones de espacio de color.",
+      "en": "Color schemes, combinations, gradients, and color space conversions."
+    },
     "url": "https://encycolorpedia.es/",
     "image": "src/assets/tools-images/encycolorpedia.png",
     "tags": ["css", "reference", "design"]
@@ -570,7 +759,10 @@
     "id": "vercel",
     "name": "Vercel",
     "category": "backend-tools",
-    "description": "Cree e implemente en la nube de IA. Vercel proporciona las herramientas de desarrollo y la infraestructura en la nube para crear, escalar y proteger una web más rápida y personalizada.",
+    "description": {
+      "es": "Cree e implemente en la nube de IA. Vercel proporciona las herramientas de desarrollo y la infraestructura en la nube para crear, escalar y proteger una web más rápida y personalizada.",
+      "en": "Create and deploy in the AI cloud. Vercel provides the development tools and cloud infrastructure to create, scale, and secure a faster, more personalized web."
+    },
     "url": "https://vercel.com/",
     "image": "src/assets/tools-images/vercel.png",
     "tags": ["deployment", "frontend", "static"]
@@ -579,7 +771,10 @@
     "id": "netlify",
     "name": "Netlify",
     "category": "backend-tools",
-    "description": "Lleva tus ideas a la web. Crea con IA o código, implementa al instante. Una plataforma con todo lo que necesitas para crear aplicaciones reales. ¡Comienza ya! Navan.",
+    "description": {
+      "es": "Lleva tus ideas a la web. Crea con IA o código, implementa al instante. Una plataforma con todo lo que necesitas para crear aplicaciones reales. ¡Comienza ya! Navan.",
+      "en": "Bring your ideas to the web. Create with AI or code, deploy instantly. A platform with everything you need to build real applications. Get started now! Navan."
+    },
     "url": "https://www.netlify.com/",
     "image": "src/assets/tools-images/netlify.png",
     "tags": ["deployment", "frontend", "static"]
@@ -588,7 +783,10 @@
     "id": "postman",
     "name": "Postman",
     "category": "backend-tools",
-    "description": "Acelere el desarrollo de API con la plataforma integral de Postman. Optimice la colaboración y simplifique el ciclo de vida de las API para obtener resultados más rápidos y mejores.",
+    "description": {
+      "es": "Acelere el desarrollo de API con la plataforma integral de Postman. Optimice la colaboración y simplifique el ciclo de vida de las API para obtener resultados más rápidos y mejores.",
+      "en": "Accelerate API development with Postman's comprehensive platform. Streamline collaboration and simplify the API lifecycle for faster, better results."
+    },
     "url": "https://www.postman.com/",
     "image": "src/assets/tools-images/postman.png",
     "tags": ["api", "testing", "collaboration"]
@@ -597,7 +795,10 @@
     "id": "mongoDB",
     "name": "MongoDB",
     "category": "backend-tools",
-    "description": "Alojamiento de bases de datos en la nube en línea: comience en segundos con MongoDB Atlas, la base de datos global con cifrado pionero en la industria.",
+    "description": {
+      "es": "Alojamiento de bases de datos en la nube en línea: comience en segundos con MongoDB Atlas, la base de datos global con cifrado pionero en la industria.",
+      "en": "Online cloud database hosting: get started in seconds with MongoDB Atlas, the global database with industry-leading encryption."
+    },
     "url": "https://www.mongodb.com/",
     "image": "src/assets/tools-images/mongoDB.png",
     "tags": ["database", "nosql", "backend"]
@@ -606,7 +807,10 @@
     "id": "postgreSQL",
     "name": "PostgreSQL",
     "category": "backend-tools",
-    "description": "PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 35 años de desarrollo activo que le ha valido una sólida reputación por su confiabilidad, solidez de funciones y rendimiento.",
+    "description": {
+      "es": "PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 35 años de desarrollo activo que le ha valido una sólida reputación por su confiabilidad, solidez de funciones y rendimiento.",
+      "en": "PostgreSQL is a powerful open-source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+    },
     "url": "https://www.postgresql.org/",
     "image": "src/assets/tools-images/postgreSQL.png",
     "tags": ["database", "sql", "backend"]
@@ -615,7 +819,10 @@
     "id": "cypress",
     "name": "Cypress",
     "category": "testing-tools",
-    "description": "Con Cypress, puede crear fácilmente pruebas para sus aplicaciones web modernas, depurarlas visualmente y ejecutarlas automáticamente en sus compilaciones de integración continua.",
+    "description": {
+      "es": "Con Cypress, puede crear fácilmente pruebas para sus aplicaciones web modernas, depurarlas visualmente y ejecutarlas automáticamente en sus compilaciones de integración continua.",
+      "en": "With Cypress, you can easily create tests for your modern web applications, visually debug them, and run them automatically in your continuous integration builds."
+    },
     "url": "https://www.cypress.io/",
     "image": "src/assets/tools-images/cypress.png",
     "tags": ["testing", "e2e", "automation"]
@@ -624,7 +831,10 @@
     "id": "playwright",
     "name": "Playwright",
     "category": "testing-tools",
-    "description": "Playwright Test es un framework de pruebas integral para aplicaciones web modernas. Integra ejecutor de pruebas, aserciones, aislamiento, paralelización y herramientas avanzadas.",
+    "description": {
+      "es": "Playwright Test es un framework de pruebas integral para aplicaciones web modernas. Integra ejecutor de pruebas, aserciones, aislamiento, paralelización y herramientas avanzadas.",
+      "en": "Playwright Test is a comprehensive testing framework for modern web applications. It integrates test runners, assertions, isolation, parallelization, and advanced tooling."
+    },
     "url": "https://playwright.dev/",
     "image": "src/assets/tools-images/playwright.png",
     "tags": ["testing", "e2e", "automation"]
@@ -633,7 +843,10 @@
     "id": "jest",
     "name": "Jest",
     "category": "testing-tools",
-    "description": "Jest es un excelente framework de pruebas de JavaScript centrado en la simplicidad. Funciona con proyectos que utilizan: Babel, TypeScript, Node, React, Angular, Vue y más.",
+    "description": {
+      "es": "Jest es un excelente framework de pruebas de JavaScript centrado en la simplicidad. Funciona con proyectos que utilizan: Babel, TypeScript, Node, React, Angular, Vue y más.",
+      "en": "Jest is a great JavaScript testing framework focused on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue, and more."
+    },
     "url": "https://jestjs.io/",
     "image": "src/assets/tools-images/jest.png",
     "tags": ["testing", "javascript", "react"]
@@ -642,7 +855,10 @@
     "id": "figma",
     "name": "Figma",
     "category": "design-tools",
-    "description": "Herramienta colaborativa de diseño de interfaces.",
+    "description": {
+      "es": "Herramienta colaborativa de diseño de interfaces.",
+      "en": "Collaborative interface design tool."
+    },
     "url": "https://www.figma.com/",
     "image": "src/assets/tools-images/figma.png",
     "tags": ["design", "ui", "collaboration"]
@@ -651,7 +867,10 @@
     "id": "miro",
     "name": "Miro",
     "category": "design-tools",
-    "description": "Conoce el espacio de innovación, la plataforma de colaboración impulsada por IA que ayuda a tu equipo a crear el producto correcto más rápido.",
+    "description": {
+      "es": "Conoce el espacio de innovación, la plataforma de colaboración impulsada por IA que ayuda a tu equipo a crear el producto correcto más rápido.",
+      "en": "Meet Miro, the AI-powered collaboration platform that helps your team create the right product faster."
+    },
     "url": "https://miro.com/",
     "image": "src/assets/tools-images/miro.png",
     "tags": ["design", "collaboration", "whiteboard"]
@@ -660,7 +879,10 @@
     "id": "excalidraw",
     "name": "Excalidraw",
     "category": "design-tools",
-    "description": "Excalidraw es una herramienta de pizarra virtual colaborativa que le permite dibujar fácilmente diagramas con una apariencia dibujada a mano.",
+    "description": {
+      "es": "Excalidraw es una herramienta de pizarra virtual colaborativa que le permite dibujar fácilmente diagramas con una apariencia dibujada a mano.",
+      "en": "Excalidraw is a collaborative virtual whiteboard tool that allows you to easily draw diagrams with a hand-drawn feel."
+    },
     "url": "https://excalidraw.com/",
     "image": "src/assets/tools-images/excalidraw.png",
     "tags": ["design", "collaboration", "whiteboard"]
@@ -669,7 +891,10 @@
     "id": "page-speed-insights",
     "name": "Page Speed Insights",
     "category": "seo-performance",
-    "description": "Herramienta gratuita de Google que analiza la velocidad y la experiencia de carga de un sitio web, tanto en móvil como en escritorio.",
+    "description": {
+      "es": "Herramienta gratuita de Google que analiza la velocidad y la experiencia de carga de un sitio web, tanto en móvil como en escritorio.",
+      "en": "Google's free tool that analyzes the speed and loading experience of a website, both on mobile and desktop."
+    },
     "url": "https://pagespeed.web.dev/",
     "image": "src/assets/tools-images/page-speed-insights.png",
     "tags": ["performance", "seo", "web"]
@@ -678,7 +903,10 @@
     "id": "gtmetrix",
     "name": "GTmetrix",
     "category": "seo-performance",
-    "description": "Pruebe su página en diferentes ubicaciones, monitoree y configure alertas, configure opciones de análisis y más con una cuenta gratuita de GTmetrix.",
+    "description": {
+      "es": "Pruebe su página en diferentes ubicaciones, monitoree y configure alertas, configure opciones de análisis y más con una cuenta gratuita de GTmetrix.",
+      "en": "Test your page from different locations, monitor and set alerts, configure analysis options, and more with a free GTmetrix account."
+    },
     "url": "https://gtmetrix.com/",
     "image": "src/assets/tools-images/gt-metrix.png",
     "tags": ["performance", "seo", "web"]
@@ -687,7 +915,10 @@
     "id": "web-page-test",
     "name": "WebPageTest",
     "category": "seo-performance",
-    "description": "Una ejecución de prueba en WebPageTest se define como una ejecución única dentro de una configuración de prueba para medir el rendimiento de una página web en un navegador y una ubicación específicos.",
+    "description": {
+      "es": "Una ejecución de prueba en WebPageTest se define como una ejecución única dentro de una configuración de prueba para medir el rendimiento de una página web en un navegador y una ubicación específicos.",
+      "en": "A test run on WebPageTest is defined as a single run within a test configuration to measure the performance of a web page in a specific browser and location."
+    },
     "url": "https://www.webpagetest.org/",
     "image": "src/assets/tools-images/web-page-test.png",
     "tags": ["performance", "seo", "web"]
@@ -696,7 +927,10 @@
     "id": "trello",
     "name": "Trello",
     "category": "project-management",
-    "description": "Planificador diario en línea — Trello es la manera divertida, flexible y gratuita para organizar planes, proyectos y más.",
+    "description": {
+      "es": "Planificador diario en línea — Trello es la manera divertida, flexible y gratuita para organizar planes, proyectos y más.",
+      "en": "Online daily planner — Trello is the fun, flexible, and free way to organize plans, projects, and more."
+    },
     "url": "https://trello.com/",
     "image": "src/assets/tools-images/trello.png",
     "tags": ["productivity", "management", "collaboration"]
@@ -705,7 +939,10 @@
     "id": "jira",
     "name": "Jira",
     "category": "project-management",
-    "description": "Haz posible lo imposible con Jira. Planifica, supervisa y lanza software de primera clase con la herramienta de gestión de proyectos líder para equipos grandes y pequeños.",
+    "description": {
+      "es": "Haz posible lo imposible con Jira. Planifica, supervisa y lanza software de primera clase con la herramienta de gestión de proyectos líder para equipos grandes y pequeños.",
+      "en": "Make the impossible possible with Jira. Plan, track, and release world-class software with the leading project management tool for teams of all sizes."
+    },
     "url": "https://www.atlassian.com/software/jira",
     "image": "src/assets/tools-images/jira.png",
     "tags": ["productivity", "management", "collaboration"]
@@ -714,7 +951,10 @@
     "id": "asana",
     "name": "Asana",
     "category": "project-management",
-    "description": "Visualiza cómo tu trabajo se conecta con los objetivos mientras colaboras con una IA que entiende tu negocio.",
+    "description": {
+      "es": "Visualiza cómo tu trabajo se conecta con los objetivos mientras colaboras con una IA que entiende tu negocio.",
+      "en": "Visualize how your work connects with goals while collaborating with an AI that understands your business."
+    },
     "url": "https://asana.com/",
     "image": "src/assets/tools-images/asana.png",
     "tags": ["productivity", "management", "collaboration"]
@@ -723,7 +963,10 @@
     "id": "notion",
     "name": "Notion",
     "category": "project-management",
-    "description": "El espacio de trabajo con IA hecho para ti · Un espacio para resolver dudas, automatizar tareas y avanzar con tus proyectos.",
+    "description": {
+      "es": "El espacio de trabajo con IA hecho para ti · Un espacio para resolver dudas, automatizar tareas y avanzar con tus proyectos.",
+      "en": "The AI-powered workspace made for you · A space to resolve doubts, automate tasks, and move your projects forward."
+    },
     "url": "https://www.notion.com/",
     "image": "src/assets/tools-images/notion.png",
     "tags": ["productivity", "management", "collaboration"]
@@ -732,7 +975,10 @@
     "id": "canva",
     "name": "Canva",
     "category": "design-tools",
-    "description": "Canva es una herramienta online de diseño gráfico.",
+    "description": {
+      "es": "Canva es una herramienta online de diseño gráfico.",
+      "en": "Canva is an online graphic design tool."
+    },
     "url": "https://www.canva.com/",
     "image": "src/assets/tools-images/canva.png",
     "tags": ["design", "graphics", "social media"]
@@ -741,7 +987,10 @@
     "id": "redux-toolkit",
     "name": "Redux Toolkit",
     "category": "librerias",
-    "description": "El conjunto de herramientas oficial, con opiniones firmes y con baterías incluidas para un desarrollo eficiente de Redux",
+    "description": {
+      "es": "El conjunto de herramientas oficial, con opiniones firmes y con baterías incluidas para un desarrollo eficiente de Redux",
+      "en": "The official toolkit, with strong opinions and batteries included for efficient Redux development"
+    },
     "url": "https://redux-toolkit.js.org/",
     "image": "src/assets/tools-images/redux-toolkit.png",
     "tags": ["redux", "state management", "react"]
@@ -750,7 +999,10 @@
     "id": "react-router",
     "name": "React Router",
     "category": "librerias",
-    "description": "Enrutamiento declarativo para aplicaciones React. La librería de navegación más popular del ecosistema React.",
+    "description": {
+      "es": "Enrutamiento declarativo para aplicaciones React. La librería de navegación más popular del ecosistema React.",
+      "en": "Declarative routing for React applications. The most popular navigation library in the React ecosystem."
+    },
     "url": "https://reactrouter.com/",
     "image": "src/assets/tools-images/react-router.png",
     "tags": ["react", "routing", "navigation", "spa"]
@@ -759,7 +1011,10 @@
     "id": "i18next",
     "name": "i18next",
     "category": "librerias",
-    "description": "i18next es un framework de internacionalización escrito en y para JavaScript. Ofrece una solución completa para localizar su producto de la web a dispositivos móviles y computadoras de escritorio.",
+    "description": {
+      "es": "i18next es un framework de internacionalización escrito en y para JavaScript. Ofrece una solución completa para localizar su producto de la web a dispositivos móviles y computadoras de escritorio.",
+      "en": "i18next is an internationalization framework written in and for JavaScript. It provides a complete solution for localizing your product from web to mobile devices and desktops."
+    },
     "url": "https://www.i18next.com/",
     "image": "src/assets/tools-images/i18next.png",
     "tags": ["react", "i18n", "internationalization", "translation"]
@@ -768,7 +1023,10 @@
     "id": "jmeter",
     "name": "Apache JMeter",
     "category": "testing-tools",
-    "description": "Software de código abierto, una aplicación 100 % Java diseñada para realizar pruebas de carga del comportamiento funcional y medir el rendimiento. Originalmente, se diseñó para probar aplicaciones web, pero desde entonces se ha expandido a otras funciones de prueba.",
+    "description": {
+      "es": "Software de código abierto, una aplicación 100 % Java diseñada para realizar pruebas de carga del comportamiento funcional y medir el rendimiento. Originalmente, se diseñó para probar aplicaciones web, pero desde entonces se ha expandido a otras funciones de prueba.",
+      "en": "Open-source software, a 100% Java application designed to load test functional behavior and measure performance. Originally designed to test web applications, it has since expanded to other testing functions."
+    },
     "url": "https://jmeter.apache.org/",
     "image": "src/assets/tools-images/jmeter.png",
     "tags": ["testing", "performance", "load", "automation"]
@@ -777,7 +1035,10 @@
     "id": "selenium",
     "name": "Selenium",
     "category": "testing-tools",
-    "description": "Selenium automatiza los navegadores. ¡Listo! Lo que hagas con esa potencia depende totalmente de ti. Principalmente, se utiliza para automatizar aplicaciones web con fines de prueba, pero no se limita solo a eso. Las tediosas tareas de administración web también pueden (y deben) automatizarse.",
+    "description": {
+      "es": "Selenium automatiza los navegadores. ¡Listo! Lo que hagas con esa potencia depende totalmente de ti. Principalmente, se utiliza para automatizar aplicaciones web con fines de prueba, pero no se limita solo a eso. Las tediosas tareas de administración web también pueden (y deben) automatizarse.",
+      "en": "Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is used to automate web applications for testing purposes, but it is not limited to just that. Tedious web administration tasks can (and should) also be automated."
+    },
     "url": "https://www.selenium.dev/",
     "image": "src/assets/tools-images/selenium.png",
     "tags": ["testing", "automation", "browser", "qa"]
@@ -786,7 +1047,10 @@
     "id": "saucelabs",
     "name": "Sauce Labs",
     "category": "testing-tools",
-    "description": "Potencie sus aplicaciones móviles y web a escala con la solución más completa para la calidad del software. Pruebe, lance e innove con confianza gracias a la calidad impulsada por IA y basada en datos reales.",
+    "description": {
+      "es": "Potencie sus aplicaciones móviles y web a escala con la solución más completa para la calidad del software. Pruebe, lance e innove con confianza gracias a la calidad impulsada por IA y basada en datos reales.",
+      "en": "Scale your mobile and web applications with the most comprehensive solution for software quality. Test, launch, and innovate with confidence thanks to AI-driven quality and real-world data."
+    },
     "url": "https://saucelabs.com/",
     "image": "src/assets/tools-images/saucelabs.png",
     "tags": ["testing", "cloud", "automation", "browser"]
@@ -795,7 +1059,10 @@
     "id": "browserstack",
     "name": "BrowserStack",
     "category": "testing-tools",
-    "description": "Acceso instantáneo a más de 3000 navegadores y dispositivos iOS y Android reales para realizar pruebas multiplataforma. Crea aplicaciones y sitios web que funcionen para todos, siempre.",
+    "description": {
+      "es": "Acceso instantáneo a más de 3000 navegadores y dispositivos iOS y Android reales para realizar pruebas multiplataforma. Crea aplicaciones y sitios web que funcionen para todos, siempre.",
+      "en": "Instant access to over 3000 real iOS and Android devices and browsers for cross-platform testing. Create apps and websites that work for everyone, all the time."
+    },
     "url": "https://www.browserstack.com/",
     "image": "src/assets/tools-images/browserstack.png",
     "tags": ["testing", "cloud", "automation", "browser"]
@@ -804,7 +1071,10 @@
     "id": "git",
     "name": "Git",
     "category": "project-management",
-    "description": "Git es un sistema de control de versiones distribuido, gratuito y de código abierto, diseñado para gestionar todo, desde proyectos pequeños hasta muy grandes, con velocidad y eficiencia.",
+    "description": {
+      "es": "Git es un sistema de control de versiones distribuido, gratuito y de código abierto, diseñado para gestionar todo, desde proyectos pequeños hasta muy grandes, con velocidad y eficiencia.",
+      "en": "Git is a distributed, free, and open-source version control system designed to manage everything from small to very large projects with speed and efficiency."
+    },
     "url": "https://git-scm.com/",
     "image": "src/assets/tools-images/git.png",
     "tags": ["version-control", "collaboration", "dev-tools"]
@@ -813,7 +1083,10 @@
     "id": "github",
     "name": "GitHub",
     "category": "project-management",
-    "description": "GitHub es una plataforma en la nube que usa Git para el control de versiones, permitiendo a los desarrolladores almacenar, gestionar y compartir código fuente de proyectos colaborativamente.",
+    "description": {
+      "es": "GitHub es una plataforma en la nube que usa Git para el control de versiones, permitiendo a los desarrolladores almacenar, gestionar y compartir código fuente de proyectos colaborativamente.",
+      "en": "GitHub is a cloud-based platform that uses Git for version control, allowing developers to store, manage, and share source code for projects collaboratively."
+    },
     "url": "https://github.com/",
     "image": "src/assets/tools-images/github.png",
     "tags": ["version-control", "collaboration", "ci-cd", "dev-tools"]
@@ -822,7 +1095,10 @@
     "id": "slack",
     "name": "Slack",
     "category": "project-management",
-    "description": "Slack es una aplicación de mensajería y colaboración para empresas que sirve para centralizar la comunicación, mejorar la eficiencia y conectar a las personas con la información que necesitan, todo dentro de una interfaz unificada.",
+    "description": {
+      "es": "Slack es una aplicación de mensajería y colaboración para empresas que sirve para centralizar la comunicación, mejorar la eficiencia y conectar a las personas con la información que necesitan, todo dentro de una interfaz unificada.",
+      "en": "Slack is a messaging and collaboration application for businesses that helps centralize communication, improve efficiency, and connect people with the information they need, all within a unified interface."
+    },
     "url": "https://slack.com/",
     "image": "src/assets/tools-images/slack.png",
     "tags": ["communication", "collaboration", "productivity"]
@@ -831,7 +1107,10 @@
     "id": "responsive-viewer",
     "name": "Responsive Viewer",
     "category": "testing-tools",
-    "description": "Herramienta de pruebas adaptable multipantalla. Todo lo que necesitas para probar y previsualizar tu sitio web en varias pantallas con herramientas integradas de captura de pantalla y anotación.",
+    "description": {
+      "es": "Herramienta de pruebas adaptable multipantalla. Todo lo que necesitas para probar y previsualizar tu sitio web en varias pantallas con herramientas integradas de captura de pantalla y anotación.",
+      "en": "Multi-screen adaptive testing tool. Everything you need to test and preview your website on multiple screens with built-in screenshot and annotation tools."
+    },
     "url": "https://responsiveviewer.org/",
     "image": "src/assets/tools-images/responsive-viewer.png",
     "tags": ["responsive", "testing", "design"]
@@ -840,7 +1119,10 @@
     "id": "imgto-xyz",
     "name": "Imgto.xyz",
     "category": "edit-images",
-    "description": "Mejore el rendimiento de su sitio web de forma gratuita optimizando sus imágenes JPG, PNG, WebP, AVIF y JXL usando imgto.xyz.",
+    "description": {
+      "es": "Mejore el rendimiento de su sitio web de forma gratuita optimizando sus imágenes JPG, PNG, WebP, AVIF y JXL usando imgto.xyz.",
+      "en": "Improve your website's performance for free by optimizing your JPG, PNG, WebP, AVIF, and JXL images using imgto.xyz."
+    },
     "url": "https://imgto.xyz/",
     "image": "src/assets/tools-images/imgto-xyz.png",
     "tags": ["conversion", "images", "optimización"]
@@ -849,7 +1131,10 @@
     "id": "kigen",
     "name": "Kigen",
     "category": "design-tools",
-    "description": "Una forma más rápida de empezar a diseñar sistemas. Usa Kigen para crear tus variables y estilos principales con solo unos clics.",
+    "description": {
+      "es": "Una forma más rápida de empezar a diseñar sistemas. Usa Kigen para crear tus variables y estilos principales con solo unos clics.",
+      "en": "A faster way to start designing systems. Use Kigen to create your main variables and styles with just a few clicks."
+    },
     "url": "https://kigen.app/",
     "image": "src/assets/tools-images/kigen.png",
     "tags": ["design", "ui", "colors"]
@@ -858,7 +1143,10 @@
     "id": "squoosh",
     "name": "Squoosh",
     "category": "edit-images",
-    "description": "Squoosh es el optimizador de imágenes definitivo que te permite comprimir y comparar imágenes con diferentes codecs en tu navegador.",
+    "description": {
+      "es": "Squoosh es el optimizador de imágenes definitivo que te permite comprimir y comparar imágenes con diferentes codecs en tu navegador.",
+      "en": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser."
+    },
     "url": "https://squoosh.app/",
     "image": "src/assets/tools-images/squoosh.png",
     "tags": ["conversion", "images", "optimización"]
@@ -867,7 +1155,10 @@
     "id": "uiball",
     "name": "UI Ball",
     "category": "ui-components",
-    "description": "UI Ball es un sitio que ofrece recursos web útiles para desarrolladores, especialmente animaciones de carga libres y personalizables (spinners, loaders) en HTML, CSS y SVG.",
+    "description": {
+      "es": "UI Ball es un sitio que ofrece recursos web útiles para desarrolladores, especialmente animaciones de carga libres y personalizables (spinners, loaders) en HTML, CSS y SVG.",
+      "en": "UI Ball is a site that offers useful web resources for developers, especially free and customizable loading animations (spinners, loaders) in HTML, CSS, and SVG."
+    },
     "url": "https://uiball.com/",
     "image": "src/assets/tools-images/uiball.png",
     "tags": ["components", "react", "ui", "loaders"]
@@ -876,7 +1167,10 @@
     "id": "css-loaders",
     "name": "CSS Loaders",
     "category": "ui-components",
-    "description": "La mayor colección de cargadores CSS. Más de 600 animaciones de carga creadas por Temani Afif con un solo elemento.",
+    "description": {
+      "es": "La mayor colección de cargadores CSS. Más de 600 animaciones de carga creadas por Temani Afif con un solo elemento.",
+      "en": "The largest collection of CSS loaders. Over 600 loading animations created by Temani Afif with a single element."
+    },
     "url": "https://css-loaders.com/",
     "image": "src/assets/tools-images/css-loaders.png",
     "tags": ["components", "css", "ui", "loaders"]
@@ -885,7 +1179,10 @@
     "id": "react",
     "name": "React",
     "category": "frameworks",
-    "description": "React es una biblioteca de JavaScript que te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes.",
+    "description": {
+      "es": "React es una biblioteca de JavaScript que te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes.",
+      "en": "React is a JavaScript library for building user interfaces from individual pieces called components."
+    },
     "url": "https://es.react.dev/",
     "image": "src/assets/tools-images/react.png",
     "tags": ["javascript", "ui", "frameworks"]
@@ -894,7 +1191,10 @@
     "id": "vue",
     "name": "Vue.js",
     "category": "frameworks",
-    "description": "El framework JavaScript progresivo. Accesible y basado en HTML, CSS y JavaScript estándar, con una API intuitiva y documentación de primera clase.",
+    "description": {
+      "es": "El framework JavaScript progresivo. Accesible y basado en HTML, CSS y JavaScript estándar, con una API intuitiva y documentación de primera clase.",
+      "en": "The progressive JavaScript framework. Accessible and based on standard HTML, CSS, and JavaScript, with an intuitive API and first-class documentation."
+    },
     "url": "https://vuejs.org/",
     "image": "src/assets/tools-images/vue.png",
     "tags": ["javascript", "ui", "frameworks"]
@@ -903,7 +1203,10 @@
     "id": "angular",
     "name": "Angular",
     "category": "frameworks",
-    "description": "Angular es un framework web que permite a los desarrolladores crear aplicaciones rápidas y confiables.",
+    "description": {
+      "es": "Angular es un framework web que permite a los desarrolladores crear aplicaciones rápidas y confiables.",
+      "en": "Angular is a web framework that allows developers to create fast and reliable applications."
+    },
     "url": "https://angular.dev/",
     "image": "src/assets/tools-images/angular.png",
     "tags": ["javascript", "ui", "frameworks"]
@@ -912,7 +1215,10 @@
     "id": "svelte",
     "name": "Svelte",
     "category": "frameworks",
-    "description": "Svelte es un framework de interfaz de usuario que utiliza un compilador para que puedas escribir componentes increíblemente concisos que minimizan el trabajo en el navegador.",
+    "description": {
+      "es": "Svelte es un framework de interfaz de usuario que utiliza un compilador para que puedas escribir componentes increíblemente concisos que minimizan el trabajo en el navegador.",
+      "en": "Svelte is a UI framework that uses a compiler so you can write incredibly concise components that minimize work in the browser."
+    },
     "url": "https://svelte.dev/",
     "image": "src/assets/tools-images/svelte.png",
     "tags": ["javascript", "ui", "frameworks"]
@@ -921,7 +1227,10 @@
     "id": "nextjs",
     "name": "Next.js",
     "category": "frameworks",
-    "description": "Utilizado por algunas de las empresas más grandes del mundo, Next.js le permite crear aplicaciones web de alta calidad con el poder de los componentes React.",
+    "description": {
+      "es": "Utilizado por algunas de las empresas más grandes del mundo, Next.js le permite crear aplicaciones web de alta calidad con el poder de los componentes React.",
+      "en": "Used by some of the world's largest companies, Next.js allows you to create high-quality web applications with the power of React components."
+    },
     "url": "https://nextjs.org/",
     "image": "src/assets/tools-images/nextjs.png",
     "tags": ["javascript", "react", "frameworks"]
@@ -930,7 +1239,10 @@
     "id": "flask",
     "name": "Flask",
     "category": "frameworks",
-    "description": "Flask es un framework ligero de aplicaciones web basado en WSGI. Está diseñado para que empezar a usarlo sea rápido y sencillo, pero al mismo tiempo ofrece la posibilidad de escalar y crear aplicaciones más complejas cuando se necesite.",
+    "description": {
+      "es": "Flask es un framework ligero de aplicaciones web basado en WSGI. Está diseñado para que empezar a usarlo sea rápido y sencillo, pero al mismo tiempo ofrece la posibilidad de escalar y crear aplicaciones más complejas cuando se necesite.",
+      "en": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, but scales up to complex applications."
+    },
     "url": "https://flask.palletsprojects.com/en/stable/",
     "image": "src/assets/tools-images/flask.png",
     "tags": ["python", "backend", "frameworks"]
@@ -939,7 +1251,10 @@
     "id": "django",
     "name": "Django",
     "category": "frameworks",
-    "description": "Django es un framework web Python de alto nivel que fomenta el desarrollo rápido y un diseño limpio y pragmático.",
+    "description": {
+      "es": "Django es un framework web Python de alto nivel que fomenta el desarrollo rápido y un diseño limpio y pragmático.",
+      "en": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+    },
     "url": "https://www.djangoproject.com/",
     "image": "src/assets/tools-images/django.png",
     "tags": ["python", "backend", "frameworks"]
@@ -948,7 +1263,10 @@
     "id": "astro",
     "name": "Astro",
     "category": "frameworks",
-    "description": "Astro es un marco web JavaScript optimizado para crear sitios web rápidos y basados ​​en contenido.",
+    "description": {
+      "es": "Astro es un marco web JavaScript optimizado para crear sitios web rápidos y basados ​​en contenido.",
+      "en": "Astro is a JavaScript web framework optimized for creating fast, content-focused websites."
+    },
     "url": "https://astro.build/",
     "image": "src/assets/tools-images/astro.png",
     "tags": ["javascript", "static", "frameworks"]
@@ -957,7 +1275,10 @@
     "id": "spring-boot",
     "name": "Spring Boot",
     "category": "frameworks",
-    "description": "Spring Boot es un marco Java de código abierto que se utiliza para programar aplicaciones independientes basadas en Spring de nivel de producción con un conjunto de bibliotecas que facilitan el inicio y la gestión de proyectos.",
+    "description": {
+      "es": "Spring Boot es un marco Java de código abierto que se utiliza para programar aplicaciones independientes basadas en Spring de nivel de producción con un conjunto de bibliotecas que facilitan el inicio y la gestión de proyectos.",
+      "en": "Spring Boot is an open-source Java framework used to program production-level standalone applications based on Spring, with a set of libraries that simplify project setup and management."
+    },
     "url": "https://spring.io/projects/spring-boot",
     "image": "src/assets/tools-images/spring-boot.png",
     "tags": ["java", "backend", "frameworks"]
@@ -966,7 +1287,10 @@
     "id": "laravel",
     "name": "Laravel",
     "category": "frameworks",
-    "description": "Laravel ofrece un ecosistema completo para desarrolladores web. Este framework PHP de código abierto, productos, paquetes y kits de inicio ofrecen todo lo necesario para crear, implementar y supervisar aplicaciones web.",
+    "description": {
+      "es": "Laravel ofrece un ecosistema completo para desarrolladores web. Este framework PHP de código abierto, productos, paquetes y kits de inicio ofrecen todo lo necesario para crear, implementar y supervisar aplicaciones web.",
+      "en": "Laravel provides a complete ecosystem for web developers. This open-source PHP framework, products, packages, and starter kits offer everything you need to create, deploy, and manage web applications."
+    },
     "url": "https://laravel.com/",
     "image": "src/assets/tools-images/laravel.png",
     "tags": ["php", "backend", "frameworks"]
@@ -975,7 +1299,10 @@
     "id": "expressjs",
     "name": "Express",
     "category": "frameworks",
-    "description": "Express.js es un framework minimalista y flexible para Node.js que facilita la creación de aplicaciones web y APIs, funcionando como el estándar de facto para el desarrollo backend con Node.js.",
+    "description": {
+      "es": "Express es un framework web minimalista y flexible para Node.js que proporciona un conjunto robusto de características para aplicaciones web y móviles.",
+      "en": "Express is a minimalist and flexible web framework for Node.js that provides a robust set of features for web and mobile applications."
+    },
     "url": "https://expressjs.com/",
     "image": "src/assets/tools-images/express.png",
     "tags": ["javascript", "nodejs", "frameworks"]
@@ -984,7 +1311,10 @@
     "id": "flutter",
     "name": "Flutter",
     "category": "frameworks",
-    "description": "Flutter transforma el proceso de desarrollo. Crea, prueba e implementa atractivas experiencias móviles, web, de escritorio e integradas desde una única base de código.",
+    "description": {
+      "es": "Flutter transforma el proceso de desarrollo. Crea, prueba e implementa atractivas experiencias móviles, web, de escritorio e integradas desde una única base de código.",
+      "en": "Flutter transforms the development process. Build, test, and deploy beautiful experiences for mobile, web, desktop, and embedded devices from a single codebase."
+    },
     "url": "https://flutter.dev/",
     "image": "src/assets/tools-images/flutter.png",
     "tags": ["dart", "mobile", "frameworks"]
@@ -993,7 +1323,10 @@
     "id": "react-native",
     "name": "React Native",
     "category": "frameworks",
-    "description": "Crea aplicaciones nativas para Android, iOS y más con React. React Native integra lo mejor del desarrollo con React en el desarrollo nativo. Es una biblioteca de JavaScript líder en su clase para crear interfaces de usuario.", 
+    "description": {
+      "es": "Crea aplicaciones nativas para Android, iOS y más con React. React Native integra lo mejor del desarrollo con React en el desarrollo nativo. Es una biblioteca de JavaScript líder en su clase para crear interfaces de usuario.",
+      "en": "Build native apps for Android, iOS, and more with React. React Native brings the best of React development to native development. It’s a leading JavaScript library for building user interfaces."
+    },
     "url": "https://reactnative.dev/",
     "image": "src/assets/tools-images/react-native.png",
     "tags": ["javascript", "mobile", "frameworks"]
@@ -1002,7 +1335,10 @@
     "id": "ionic",
     "name": "Ionic",
     "category": "frameworks",
-    "description": "Ionic es un framework de desarrollo de aplicaciones móviles de código abierto que permite a los desarrolladores crear aplicaciones híbridas utilizando tecnologías web como HTML, CSS y JavaScript.",
+    "description": {
+      "es": "Ionic es un framework de desarrollo de aplicaciones móviles de código abierto que permite a los desarrolladores crear aplicaciones híbridas utilizando tecnologías web como HTML, CSS y JavaScript.",
+      "en": "Ionic is an open-source mobile application development framework that allows developers to create hybrid applications using web technologies such as HTML, CSS, and JavaScript."
+    },
     "url": "https://ionicframework.com/",
     "image": "src/assets/tools-images/ionic.png",
     "tags": ["javascript", "mobile", "frameworks"]
@@ -1011,7 +1347,10 @@
     "id": "apache-cordova",
     "name": "Apache Cordova",
     "category": "frameworks",
-    "description": "Aplicaciones móviles con HTML, CSS y JS. Compatibles con múltiples plataformas con un solo código. Gratuitas y de código abierto.",
+    "description": {
+      "es": "Aplicaciones móviles con HTML, CSS y JS. Compatibles con múltiples plataformas con un solo código. Gratuitas y de código abierto.",
+      "en": "Mobile applications with HTML, CSS, and JS. Cross-platform compatibility with a single codebase. Free and open-source."
+    },
     "url": "https://cordova.apache.org/",
     "image": "src/assets/tools-images/apache-cordova.png",
     "tags": ["javascript", "mobile", "frameworks"]
@@ -1020,7 +1359,10 @@
     "id": "expo",
     "name": "Expo",
     "category": "frameworks",
-    "description": "Expo es un framework y una plataforma para aplicaciones universales de React que te permite crear, construir, desplegar y actualizar apps nativas rápidamente usando JavaScript y React.",
+    "description": {
+      "es": "Expo es un framework y una plataforma para aplicaciones universales de React que te permite crear, construir, desplegar y actualizar apps nativas rápidamente usando JavaScript y React.",
+      "en": "Expo is a framework and platform for universal React applications that allows you to quickly create, build, deploy, and update native apps using JavaScript and React."
+    },
     "url": "https://expo.dev/",
     "image": "src/assets/tools-images/expo.png",
     "tags": ["react-native", "mobile", "frameworks", "javascript"]
@@ -1029,7 +1371,10 @@
     "id": "vscode",
     "name": "Visual Studio Code",
     "category": "code-editors",
-    "description": "Editor de código fuente gratuito y multiplataforma desarrollado por Microsoft, ampliamente utilizado por su extensibilidad y soporte para múltiples lenguajes.",
+    "description": {
+      "es": "Editor de código fuente gratuito y multiplataforma desarrollado por Microsoft, ampliamente utilizado por su extensibilidad y soporte para múltiples lenguajes.",
+      "en": "Free and cross-platform source code editor developed by Microsoft, widely used for its extensibility and support for multiple languages."
+    },
     "url": "https://code.visualstudio.com/",
     "image": "src/assets/tools-images/vscode.png",
     "tags": ["editor", "microsoft", "multiplataforma", "code"]
@@ -1038,7 +1383,10 @@
     "id": "sublime-text",
     "name": "Sublime Text",
     "category": "code-editors",
-    "description": "Editor de texto sofisticado para código, marcado y prosa. Conocido por su velocidad, interfaz minimalista y potentes atajos.",
+    "description": {
+      "es": "Editor de texto sofisticado para código, marcado y prosa. Conocido por su velocidad, interfaz minimalista y potentes atajos.",
+      "en": "Sophisticated text editor for code, markup, and prose. Known for its speed, minimalist interface, and powerful shortcuts."
+    },
     "url": "https://www.sublimetext.com/",
     "image": "src/assets/tools-images/sublime-text.png",
     "tags": ["editor", "ligero", "multiplataforma"]
@@ -1047,7 +1395,10 @@
     "id": "atom",
     "name": "Atom",
     "category": "code-editors",
-    "description": "Editor de texto hackeable para el siglo XXI, desarrollado originalmente por GitHub. Ofrece personalización y una gran comunidad de paquetes.",
+    "description": {
+      "es": "Editor de texto hackeable para el siglo XXI, desarrollado originalmente por GitHub. Ofrece personalización y una gran comunidad de paquetes.",
+      "en": "Hackable text editor for the 21st century, originally developed by GitHub. Offers customization and a large community of packages."
+    },
     "url": "https://atom-editor.cc/",
     "image": "src/assets/tools-images/atom.png",
     "tags": ["editor", "open-source", "personalizable"]
@@ -1056,7 +1407,10 @@
     "id": "eclipse",
     "name": "Eclipse",
     "category": "code-editors",
-    "description": "IDE de código abierto ampliamente utilizado para el desarrollo en Java y otros lenguajes, conocido por su extensibilidad y ecosistema de plugins.",
+    "description": {
+      "es": "IDE de código abierto ampliamente utilizado para el desarrollo en Java y otros lenguajes, conocido por su extensibilidad y ecosistema de plugins.",
+      "en": "Widely used open-source IDE for development in Java and other languages, known for its extensibility and plugin ecosystem."
+    },
     "url": "https://eclipseide.org/",
     "image": "src/assets/tools-images/eclipse.png",
     "tags": ["editor", "java", "ide", "open-source"]
@@ -1065,7 +1419,10 @@
     "id": "vim",
     "name": "Vim",
     "category": "code-editors",
-    "description": "Editor de texto altamente configurable, famoso por su eficiencia y atajos de teclado. Muy popular entre desarrolladores avanzados.",
+    "description": {
+      "es": "Editor de texto altamente configurable, famoso por su eficiencia y atajos de teclado. Muy popular entre desarrolladores avanzados.",
+      "en": "Highly configurable text editor, famous for its efficiency and keyboard shortcuts. Very popular among advanced developers."
+    },
     "url": "https://www.vim.org/",
     "image": "src/assets/tools-images/vim.png",
     "tags": ["editor", "terminal", "eficiente"]
@@ -1074,7 +1431,10 @@
     "id": "emacs",
     "name": "GNU Emacs",
     "category": "code-editors",
-    "description": "Editor de texto extensible, personalizable y de código abierto, conocido por su potencia y flexibilidad.",
+    "description": {
+      "es": "Editor de texto extensible, personalizable y de código abierto, conocido por su potencia y flexibilidad.",
+      "en": "Extensible, customizable, and open-source text editor, known for its power and flexibility."
+    },
     "url": "https://www.gnu.org/software/emacs/",
     "image": "src/assets/tools-images/emacs.png",
     "tags": ["editor", "open-source", "personalizable"]
@@ -1083,7 +1443,10 @@
     "id": "cursor",
     "name": "Cursor",
     "category": "code-editors",
-    "description": "Editor de código moderno basado en VS Code, con integración de inteligencia artificial para acelerar el desarrollo.",
+    "description": {
+      "es": "Editor de código moderno basado en VS Code, con integración de inteligencia artificial para acelerar el desarrollo.",
+      "en": "Modern code editor based on VS Code, with AI integration to accelerate development."
+    },
     "url": "https://cursor.com/",
     "image": "src/assets/tools-images/cursor.png",
     "tags": ["editor", "ai", "multiplataforma"]
@@ -1092,7 +1455,10 @@
     "id": "windsurf",
     "name": "Windsurf",
     "category": "code-editors",
-    "description": "Editor de código colaborativo en la nube, ideal para pair programming y trabajo remoto.",
+    "description": {
+      "es": "Editor de código colaborativo en la nube, ideal para pair programming y trabajo remoto.",
+      "en": "Collaborative cloud-based code editor, ideal for pair programming and remote work."
+    },
     "url": "https://windsurf.com/editor",
     "image": "src/assets/tools-images/windsurf.png",
     "tags": ["editor", "colaborativo", "cloud"]
