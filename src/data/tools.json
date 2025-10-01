@@ -1606,5 +1606,53 @@
     "url": "https://about.gitlab.com/",
     "image": "src/assets/tools-images/gitlab.png",
     "tags": ["ci-cd", "devops", "repository"]
+  },
+  {
+    "id": "godly",
+    "name": "Godly",
+    "category": "design-tools",
+    "description": {
+      "es": "Godly recopila diariamente la mejor inspiración para diseño web. Explora los mejores sitios web de comercio electrónico, portafolios, animación y más.",
+      "en": "Godly is a curation of the best web design inspiration, every day. Browse the best e-commerce websites, portfolio websites, animation websites and more."
+    },
+    "url": "https://godly.website/",
+    "image": "src/assets/tools-images/godly.png",
+    "tags": ["design", "inspiration", "web"]
+  },
+  {
+    "id": "texture-labs",
+    "name": "Texture Labs",
+    "category": "design-tools",
+    "description": {
+      "es": "Texturelabs es un recurso en línea de texturas y tutoriales originales y gratuitos sobre arte y diseño.",
+      "en": "Texturelabs is an online resource for free, original textures and tutorials for art and design."
+    },
+    "url": "https://texturelabs.org/",
+    "image": "src/assets/tools-images/texture-labs.png",
+    "tags": ["design", "textures", "graphics"]
+  },
+  {
+    "id": "pigment",
+    "name": "Pigment",
+    "category": "design-tools",
+    "description": {
+      "es": "Una forma única de generar colores frescos y vibrantes basados en la iluminación y el pigmento, en lugar de matemáticas.",
+      "en": "A unique way to generate fresh and vibrant colors based on lighting and pigment, instead of math."
+    },
+    "url": "https://pigment.shapefactory.co/",
+    "image": "src/assets/tools-images/pigment.png",
+    "tags": ["design", "color", "graphics"]
+  },
+  {
+    "id": "simple-parallax",
+    "name": "Simple Parallax",
+    "category": "ui-components",
+    "description": {
+      "es": "simpleParallax.js es una biblioteca de JS y React ligera y fácil de usar que añade animaciones de paralaje a cualquier imagen. Mientras que otros plugins pueden ser complejos, simpleParallax.js destaca por su simplicidad y sus impresionantes efectos visuales. El efecto de paralaje se aplica directamente a las etiquetas de imagen, eliminando la necesidad de imágenes de fondo. Se puede usar cualquier imagen, incluido el componente next/image.",
+      "en": "simpleParallax.js is a lightweight and easy-to-use JS & React library that adds parallax animations to any image. While other plugins can be complex, simpleParallax.js is notable for its simplicity and impressive visual effects. The parallax effect is applied directly to image tags, eliminating the need for background images. Any image can be used, including next/image component."
+    },
+    "url": "https://simpleparallax.com/",
+    "image": "src/assets/tools-images/simple-parallax.png",
+    "tags": ["components", "javascript", "ui", "parallax"]
   }
 ]
