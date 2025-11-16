@@ -1654,5 +1654,17 @@
     "url": "https://simpleparallax.com/",
     "image": "src/assets/tools-images/simple-parallax.png",
     "tags": ["components", "javascript", "ui", "parallax"]
+  }, 
+  {
+    "id": "flutter-widgets",
+    "name": "Flutter Widgets",
+    "category": "ui-components",
+    "description": {
+      "es": "Crea aplicaciones hermosas más rápido con la colección de widgets visuales, estructurales, de plataforma e interactivos de Flutter.",
+      "en": "Create beautiful apps faster with Flutter's collection of visual, structural, platform, and interactive widgets."
+    },
+    "url": "https://docs.flutter.dev/ui/widgets",
+    "image": "src/assets/tools-images/flutter-widgets.png",
+    "tags": ["components", "flutter", "ui", "mobile"]
   }
 ]
