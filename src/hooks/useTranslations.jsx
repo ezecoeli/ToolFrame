@@ -33,6 +33,7 @@ const translations = {
     // Messages
     confirmDelete: "¿Estás seguro de que quieres eliminar esta herramienta?",
     noToolsFound: "No se encontraron herramientas",
+    suggestion: "Intenta cambiar la categoría seleccionada o el término de búsqueda.",
     // Footer
     rights: "Todos los derechos reservados."
   },
@@ -68,6 +69,7 @@ const translations = {
     // Messages
     confirmDelete: "Are you sure you want to delete this tool?",
     noToolsFound: "No tools found",
+    suggestion: "Try changing the selected category or search term.",
     // Footer
     rights: "All rights reserved."
   },

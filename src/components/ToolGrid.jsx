@@ -9,12 +9,12 @@ const ToolGrid = ({ tools, onDeleteTool }) => {
   if (tools.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16 text-center">
-        <div className="text-6xl mb-4"><MdSearchOff /></div>
+        <div className="text-white text-6xl mb-4"><MdSearchOff /></div>
         <h3 className="text-xl font-semibold text-rose-300 mb-2">
           {t('noToolsFound')}
         </h3>
-        <p className="text-espresso-600">
-          Intenta cambiar la categoría seleccionada o el término de búsqueda.
+        <p className="text-white">
+          {t('suggestion')}
         </p>
       </div>
     );
