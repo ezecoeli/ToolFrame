@@ -1666,5 +1666,53 @@
     "url": "https://docs.flutter.dev/ui/widgets",
     "image": "src/assets/tools-images/flutter-widgets.png",
     "tags": ["components", "flutter", "ui", "mobile"]
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "category": "ui-components",
+    "description": {
+      "es": "Kit de herramientas frontend potente, extensible y repleto de funciones. Crea y personaliza con Sass, utiliza un sistema de cuadrícula y componentes preconstruidos, y da vida a los proyectos con potentes complementos de JavaScript.",
+      "en": "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
+    },
+    "url": "https://getbootstrap.com/",
+    "image": "src/assets/tools-images/bootstrap.png",
+    "tags": ["components", "css", "ui", "framework"]
+  },
+  {
+    "id": "babel",
+    "name": "Babel",
+    "category": "dev-tools",
+    "description": {
+      "es": "Babel es una herramienta que se utiliza principalmente para convertir código ECMAScript 2015+ en una versión compatible con versiones anteriores de JavaScript en navegadores o entornos actuales y antiguos.",
+      "en": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments."
+    },
+    "url": "https://babeljs.io/",
+    "image": "src/assets/tools-images/babel.png",
+    "tags": ["javascript", "transpiler", "dev-tools"]
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "category": "dev-tools",
+    "description": {
+      "es": "Vite es una herramienta de construcción frontend ultrarrápida que impulsa la próxima generación de aplicaciones web.",
+      "en": "Vite is a blazing fast frontend build tool powering the next generation of web applications."
+    },
+    "url": "https://vite.dev/",
+    "image": "src/assets/tools-images/vite.png",
+    "tags": ["javascript", "build-tool", "dev-tools"]
+  },
+  {
+    "id": "heidisql",
+    "name": "HeidiSQL",
+    "category": "dev-tools",
+    "description": {
+      "es": "HeidiSQL es un software gratuito para personas que trabajan con bases de datos y tiene como objetivo ser intuitivo de usar. \"Heidi\" te permite conectarte a una variedad de bases de datos, como MariaDB, MySQL, Microsoft SQL, PostgreSQL, SQLite, Interbase y Firebird.",
+      "en": "HeidiSQL is free software for people who work with databases, and aims to be intuitive to use. \"Heidi\" lets you connect to a variety of databases, like MariaDB, MySQL, Microsoft SQL, PostgreSQL, SQLite, Interbase and Firebird."
+    },
+    "url": "https://www.heidisql.com/",
+    "image": "src/assets/tools-images/heidi-sql.png",
+    "tags": ["database", "sql", "dev-tools", "heidi"]
   }
 ]
