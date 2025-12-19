@@ -1682,7 +1682,7 @@
   {
     "id": "babel",
     "name": "Babel",
-    "category": "dev-tools",
+    "category": "build-tools",
     "description": {
       "es": "Babel es una herramienta que se utiliza principalmente para convertir código ECMAScript 2015+ en una versión compatible con versiones anteriores de JavaScript en navegadores o entornos actuales y antiguos.",
       "en": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments."
@@ -1694,7 +1694,7 @@
   {
     "id": "vite",
     "name": "Vite",
-    "category": "dev-tools",
+    "category": "build-tools",
     "description": {
       "es": "Vite es una herramienta de construcción frontend ultrarrápida que impulsa la próxima generación de aplicaciones web.",
       "en": "Vite is a blazing fast frontend build tool powering the next generation of web applications."
@@ -1706,7 +1706,7 @@
   {
     "id": "heidisql",
     "name": "HeidiSQL",
-    "category": "dev-tools",
+    "category": "backend-tools",
     "description": {
       "es": "HeidiSQL es un software gratuito para personas que trabajan con bases de datos y tiene como objetivo ser intuitivo de usar. \"Heidi\" te permite conectarte a una variedad de bases de datos, como MariaDB, MySQL, Microsoft SQL, PostgreSQL, SQLite, Interbase y Firebird.",
       "en": "HeidiSQL is free software for people who work with databases, and aims to be intuitive to use. \"Heidi\" lets you connect to a variety of databases, like MariaDB, MySQL, Microsoft SQL, PostgreSQL, SQLite, Interbase and Firebird."
@@ -1714,5 +1714,90 @@
     "url": "https://www.heidisql.com/",
     "image": "src/assets/tools-images/heidi-sql.png",
     "tags": ["database", "sql", "dev-tools", "heidi"]
+  },
+  {
+    "id": "github-desktop",
+    "name": "GitHub Desktop",
+    "category": "project-management",
+    "description": {
+      "es": "Ya seas nuevo en Git o un usuario experimentado, GitHub Desktop simplifica tu flujo de trabajo de desarrollo.",
+      "en": "Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow."
+    },
+    "url": "https://github.com/apps/desktop",
+    "image": "src/assets/tools-images/github-desktop.png",
+    "tags": ["git", "version-control", "dev-tools"]
+  },
+  {
+    "id": "handbrake",
+    "name": "HandBrake",
+    "category": "video-tools",
+    "description": {
+      "es": "Conversor de video de código abierto para comprimir y convertir archivos multimedia a diferentes formatos.",
+      "en": "Open-source video converter for compressing and converting multimedia files to different formats."
+    },
+    "url": "https://handbrake.fr/",
+    "image": "src/assets/tools-images/handbrake.png",
+    "tags": ["video", "compression", "conversion", "multimedia"]
+  },
+  {
+    "id": "screenpal",
+    "name": "ScreenPal",
+    "category": "video-tools",
+    "description": {
+      "es": "Las herramientas de video mejoradas con IA de ScreenPal te ayudan a simplificar la creación de videos y amplificar tu mensaje. Te ayudamos a compartir tu experiencia, no a reemplazarla.",
+      "en": "ScreenPal's AI-enhanced video tools help you simplify video creation and amplify your message. We help you share your expertise, not replace it."
+    },
+    "url": "https://www.screenpal.com/",
+    "image": "src/assets/tools-images/screenpal.png",
+    "tags": ["video", "recording", "editing", "multimedia"]
+  },
+  {
+    "id": "laragon",
+    "name": "Laragon",
+    "category": "backend-tools",
+    "description": {
+      "es": "Laragon te ofrece un entorno de desarrollo moderno y potente que a innumerables personas les encanta usar todos los días.",
+      "en": "Laragon provides you a modern & powerful development environment that countless people love to use every day."
+    },
+    "url": "https://laragon.org/",
+    "image": "src/assets/tools-images/laragon.png",
+    "tags": ["development", "local-server", "backend"]
+  },
+  {
+    "id": "open-vpn",
+    "name": "Open VPN",
+    "category": "security-tools",
+    "description": {
+      "es": "Controla el acceso, reduce costos y mantente conforme con una VPN de confianza cero rápida.",
+      "en": "Control access, reduce costs, and remain compliant with a fast Zero Trust VPN."
+    },
+    "url": "https://openvpn.net/",
+    "image": "src/assets/tools-images/open-vpn.png",
+    "tags": ["security", "vpn", "network"]
+  },
+  {
+    "id": "volta",
+    "name": "Volta",
+    "category": "build-tools",
+    "description": {
+      "es": "El administrador de herramientas JavaScript que simplemente funciona. Gestiona versiones de Node.js, npm, Yarn y más de forma sencilla y eficiente.",
+      "en": "The JavaScript tool manager that just works. Manage Node.js, npm, Yarn, and more versions easily and efficiently."
+    },
+    "url": "https://volta.sh/",
+    "image": "src/assets/tools-images/volta.png",
+    "tags": ["javascript", "nodejs", "dev-tools"]
+  },
+  {
+    "id": "jquery",
+    "name": "jQuery",
+    "category": "frameworks",
+    "description": {
+      "es": "jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones. Hace que cosas como el recorrido y la manipulación de documentos HTML, el manejo de eventos, la animación y Ajax sean mucho más simples con una API fácil de usar que funciona en una multitud de navegadores.",
+      "en": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
+    },
+    "url": "https://jquery.com/",
+    "image": "src/assets/tools-images/jquery.png",
+    "tags": ["javascript", "library", "ui", "framework"]
   }
+  
 ]

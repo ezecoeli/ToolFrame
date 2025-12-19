@@ -94,6 +94,21 @@ export const CATEGORIES = {
     nameES: '{ DevOps / CI-CD }',
     nameEN: '{ DevOps / CI-CD }'
   },
+  'build-tools': {
+    id: 'build-tools',
+    nameES: '{ Herramientas de Build }',
+    nameEN: '{ Build Tools }'
+  },
+  'video-tools': {
+    id: 'video-tools',
+    nameES: '{ Herramientas de Video }',
+    nameEN: '{ Video Tools }'
+  },
+  'security-tools': {
+    id: 'security-tools',
+    nameES: '{ Herramientas de Seguridad }',
+    nameEN: '{ Security Tools }'
+  }
 };
 
 export const getCategoryName = (categoryId, language = 'es') => {
