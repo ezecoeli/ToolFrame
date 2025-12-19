@@ -1798,6 +1798,198 @@
     "url": "https://jquery.com/",
     "image": "src/assets/tools-images/jquery.png",
     "tags": ["javascript", "library", "ui", "framework"]
+  },
+  {
+    "id": "intelliJ-idea",
+    "name": "IntelliJ IDEA",
+    "category": "code-editors",
+    "description": {
+      "es": "IntelliJ IDEA es el IDE de JetBrains para el desarrollo profesional en Java y Kotlin.",
+      "en": "IntelliJ IDEA is the JetBrains IDE for pro development in Java and Kotlin."
+    },
+    "url": "https://www.jetbrains.com/idea/",
+    "image": "src/assets/tools-images/intellij-idea.png",
+    "tags": ["editor", "java", "ide", "jetbrains"]
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm",
+    "category": "code-editors",
+    "description": {
+      "es": "El único IDE de Python que necesitas. Diseñado para profesionales de la web, datos y AI/ML. Potenciado con una experiencia de IDE mejorada con IA.",
+      "en": "The only Python IDE you need. Built for web, data, and AI/ML professionals. Supercharged with an AI-enhanced IDE experience."
+    },
+    "url": "https://www.jetbrains.com/pycharm/",
+    "image": "src/assets/tools-images/pycharm.png",
+    "tags": ["editor", "python", "ide", "jetbrains"]
+  },
+  {
+    "id": "webstorm",
+    "name": "WebStorm",
+    "category": "code-editors",
+    "description": {
+      "es": "El IDE JavaScript más inteligente. Soporte integrado para React, Angular, Vue.js y Node.js. Herramientas de desarrollo web avanzadas.",
+      "en": "The smartest JavaScript IDE. Built-in support for React, Angular, Vue.js, and Node.js. Advanced web development tools."
+    },
+    "url": "https://www.jetbrains.com/webstorm/",
+    "image": "src/assets/tools-images/webstorm.png",
+    "tags": ["editor", "javascript", "ide", "jetbrains"]
+  },
+  {
+    "id": "ruby-on-rails",
+    "name": "Ruby on Rails",
+    "category": "frameworks",
+    "description": {
+      "es": "Ruby on Rails es un framework de aplicaciones web del lado del servidor escrito en Ruby bajo la licencia MIT. Rails es un framework MVC que proporciona estructuras predeterminadas para una base de datos, un servicio web y páginas web.",
+      "en": "Ruby on Rails is a server-side web application framework written in Ruby under the MIT License. Rails is an MVC framework that provides default structures for a database, a web service, and web pages."
+    },
+    "url": "https://rubyonrails.org/",
+    "image": "src/assets/tools-images/ruby-on-rails.png",
+    "tags": ["ruby", "backend", "frameworks"]
+  },
+  {
+    "id": "android-studio",
+    "name": "Android Studio",
+    "category": "code-editors",
+    "description": {
+      "es": "El IDE oficial de Google para el desarrollo de aplicaciones Android, basado en IntelliJ IDEA.",
+      "en": "Google's official IDE for Android app development, based on IntelliJ IDEA."
+    },
+    "url": "https://developer.android.com/studio",
+    "image": "src/assets/tools-images/android-studio.png",
+    "tags": ["editor", "android", "ide", "google"]
+  },
+  {
+    "id": "xcode",
+    "name": "Xcode",
+    "category": "code-editors",
+    "description": {
+      "es": "Xcode ofrece las herramientas que necesitas para desarrollar, probar y distribuir aplicaciones para las plataformas de Apple, incluyendo la finalización predictiva de código, inteligencia generativa impulsada por los mejores modelos de codificación, herramientas avanzadas de perfilado y depuración, y simuladores para dispositivos Apple.",
+      "en": "Xcode offers the tools you need to develop, test, and distribute apps for Apple platforms, including predictive code completion, generative intelligence powered by the best coding models, advanced profiling and debugging tools, and simulators for Apple devices."
+    },
+    "url": "https://developer.apple.com/xcode/",
+    "image": "src/assets/tools-images/xcode.png",
+    "tags": ["editor", "ios", "ide", "apple"]
+  },
+  {
+    "id": "npm",
+    "name": "npm",
+    "category": "build-tools",
+    "description": {
+      "es": "Confiado por más de 17 millones de desarrolladores en todo el mundo, npm se compromete a hacer que el desarrollo de JavaScript sea elegante, productivo y seguro.",
+      "en": "Relied upon by more than 17 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe."
+    },
+    "url": "https://www.npmjs.com/",
+    "image": "src/assets/tools-images/npm.png",
+    "tags": ["javascript", "package-manager", "dev-tools"]
+  },
+  {
+    "id": "pnpm",
+    "name": "pnpm",
+    "category": "build-tools",
+    "description": {
+      "es": "Obtén velocidades de instalación ultrarrápidas y una forma más inteligente y segura de gestionar dependencias.",
+      "en": "Get lightning-fast installation speeds and a smarter, safer way to manage dependencies."
+    },
+    "url": "https://pnpm.io/",
+    "image": "src/assets/tools-images/pnpm.png",
+    "tags": ["javascript", "package-manager", "dev-tools"]
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn",
+    "category": "build-tools",
+    "description": {
+      "es": "Yarn es un gestor de paquetes que también funciona como gestor de proyectos. Ya sea que trabajes en proyectos simples o en monorepos industriales, ya seas un desarrollador de código abierto o un usuario empresarial, Yarn te respalda.",
+      "en": "Yarn is a package manager that doubles down as project manager. Whether you work on simple projects or industry monorepos, whether you're an open source developer or an enterprise user, Yarn has your back."
+    },
+    "url": "https://yarnpkg.com/",
+    "image": "src/assets/tools-images/yarn.png",
+    "tags": ["javascript", "package-manager", "dev-tools"]
+  },
+  {
+    "id": "bun",
+    "name": "Bun",
+    "category": "build-tools",
+    "description": {
+      "es": "Bun es un conjunto de herramientas todo en uno para JavaScript, TypeScript y JSX, rápido y adoptable de forma incremental. Usa herramientas individuales como bun test o bun install en proyectos de Node.js, o adopta el stack completo con un runtime de JavaScript rápido, empaquetador, corredor de pruebas y gestor de paquetes integrados. Bun apunta a una compatibilidad del 100% con Node.js.",
+      "en": "Bun is a fast, incrementally adoptable all-in-one JavaScript, TypeScript & JSX toolkit. Use individual tools like bun test or bun install in Node.js projects, or adopt the complete stack with a fast JavaScript runtime, bundler, test runner, and package manager built in. Bun aims for 100% Node.js compatibility."
+    },
+    "url": "https://bun.com/",
+    "image": "src/assets/tools-images/bun.png",
+    "tags": ["javascript", "runtime", "dev-tools"]
+  },
+  {
+    "id": "composer",
+    "name": "Composer",
+    "category": "build-tools",
+    "description": {
+      "es": "Composer es una herramienta para la gestión de dependencias en PHP. Te permite declarar las bibliotecas de las que depende tu proyecto y las gestionará (instalar/actualizar) por ti.",
+      "en": "Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you."
+    },
+    "url": "https://getcomposer.org/",
+    "image": "src/assets/tools-images/composer.png",
+    "tags": ["php", "package-manager", "dev-tools"]
+  },
+  {
+    "id": "maven",
+    "name": "Apache Maven",
+    "category": "build-tools",
+    "description": {
+      "es": "Apache Maven es una herramienta de construcción para proyectos Java. Usando un modelo de objeto de proyecto (POM), Maven gestiona la compilación, las pruebas y la documentación de un proyecto.",
+      "en": "Apache Maven is a build tool for Java projects. Using a project object model (POM), Maven manages a project's compilation, testing, and documentation."
+    },
+    "url": "https://maven.apache.org/",
+    "image": "src/assets/tools-images/apache-maven.png",
+    "tags": ["java", "build-tool", "dev-tools"]
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle",
+    "category": "build-tools",
+    "description": {
+      "es": "Gradle es el sistema de construcción de código abierto preferido por los desarrolladores de Java, Android y Kotlin. Desde aplicaciones móviles hasta microservicios, desde pequeñas startups hasta grandes empresas, ayuda a los equipos a entregar mejor software, más rápido.",
+      "en": "Gradle is the open source build system of choice for Java, Android, and Kotlin developers. From mobile apps to microservices, from small startups to big enterprises, it helps teams deliver better software, faster."
+    },
+    "url": "https://gradle.org/",
+    "image": "src/assets/tools-images/gradle.png",
+    "tags": ["java", "build-tool", "dev-tools"]
+  },
+  {
+    "id": "pip",
+    "name": "Pip",
+    "category": "build-tools",
+    "description": {
+      "es": "pip es el instalador de paquetes para Python. Puedes usar pip para instalar paquetes desde el Índice de Paquetes de Python y otros índices.",
+      "en": "pip is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes."
+    },
+    "url": "https://pypi.org/project/pip/",
+    "image": "src/assets/tools-images/pip.png",
+    "tags": ["python", "package-manager", "dev-tools"]
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "database-tools",
+    "description": {
+      "es": "MySQL es el sistema de gestión de bases de datos relacional de código abierto más popular del mundo. Ofrece un rendimiento, fiabilidad y facilidad de uso excepcionales.",
+      "en": "MySQL is the world's most popular open-source relational database management system. It offers exceptional performance, reliability, and ease of use."
+    },
+    "url": "https://www.mysql.com/",
+    "image": "src/assets/tools-images/mysql.png",
+    "tags": ["database", "sql", "mysql", "backend"]
+  },
+  {
+    "id": "sql-server",
+    "name": "Microsoft SQL Server",
+    "category": "database-tools",
+    "description": {
+      "es": "Microsoft SQL Server es un sistema de gestión de bases de datos relacional desarrollado por Microsoft. Está diseñado para manejar una amplia gama de aplicaciones de datos, desde pequeñas aplicaciones de escritorio hasta grandes aplicaciones empresariales y almacenes de datos.",
+      "en": "Microsoft SQL Server is a relational database management system developed by Microsoft. It is designed to handle a wide range of data applications, from small desktop applications to large enterprise applications and data warehouses."
+    },
+    "url": "https://www.microsoft.com/en-us/sql-server/",
+    "image": "src/assets/tools-images/microsoft-sql-server.png",
+    "tags": ["database", "sql", "microsoft", "backend"]
   }
-  
+
 ]
