@@ -3,13 +3,12 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import AddToolModal from './components/AddToolModal';
 import { useTools } from './hooks/useTools';
-import { LanguageProvider } from './hooks/useTranslations';
+import { LanguageProvider } from './contexts/LanguageContext.jsx';
 import Footer from './components/Footer';
 
 function App() {
   const {
     tools: filteredTools,
-    allTools: tools,
     searchTerm,
     setSearchTerm,
     allCategories: categories,

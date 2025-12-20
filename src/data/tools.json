@@ -1970,7 +1970,7 @@
   {
     "id": "mysql",
     "name": "MySQL",
-    "category": "database-tools",
+    "category": "backend-tools",
     "description": {
       "es": "MySQL es el sistema de gestión de bases de datos relacional de código abierto más popular del mundo. Ofrece un rendimiento, fiabilidad y facilidad de uso excepcionales.",
       "en": "MySQL is the world's most popular open-source relational database management system. It offers exceptional performance, reliability, and ease of use."
@@ -1982,7 +1982,7 @@
   {
     "id": "sql-server",
     "name": "Microsoft SQL Server",
-    "category": "database-tools",
+    "category": "backend-tools",
     "description": {
       "es": "Microsoft SQL Server es un sistema de gestión de bases de datos relacional desarrollado por Microsoft. Está diseñado para manejar una amplia gama de aplicaciones de datos, desde pequeñas aplicaciones de escritorio hasta grandes aplicaciones empresariales y almacenes de datos.",
       "en": "Microsoft SQL Server is a relational database management system developed by Microsoft. It is designed to handle a wide range of data applications, from small desktop applications to large enterprise applications and data warehouses."
@@ -1990,6 +1990,125 @@
     "url": "https://www.microsoft.com/en-us/sql-server/",
     "image": "src/assets/tools-images/microsoft-sql-server.png",
     "tags": ["database", "sql", "microsoft", "backend"]
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0",
+    "category": "security-tools",
+    "description": {
+      "es": "Auth0 es una plataforma de autenticación y autorización fácil de implementar y adaptable",
+      "en": "Auth0 is an easy to implement, adaptable authentication and authorization platform"
+    },
+    "url": "https://auth0.com/",
+    "image": "src/assets/tools-images/auth0.png",
+    "tags": ["security", "authentication", "authorization"]
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "category": "seo-performance",
+    "description": {
+      "es": "Google Analytics es la plataforma preferida por millones de propietarios de sitios web y aplicaciones que buscan obtener una comprensión más profunda del rendimiento de sus sitios web y aplicaciones. Con Google Analytics, puedes afinar tu estrategia digital, optimizar tus campañas y llevar tu presencia en línea a nuevas alturas.",
+      "en": "Google Analytics is the go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance. With Google Analytics, you can fine-tune your digital strategy, optimize your campaigns, and take your online presence to new heights."
+    },
+    "url": "https://developers.google.com/analytics",
+    "image": "src/assets/tools-images/google-analytics.png",
+    "tags": ["analytics", "web", "google"]
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar",
+    "category": "seo-performance",
+    "description": {
+      "es": "Hotjar ahora es parte de Contentsquare. Juntos, hemos construido una plataforma poderosa y fácil de usar diseñada para ayudarte a pasar de la percepción al impacto, rápidamente.",
+      "en": "Hotjar is now part of Contentsquare. Together, we've built a powerful, easy-to-use platform designed to help you to go from insight to impact, fast."
+    },
+    "url": "https://www.hotjar.com/",
+    "image": "src/assets/tools-images/hotjar.png",
+    "tags": ["analytics", "user-experience", "feedback", "seo"]
+  },
+  {
+    "id": "lighthouse",
+    "name": "Lighthouse",
+    "category": "extensions-plugins",
+    "description": {
+      "es": "Lighthouse es una herramienta automatizada de código abierto para mejorar el rendimiento, la calidad y la corrección de tus aplicaciones web.",
+      "en": "Lighthouse is an open-source, automated tool for improving the performance, quality, and correctness of your web apps."
+    },
+    "url": "https://developers.google.com/web/tools/lighthouse",
+    "image": "src/assets/tools-images/lighthouse.png",
+    "tags": ["performance", "seo", "accessibility", "web"]
+  },
+  {
+    "id": "react-devtools",
+    "name": "React Developer Tools",
+    "category": "extensions-plugins",
+    "description": {
+      "es": "Utiliza React Developer Tools para inspeccionar componentes React, editar props y estado, e identificar problemas de rendimiento.",
+      "en": "Use React Developer Tools to inspect React components, edit props and state, and identify performance problems."
+    },
+    "url": "https://react.dev/learn/react-developer-tools",
+    "image": "src/assets/tools-images/react-dev-tools.png",
+    "tags": ["react", "debugging", "dev-tools", "extension"]
+  },
+  {
+    "id": "vue-devtools",
+    "name": "Vue Devtools",
+    "category": "extensions-plugins",
+    "description": {
+      "es": "Vue Devtools es una extensión de navegador que proporciona herramientas de desarrollo para aplicaciones Vue.js, incluyendo inspección de componentes, depuración y monitoreo del estado.",
+      "en": "Vue Devtools is a browser extension that provides development tools for Vue.js applications, including component inspection, debugging, and state monitoring."
+    },
+    "url": "https://devtools.vuejs.org/guide/browser-extension",
+    "image": "src/assets/tools-images/vue-devtools.png",
+    "tags": ["vue", "debugging", "dev-tools", "extension"]
+  },
+  {
+    "id": "lightshot",
+    "name": "Lightshot",
+    "category": "extensions-plugins",
+    "description": {
+      "es": "Lightshot es una herramienta de captura de pantalla rápida y fácil de usar que te permite capturar cualquier parte de tu pantalla, editar la imagen y compartirla al instante.",
+      "en": "Lightshot is a fast and easy-to-use screenshot tool that allows you to capture any part of your screen, edit the image, and share it instantly."
+    },
+    "url": "https://app.prntscr.com/",
+    "image": "src/assets/tools-images/lightshot.png",
+    "tags": ["screenshot", "editing", "sharing", "extension"]
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "category": "testing-tools",
+    "description": {
+      "es": "Sentry es una plataforma de monitoreo de errores que ayuda a los desarrolladores a identificar, diagnosticar y solucionar problemas en sus aplicaciones en tiempo real.",
+      "en": "Sentry is an error monitoring platform that helps developers identify, diagnose, and fix issues in their applications in real-time."
+    },
+    "url": "https://sentry.io/",
+    "image": "src/assets/tools-images/sentry.png",
+    "tags": ["error-monitoring", "debugging", "testing"]
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "category": "backend-tools",
+    "description": {
+      "es": "Prisma es un ORM (Object-Relational Mapping) moderno y de código abierto que facilita el trabajo con bases de datos en aplicaciones Node.js y TypeScript.",
+      "en": "Prisma is a modern, open-source ORM (Object-Relational Mapping) that makes working with databases in Node.js and TypeScript applications easy."
+    },
+    "url": "https://www.prisma.io/",
+    "image": "src/assets/tools-images/prisma.png",
+    "tags": ["database", "orm", "nodejs", "backend"]
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook",
+    "category": "ui-components",
+    "description": {
+      "es": "Storybook es un taller frontend para construir componentes y páginas de UI en aislamiento. Miles de equipos lo utilizan para el desarrollo, prueba y documentación de UI. Es de código abierto y gratuito.",
+      "en": "Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It's open source and free."
+    },
+    "url": "https://storybook.js.org/",
+    "image": "src/assets/tools-images/storybook.png",
+    "tags": ["components", "ui", "development", "testing"]
   }
-
 ]

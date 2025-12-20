@@ -108,6 +108,11 @@ export const CATEGORIES = {
     id: 'security-tools',
     nameES: '{ Herramientas de Seguridad }',
     nameEN: '{ Security Tools }'
+  },
+  'extensions-plugins': {
+    id: 'extensions-plugins',
+    nameES: '{ Extensiones y Plugins }',
+    nameEN: '{ Extensions and Plugins }'
   }
 };
 
